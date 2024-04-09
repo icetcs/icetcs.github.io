@@ -1,5 +1,5 @@
 # icetcs.github.io
-Website of ICETCS center, Reykjavik University
+Website of ICE-TCS center, Reykjavik University
 
 This is the repo for our website. 
 
