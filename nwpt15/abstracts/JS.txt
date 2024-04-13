@@ -1,0 +1,23 @@
+
+       Techniques and Tools for the Analysis of Timed Workflows
+
+			      Jiri Srba 
+
+			  Aalborg University
+
+Analysis of workflow processes with quantitative aspects like timing
+is of interest in numerous time-critical applications.  In this talk,
+I will suggest a workflow model based on timed-arc Petri nets and
+study the foundational problems of soundness and strong (time-bounded)
+soundness. We will explore the decidability of these problems and
+show, among others, that soundness is decidable for monotonic workflow
+nets while reachability is undecidable. For general timed-arc workflow
+nets soundness and strong soundness become undecidable, though we can
+design efficient verification algorithms for the practically
+interesting subclass of bounded nets. Finally, I demonstrate the
+usability of the theory on a few case studies of a Brake System
+Control Unit used in aircraft certification, the MPEG2 encoding
+algorithm, a blood transfusion workflow and a home automation system
+for a family house. The implementation of the algorithms is freely
+available as a part of the model checker TAPAAL
+(www.tapaal.net<http://www.tapaal.net>).

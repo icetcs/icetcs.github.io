@@ -1,0 +1,24 @@
+
+
+	      Computing Reliably with Molecular Walkers
+
+			  Marta Kwiatkowska  
+
+		       University of Oxford, UK
+
+DNA computing is emerging as a versatile technology that promises a
+vast range of applications, including biosensing, drug delivery and
+synthetic biology. DNA logic circuits can be achieved in solution
+using strand displacement reactions, or by decision-making molecular
+robots-so called 'walkers'-that traverse tracks placed on DNA
+'origami' tiles.
+
+Similarly to conventional silicon technologies, ensuring fault-free
+DNA circuit designs is challenging, with the difficulty compounded by
+the inherent unreliability of the DNA technology and lack of
+scientific understanding. This lecture will give an overview of
+computational models that capture DNA walker computation and
+demonstrate the role of quantitative verification and synthesis in
+ensuring the reliability of such systems. Future research challenges
+will also be discussed.
+

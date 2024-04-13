@@ -1,0 +1,31 @@
+	 Languages and Models for Collective Adaptive Systems
+
+			   Rocco De Nicola 
+
+			      IMT Lucca
+
+Collective Adaptive Systems (CAS) are systems that consist of a large
+number of interacting components that dynamically adjust and combine
+their behaviour to achieve specific goals. We propose a set of
+programming abstractions that have been specifically designed to deal
+with CAS, and with their need to adapt to the changes of the working
+environment and to the evolving requirements. Based on these
+abstractions, we introduce SCEL (Software Component Ensemble
+Language), a kernel language whose solid semantic foundations lay also
+the basis for formal reasoning on CAS. One of the key feature of SCEL
+is the so called “attribute-based communication”, an alternative to
+broadcast and to binary communication. Building on this, we introduce
+also a basic process calculus, named AbC, whose primary primitive for
+interaction is exactly attribute-based communication. An AbC system
+consists of a set of parallel components each of which is equipped
+with a set of attributes. Communication takes place in an implicit
+multi-cast fashion, and interactions among components are dynamically
+established by taking into account “connections” as determined by
+predicates over the attributes exposed by components. Expressiveness
+and effectiveness of AbC are demonstrated both in terms of the ability
+to model scenarios featuring collaboration, reconfiguration, and
+adaptation and of the possibility of encoding a process calculus for
+broadcasting channel-based communication and other communication
+paradigms. Behavioural equivalences for AbC are introduced for
+establishing formal relationships between different descriptions of
+the same system.
