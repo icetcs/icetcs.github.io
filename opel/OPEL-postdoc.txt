@@ -1,0 +1,34 @@
+
+Open Problems in the Equational Logic of Processes
+
+School of Computer Science, Reykjavik University
+
+One Postdoc Position
+
+Applications are invited for one post-doctoral position at the School of Computer Science, Reykjavik University.  The position is part of a three-year research project funded by the Icelandic Research Fund, under the direction of Luca Aceto (Gran Sasso Science Institute and Reykjavik University) and Anna Ingolfsdottir (Reykjavik University) in cooperation with Bas Luttik (TU Eindhoven) and Alexandra Silva (University College London). The overarching goal of this project is to solve some of the challenging open problems in the equational axiomatization of behavioural equivalences over process calculi. Interested applicants can contact Luca Aceto (email: luca@ru.is) for further details on the research proposal.
+
+The successful candidate will benefit from, and contribute to, the research environment at the Icelandic Centre of Excellence in Theoretical Computer Science (ICE-TCS). For information about ICE-TCS and its activities, see 
+
+http://www.icetcs.ru.is/.
+
+Moreover, she/he will cooperate with Bas Luttik and Alexandra Silva  during the project work and will benefit from the interaction with their research groups at TU Eindhoven and University College London. The postdoc will also have a chance to interact with Clemens Grabmayer and the CS group at the Gran Sasso Science Institute (http://cs.gssi.it/), L'Aquila, Italy. 
+
+Qualification requirements
+
+Applicants for the postdoctoral position should have, or be about to hold, a PhD degree in Computer Science or closely related fields. Previous knowledge of at least one of concurrency theory, process calculi, (structural) operational semantics and logic in computer science is highly desirable.
+
+Remuneration
+
+The wage for the postdoctoral position is 530,000 ISK (roughly 3,830  € at the present exchange rate) per month before taxes. (See http://payroll.is/en/ for information on what the wage will be after taxes.) The position is for two years, starting as soon as possible, and is renewable for another year, based on good performance and mutual satisfaction.
+
+Application details
+
+Interested applicants should send their CV, including a list of publications, in PDF to all the addresses below, together with a statement outlining their suitability for the project and the names of at least two referees. 
+
+Luca Aceto
+email: luca@ru.is
+
+Anna Ingolfsdottir
+email: annai@ru.is
+
+We will start reviewing applications as soon as they arrive and will continue to accept applications until the position is filled. We strongly encourage interested applicants to send their applications as soon as possible and no later than 8 February 2019. 
