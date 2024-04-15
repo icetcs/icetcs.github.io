@@ -1,0 +1,68 @@
+Mode(l)s of Verificaton and Monitorability
+
+Department of Computer Science, Reykjavik University
+
+One postdoc or PhD position
+
+
+We invite applications for one postdoc or PhD position, at the Department of Computer Science of Reykjavik University.
+
+The position is part of a research project funded by the Icelandic Research Fund, under the direction of Antonis Achilleos (Reykjavik University), Luca Aceto (Reykjavik University), and Anna Ingolfsdottir (Reykjavik University) in cooperation with Adrian Francalanza (University of Malta) and Karoliina Lehtinen (LIS, Aix-Marseille).
+
+The project continues previous work in the theoretical foundations of runtime verification and its overarching goal is to better understand the properties and push the limits of monitorability in different settings. For more information on the project, please visit 
+
+http://icetcs.ru.is/movemnt/ 
+
+or contact Antonis Achilleos (email: antonios@ru.is)
+
+The successful candidate will benefit from, and contribute to, the
+research environment at the Icelandic Centre of Excellence in
+Theoretical Computer Science (ICE-TCS), with research groups on
+concurrency, logic and semantics, algorithms, and combinatorics. For
+information about ICE-TCS and its activities, see
+
+http://icetcs.ru.is/ .
+
+Moreover, they will cooperate with Adrian Francalanza and Karoliina Lehtinen during the project work and will benefit from the interaction with their research groups at the University of Malta and LIS, Aix-Marseille.
+
+*Qualification requirements*
+
+Applicants for the postdoctoral position should have, or be about to
+defend, a PhD degree in computer science or a closely related
+field. Moreover, previous knowledge in logic, concurrency theory, or any of the project's related areas, and mathematical competence are desirable.
+
+Applicants for the PhD fellowship should have, or be about to obtain, an MSc degree in Computer Science, or closely related fields. Some background in logic, concurrency theory, or some other of the project's related areas, and mathematical competence are desirable.
+
+*Remuneration*
+
+The PhD position provides a stipend of 412,000 ISK per month before taxes, and the salary for the postdoc position is 605,000 ISK per month before taxes.
+
+*Start date and duration*
+
+The postdoc position is for one year and can be renewed for one more year, based on mutual agreement.
+The PhD position is for three years. 
+
+The intended start date is August 1st 2022, or soon thereafter.
+
+*Application details*
+
+Interested applicants should send their CV, including a list of publications, in PDF to all the addresses below, together with a statement outlining their suitability for the project and the names of at least two referees.
+
+Antonis Achilleos
+email: antonios@ru.is
+
+Luca Aceto
+email: luca@ru.is
+
+Anna Ingolfsdottir
+email: annai@ru.is
+
+Adrian Francalanza
+email: adrian.francalanza@um.edu.mt
+
+Karoliina Lehtinen
+email: lehtinen@lis-lab.fr
+
+Informal inquiries about the project and the conditions of work are very welcome.
+
+We will start reviewing applications as soon as they arrive and will continue to accept applications until the position is filled. We strongly encourage interested applicants to send their applications as soon as possible and no later than 19 June 2022.
