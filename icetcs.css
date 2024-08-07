@@ -4,8 +4,8 @@
 /* pun color:#a72c38 roh color:#88c97d hall color:#ebeced must color:#221e1f */
 
 /* üldine taust, font */
-body {background:#ebeced; font-family: Verdana, Arial, Helvetica, sans-serif; }
-h2, h3, h4 {color:#a72c38; }
+body {background:#ffffff; font-family: Verdana, Arial, Helvetica, sans-serif; }
+h2, h3, h4 {color:#ff1900; }
 h3, .ucase {text-transform: uppercase;}
 
 /* menüüriba,header, kastid regimises */
@@ -106,7 +106,7 @@ text-decoration: none;
 color:#a72c38;
 }
 a:hover {
-background:#a72c38; 
+background:#ff1900; 
 color:white;
 }
 a.imglink_h:hover {
