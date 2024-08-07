@@ -5,7 +5,7 @@
 
 /* üldine taust, font */
 body {background:#ffffff; font-family: Verdana, Arial, Helvetica, sans-serif; }
-h2, h3, h4 {color:#ff1900; }
+h2, h3, h4 {color:#32b9c8; }
 h3, .ucase {text-transform: uppercase;}
 
 /* menüüriba,header, kastid regimises */
@@ -106,7 +106,7 @@ text-decoration: none;
 color:#a72c38;
 }
 a:hover {
-background:#ff1900; 
+background:#32b9c8; 
 color:white;
 }
 a.imglink_h:hover {
