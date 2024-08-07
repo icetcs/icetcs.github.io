@@ -5,7 +5,7 @@
 
 /* üldine taust, font */
 body {background:#ffffff; font-family: Verdana, Arial, Helvetica, sans-serif; }
-h2, h3, h4 {color:#32b9c8; }
+h2, h3, h4 {color:#32b9c8; } /* ff1900 */
 h3, .ucase {text-transform: uppercase;}
 
 /* menüüriba,header, kastid regimises */
