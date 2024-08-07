@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    
+<title>ICE-TCS</title>
+
+<link rel="stylesheet" type="text/css" href="icetcs.css" />
+
+</head>
+
+<body>
+
+<h2>Contact<h2>
+
+<p>Postal address:</p>
+
+<p>ICE-TCS center<br />
+  Dept. of Computer Science<br />
+  Reykjavik University<br />
+  Menntavegi 1<br />
+  102 Reykjavik<br />
+  Iceland
+</p>
+
+<p>We are located in the Reykjavik University building (Menntavegi 1),
+  Venus wing, level 2.</p>
+
+    
+
+<p>Responsible for these webpages (except for
+pages for individual projects, conferences):
+<a href="https://cs.ioc.ee/~tarmo/">Tarmo Uustalu</a>
+</p>
+
+<hr />    
+
+<address>
+Last update 11 April 2024    
+</address>
+    
+</body>
+    
+</html>
