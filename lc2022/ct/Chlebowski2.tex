@@ -1,0 +1,196 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex. 
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION 
+%% BELOW FOR INSTRUCTIONS. 
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from 
+%% http://aslonline.org/abstractresources.html. 
+
+
+\documentclass[bsl,meeting]{asl}
+
+\usepackage[utf8]{inputenc}
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW; 
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP  
+\absauth{Patrycja KupŚ and Szymon Chlebowski}
+\meettitle{Meaning is Use: the Case of Propositional Identity}
+\affil{Adam Mickiewicz University in Poznań}
+\meetemail{patrycja.kups@amu.edu.pl}
+
+
+\affil{Adam Mickiewicz University in Poznań}
+\meetemail{szymon.chlebowski@amu.edu.pl}
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+	We study natural deduction system for a fragment of intuitionistic logic with propositional identity from the point of view of proof-theoretic semantics. In this logic the propositional identity connective is established only by elimination rules, that is it cannot be asserted under any conditions, thus it is incompatible with the Gentzen approach. Following Schroeder-Heister, we define two types of validity: introduction- and elimination-rule based. We argue that the identity connective is a natural operator to be treated by the elimination rules as basic approach. Moreover, we show that it does not change even if the introduction rule for the identity connective is formulated. 
+
+
+\begin{thebibliography}{10}
+
+\bibitem{item_5}
+{\scshape Bloom, S. L. and Suszko, R.},
+{\itshape Investigations into the {S}entential {C}alculus with {I}dentity},
+{\bfseries\itshape Notre Dame Journal of Formal Logic},
+vol.~13 (1972), no.~3, pp.~289--308.
+
+\bibitem{item_4}
+{\scshape Gentzen, G.},
+{\itshape Investigations into logical deductions},
+{\bfseries\itshape The collected papers of Gerhard Gentzen}
+(M. E. Szabo, editor),
+Elsevier Science,
+1969,
+pp.~68--131.
+
+\bibitem{item_2}
+{\scshape Negri, S. and  von Plato, J.},
+{\bfseries\itshape Proof analysis, a contribution to hilbert’s last
+problem},
+Cambridge University Press,
+2011.
+
+\bibitem{item_1}
+{\scshape Schroeder-Heister, P.},
+{\itshape Validity concepts in proof-theoretic semantics},
+{\bfseries\itshape Synthese},
+vol.~148 (2006), pp.~525 --571.
+
+
+\bibitem{item_3}
+{\scshape Schroeder-Heister, P.},
+{\itshape Proof Theoretical Validity Based on Elimination Rules},
+{\bfseries\itshape Why is this a Proof? Festschrift for Luiz Carlos Pereira}
+(E.H. Haeusler, W. de Campos Sanz and B. Lopez, editors),
+College Publications,
+2015,
+pp.~159--176.
+
+%% INSERT YOUR BIBLIOGRAPHIC ENTRIES HERE; 
+%% SEE (4) BELOW FOR PROPER FORMAT.
+%% EACH ENTRY MUST BEGIN WITH \bibitem{citation key}
+%%
+%% IF THERE ARE NO ENTRIES  
+%% DELETE THE LINE ABOVE (\begin{thebibliography}{20}) 
+%% AND THE LINE BELOW (\end{thebibliography})
+
+\end{thebibliography}
+
+
+\vspace*{-0.5\baselineskip}
+% this space adjustment is usually necessary after a bibliography
+
+\end{document}
+
+
+%% READ ME
+%% READ ME
+%% READ ME
+
+INSTRUCTIONS FOR SUPPLYING INFORMATION IN THE CORRECT FORMAT: 
+
+1. Author names are listed as First Last, First Last, and First Last.
+
+\absauth{FirstName1 LastName1, FirstName2 LastName2, and FirstName3 LastName3}
+
+
+2. Titles of abstracts have ONLY the first letter capitalized,
+except for Proper Nouns.
+
+\meettitle{Title of abstract with initial capital letter only, except for
+Proper Nouns} 
+
+
+3. Affiliations and email addresses for authors of abstracts are
+  listed separately.
+
+% First author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{First author's email}
+%%% NOTE: email required for at least one author
+\urladdr{OPTIONAL}
+%
+% Second author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{Second author's email}
+\urladdr{OPTIONAL}
+%
+% Third author's affiliation
+\affil{Department, University, Street Address, Country}
+% Second author's email
+\meetemail{Third author's email}
+\urladdr{OPTIONAL}
+
+
+4. Bibliographic Entries
+
+%%%% IF references are submitted with abstract,
+%%%% please use the following formats
+
+%%% For a Journal article
+\bibitem{cite1}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Journal name spelled out, no abbreviations},
+vol.~XX (XXXX), no.~X, pp.~XXX--XXX.
+
+%%% For a Journal article by the same authors as above,
+%%% i.e., authors in cite1 are the same for cite2
+\bibitem{cite2}
+\bysame
+{\itshape Title of article},
+{\bfseries\itshape Journal},
+vol.~XX (XXXX), no.~X, pp.~XX--XXX.
+
+%%% For a book
+\bibitem{cite3}
+{\scshape Author's Name},
+{\bfseries\itshape Title of book},
+Name of series,
+Publisher,
+Year.
+
+%%% For an article in proceedings
+\bibitem{cite4}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Name of proceedings}
+(Address of meeting),
+(First Last and First2 Last2, editors),
+vol.~X,
+Publisher,
+Year,
+pp.~X--XX.
+
+%%% For an article in a collection
+\bibitem{cite5}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Book title}
+(First Last and First2 Last2, editors),
+Publisher,
+Publisher's address,
+Year,
+pp.~X--XX.
+
+%%% An edited book
+\bibitem{cite6}
+Author's name, editor. % No special font used here
+{\bfseries\itshape Title of book},
+Publisher,
+Publisher's address,
+Year.
+

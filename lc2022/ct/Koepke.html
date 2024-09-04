@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Koepke</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+</head>
+<body>
+<p>The <span class="math inline">ℕ</span>aproche natural language proof checker allows proof checked mathematical formalizations that read like ordinary mathematical texts <span class="citation" data-cites="Naproche1 Naproche"></span>. The easiest way to use the <span class="math inline">ℕ</span>aproche system is to install the well-known Isabelle prover <span class="citation" data-cites="Isabelle2021-1"></span> and to edit a file with a <code>.ftl.tex</code> suffix in the Isabelle/jEdit editor. Some example files are included with the Isabelle distribution.</p>
+<p>In my talk I shall describe a <span class="math inline">ℕ</span>aproche formalization of the appendix of John L. Kelley’s <em>General Topology</em> <span class="citation" data-cites="Kelley"></span>. The appendix is a short introduction to Kelley-Morse set theory which is taken as the foundation for the book and which is developed up to some initial results on ordinals and cardinals. Kelley’s text lends itself to formalizations due to its formalistic and complete style of writing. Indeed many statements of the appendix can be transferred almost verbatim to <span class="math inline">ℕ</span>aproche. Considering, e.g., Kelley’s</p>
+<blockquote>
+<p>38 THEOREM <span><em>If <span class="math inline"><em>x</em></span> is a set, then <span class="math inline">2<sup><em>x</em></sup></span> is a set, and for each <span class="math inline"><em>y</em></span>, <span class="math inline"><em>y</em> ⊂ <em>x</em></span> iff <span class="math inline"><em>y</em> <em>ε</em> 2<sup><em>x</em></sup></span>.</em></span></p>
+</blockquote>
+<p>about the power class <span class="math inline">2<sup><em>x</em></sup></span> of <span class="math inline"><em>x</em></span>, the obvious LaTeX source is a legitimate <span class="math inline">ℕ</span>aproche input, save for the commas:</p>
+<pre><code>\begin{theorem}
+If $x$ is a set then $2^x$ is a set and for each $y$ $y \subset x$ 
+iff $y \in 2^x$.
+\end{theorem}</code></pre>
+<p>Based on the Kelley formalization I shall conclude with general remarks on the natural language of mathematics.</p>
+<p><span>10</span></p>
+<p>, <span><strong><em>General Topology</em></strong></span>, van Nostrand, 1955.</p>
+<p>, <span><strong><em>Automated Deduction – CADE 28</em></strong></span>, Springer LNAI, volume 12699, 614 – 624, 2021.</p>
+<p>Naproche source code on Github: <code>https://github.com/naproche/naproche</code></p>
+<p>, <span><strong><em>The Isabelle2021-1 release</em></strong></span>,<br />
+<code>https://isabelle.in.tum.de/</code>, December 2021.</p>
+<p>INSTRUCTIONS FOR SUPPLYING INFORMATION IN THE CORRECT FORMAT:</p>
+<p>1. Author names are listed as First Last, First Last, and First Last.</p>
+<p>2. Titles of abstracts have ONLY the first letter capitalized, except for Proper Nouns.</p>
+<p>3. Affiliations and email addresses for authors of abstracts are listed separately.</p>
+<p>:<span>OPTIONAL</span>. :<span>OPTIONAL</span>. :<span>OPTIONAL</span>.</p>
+<p>4. Bibliographic Entries</p>
+<p>, <span><em>Title of article</em></span>, <span><strong><em>Journal name spelled out, no abbreviations</em></strong></span>, vol. XX (XXXX), no. X, pp. XXX–XXX.</p>
+<p>, <span><strong><em>Journal</em></strong></span>, vol. XX (XXXX), no. X, pp. XX–XXX.</p>
+<p>, <span><strong><em>Title of book</em></strong></span>, Name of series, Publisher, Year.</p>
+<p>, <span><em>Title of article</em></span>, <span><strong><em>Name of proceedings</em></strong></span> (Address of meeting), (First Last and First2 Last2, editors), vol. X, Publisher, Year, pp. X–XX.</p>
+<p>, <span><em>Title of article</em></span>, <span><strong><em>Book title</em></strong></span> (First Last and First2 Last2, editors), Publisher, Publisher’s address, Year, pp. X–XX.</p>
+<p>Author’s name, editor. <span><strong><em>Title of book</em></strong></span>, Publisher, Publisher’s address, Year.</p>
+</body>
+</html>

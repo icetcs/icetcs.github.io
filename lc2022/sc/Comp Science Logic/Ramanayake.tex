@@ -1,0 +1,76 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex.
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION
+%% BELOW FOR INSTRUCTIONS.
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from
+%% http://aslonline.org/abstractresources.html.
+
+
+\documentclass[bsl,meeting]{asl}
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW;
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP%
+\absauth{Revantha Ramanayake}
+\meettitle{Sequent calculi with restricted cuts for non-classical logics}
+\affil{Bernoulli Institute, University of Groningen, The Netherlands}
+\meetemail{d.r.s.ramanayake@rug.nl}
+\urladdr{https://www.rug.nl/staff/d.r.s.ramanayake/}
+
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+
+The primary motivation for cut-elimination is that it leads to a proof calculus with the subformula property. Such a proof calculus has a restricted proof search space and this is a powerful aid for investigating the properties of the logic. Unfortunately, many substructural and modal logics of interest lack a sequent calculus that supports cut-elimination. The overwhelming response since the 1960s has been to generalise the sequent calculus in a bid to regain cut-elimination. The price is that these generalised formalisms are more complicated to reason about and implement.
+
+There is an alternative: remain with the sequent calculus by accepting weaker (but still meaningful) versions of the subformula property. We will discuss how cut-free hypersequent proofs can be transformed into sequent calculus proofs in a controlled way~\cite{CiaLanRam21}. Combined with the quite general methodology~\cite{CiaGalTer08} for transforming Hilbert axiomatic extensions into cut-free hypersequent calculi, this leads to an algorithm taking a Hilbert axiomatic extension to a sequent calculus with a weak subformula property. 
+
+Can we avoid this detour through the hypersequent calculus? This goes to the heart of a new programme called \textit{cut-restriction} that aims to adapt Gentzen’s celebrated cut-elimination argument systematically so that cut-formulas are restricted (when elimination is not possible). We will present the early results in this programme: from arbitrary cuts  to analytic cuts in the sequent calculi for bi-intuitionistic logic and $S5$ via a uniform cut-restriction argument (the results themselves are well-known).
+
+Based on joint work with Agata Ciabattoni (TU Wien) and Timo Lang (UCL).
+
+\begin{thebibliography}{10}
+
+%% INSERT YOUR BIBLIOGRAPHIC ENTRIES HERE; 
+%% SEE (4) BELOW FOR PROPER FORMAT.
+%% EACH ENTRY MUST BEGIN WITH \bibitem{citation key}
+%%
+%% IF THERE ARE NO ENTRIES  
+%% DELETE THE LINE ABOVE (\begin{thebibliography}{20}) 
+%% AND THE LINE BELOW (\end{thebibliography})
+
+\bibitem{CiaLanRam21}
+{\scshape Agata Ciabattoni and
+               Timo Lang and
+               Revantha Ramanayake},
+{\itshape Bounded-analytic Sequent Calculi and Embeddings for Hypersequent Logics},
+{\bfseries\itshape Journal of Symbolic Logic},
+vol.~86 (2021), no.~2, pp.~635--668.
+
+\bibitem{CiaGalTer08}
+{\scshape A. Ciabattoni and N. Galatos and K. Terui},
+{\itshape From axioms to analytic rules in nonclassical logics},
+{\bfseries\itshape Proceedings of the Twenty-Third Annual {IEEE} Symposium on Logic in
+               Computer Science (LICS)}
+Pittsburgh, PA, {USA},
+%(First Last and First2 Last2, editors),
+{IEEE} Computer Society,
+2008,
+pp.~229--240.
+
+\end{thebibliography}
+
+
+\end{document}

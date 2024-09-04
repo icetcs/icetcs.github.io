@@ -1,0 +1,61 @@
+
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from
+%% http://aslonline.org/abstractresources.html.
+
+
+\documentclass[bsl,meeting]{asl}
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+\usepackage{hyperref}
+
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW;
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP%
+\absauth{Jan Dobrowolski}%
+\meettitle{Tameness in positive logic}%
+\affil{University of Manchester}%
+\meetemail{Jan.Dobrowolski@manchester.ac.uk}%
+\urladdr{https://www.math.uni.wroc.pl/\string~dobrowol}
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+
+Positive logic is a very flexible framework unifying full first-order logic with several other settings, such as Robinson's logic (which studies existentially closed models of a possibly non-companionable first-order universal theory), hyperimaginary extensions of first-order theories (which are obtained by adding quotients by type-definable equivalence relations), and, in certain aspects, continuous logic.
+
+The study of tameness in those contexts goes back to A. Pillay's work on simple Robinson's theories (\cite{Pi}), and I. Ben Yaacov's work on simple compact abstract theories (\cite{BY}). In the talk, I will present a joint work with M. Kamsma on NSOP$_1$ in positive logic and a joint work in progress with R. Mennuni on NIP in positive logic, discussing in particular the main motivating examples for the two projects: existentially closed exponential fields (studied before by L. Haykazyan and J. Kirby in \cite{HK}) and existentially closed ordered abelian groups with an automorphism.
+
+
+
+\begin{thebibliography}{99}
+
+\bibitem{BY} I. Ben Yaacov.
+{\em Simplicity in compact abstract theories}, Journal of Mathematical Logic, 03(02):163–191, 2003.
+
+\bibitem{HK} L. Haykazyan, J. Kirby,
+{\em Existentially closed exponential fields}, 
+Israel
+Journal of Mathematics, 241(1):89–117, 2021.
+
+%\bibitem{Hr} E. Hrushovski,
+%{\em Definability patterns and their symmetries}, preprint, 2019.	
+
+\bibitem{Pi} A. Pillay.
+{\em Forking in the Category of Existentially Closed Structures}, Quaderni di
+Matematica, 6:23–42, 2000.
+
+.
+\end{thebibliography}
+
+\end{document}

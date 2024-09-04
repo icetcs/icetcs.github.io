@@ -1,0 +1,201 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex. 
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION 
+%% BELOW FOR INSTRUCTIONS. 
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from 
+%% http://aslonline.org/abstractresources.html. 
+
+
+\documentclass[bsl,meeting]{asl}
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW; 
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP  
+\absauth{Lauri Hella, Kerkko Luosto, and Jouko V\"a\"an\"anen}
+\meettitle{Dimension in team semantics}
+\affil{Tampere University}
+\meetemail{lauri.hella@tuni.fi}
+\affil{Tampere University}
+\meetemail{kerkko.luosto@tuni.fi}
+\affil{University of Helsinki}
+\meetemail{jouko.vaananen@helsinki.fi}
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+We introduce three measures of complexity for families of sets. 
+Each of the three measures, that we call dimensions, is defined in terms of the minimal number of 
+convex subfamilies that are needed for covering the given family: 
+for upper dimension, the subfamilies are required to contain a unique 
+maximal set, for dual upper dimension a unique minimal set, and for cylindrical 
+dimension both a unique maximal and a unique minimal set. In addition to considering dimensions of 
+particular families of sets we study the behaviour of dimensions under operators that map families
+of sets to new families of sets. We identify natural sufficient criteria for such operators to preserve the
+growth class of the dimensions. 
+
+We apply the theory of our dimensions for proving new hierarchy results for logics with 
+team semantics. First, we show that the standard logical operators preserve the growth classes
+of the families arising from the semantics of formulas in such logics. Second, we show that the upper
+dimension of $k+1$-ary dependence, inclusion, independence, anonymity, and exclusion atoms is in a strictly
+higher growth class than that of any $k$-ary atoms, whence the $k+1$-ary atoms are not definable 
+in terms of any atoms of smaller arity.
+
+Related and earlier work: \cite{ciardelli09}\cite{HLSV}\cite{HS}\cite{LVil}.
+
+%\bibliographystyle{plain}
+%\bibliography{hlv22}
+%\end{document}
+
+\begin{thebibliography}{10}
+
+%% INSERT YOUR BIBLIOGRAPHIC ENTRIES HERE; 
+%% SEE (4) BELOW FOR PROPER FORMAT.
+%% EACH ENTRY MUST BEGIN WITH \bibitem{citation key}
+%%
+%% IF THERE ARE NO ENTRIES  
+%% DELETE THE LINE ABOVE (\begin{thebibliography}{20}) 
+%% AND THE LINE BELOW (\end{thebibliography})
+
+\bibitem{ciardelli09}
+Ivano Ciardelli.
+\newblock Inquisitive semantics and intermediate logics.
+\newblock Master's thesis, University of Amsterdam, 2009.
+
+\bibitem{HLSV}
+Lauri Hella, Kerkko Luosto, Katsuhiko Sano, and Jonni Virtema.
+\newblock The expressive power of modal dependence logic.
+\newblock In {\em Advances in modal logic. {V}ol. 10}, pages 294--312. Coll.
+  Publ., London, 2014.
+
+\bibitem{HS}
+Lauri Hella and Johanna Stumpf.
+\newblock The expressive power of modal logic with inclusion atoms.
+\newblock In {\em Proceedings {S}ixth {I}nternational {S}ymposium on {G}ames,
+  {A}utomata, {L}ogics and {F}ormal {V}erification}, volume 193 of {\em
+  Electron. Proc. Theor. Comput. Sci. (EPTCS)}, pages 129--143. EPTCS, [place
+  of publication not identified], 2015.
+
+\bibitem{LVil}
+Martin L\"{u}ck and Miikka Vilander.
+\newblock On the succinctness of atoms of dependency.
+\newblock {\em Log. Methods Comput. Sci.}, 15(3):Paper No. 17, 28, 2019.
+
+\end{thebibliography}
+
+
+
+\vspace*{-0.5\baselineskip}
+% this space adjustment is usually necessary after a bibliography
+
+\end{document}
+
+
+%% READ ME
+%% READ ME
+%% READ ME
+
+INSTRUCTIONS FOR SUPPLYING INFORMATION IN THE CORRECT FORMAT: 
+
+1. Author names are listed as First Last, First Last, and First Last.
+
+\absauth{FirstName1 LastName1, FirstName2 LastName2, and FirstName3 LastName3}
+
+
+2. Titles of abstracts have ONLY the first letter capitalized,
+except for Proper Nouns.
+
+\meettitle{Title of abstract with initial capital letter only, except for
+Proper Nouns} 
+
+
+3. Affiliations and email addresses for authors of abstracts are
+  listed separately.
+
+% First author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{First author's email}
+%%% NOTE: email required for at least one author
+\urladdr{OPTIONAL}
+%
+% Second author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{Second author's email}
+\urladdr{OPTIONAL}
+%
+% Third author's affiliation
+\affil{Department, University, Street Address, Country}
+% Second author's email
+\meetemail{Third author's email}
+\urladdr{OPTIONAL}
+
+
+4. Bibliographic Entries
+
+%%%% IF references are submitted with abstract,
+%%%% please use the following formats
+
+%%% For a Journal article
+\bibitem{cite1}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Journal name spelled out, no abbreviations},
+vol.~XX (XXXX), no.~X, pp.~XXX--XXX.
+
+%%% For a Journal article by the same authors as above,
+%%% i.e., authors in cite1 are the same for cite2
+\bibitem{cite2}
+\bysame
+{\itshape Title of article},
+{\bfseries\itshape Journal},
+vol.~XX (XXXX), no.~X, pp.~XX--XXX.
+
+%%% For a book
+\bibitem{cite3}
+{\scshape Author's Name},
+{\bfseries\itshape Title of book},
+Name of series,
+Publisher,
+Year.
+
+%%% For an article in proceedings
+\bibitem{cite4}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Name of proceedings}
+(Address of meeting),
+(First Last and First2 Last2, editors),
+vol.~X,
+Publisher,
+Year,
+pp.~X--XX.
+
+%%% For an article in a collection
+\bibitem{cite5}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Book title}
+(First Last and First2 Last2, editors),
+Publisher,
+Publisher's address,
+Year,
+pp.~X--XX.
+
+%%% An edited book
+\bibitem{cite6}
+Author's name, editor. % No special font used here
+{\bfseries\itshape Title of book},
+Publisher,
+Publisher's address,
+Year.
+

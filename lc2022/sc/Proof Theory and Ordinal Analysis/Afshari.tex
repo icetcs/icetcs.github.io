@@ -1,0 +1,28 @@
+% LC 2022\documentclass[bsl,meeting]{asl}\AbstractsOn\pagestyle{plain}\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}\newcommand{\NP}{}%\usepackage{verbatim}\begin{document}\thispagestyle{empty}
+
+
+\NP  
+\absauth{Bahareh Afshari}\meettitle{From interpolation to proofs}\affil{ILLC, University of Amsterdam, The Netherlands. \\ Department of Philosophy, Linguistics and Theory of Science, University of Gothenburg, Sweden}\meetemail{bahareh.afshari@gu.se}
+
+
+From a proof-theoretic perspective, the idea that interpolation is tied to provability is a natural one. Thinking about Craig interpolation, if a `nice' proof of a valid implication $\phi\to\psi$ is available, one may succeed in defining an interpolant by induction on the proof-tree, starting from  leaves and proceeding to the implication at the root.
+This method has recently been applied even to fixed point logics admitting cyclic proofs \cite{AL22,Sham14}.
+In contrast, for uniform interpolation, there is no single proof to work from but a collection of proofs to accommodate:  a witness to each valid implication $\phi\to\psi$ where the vocabulary of $\psi$ is constrained. Working over a set of prospective proofs and relying on the structural properties of sequent calculus is the essence of Pitts' seminal result on uniform interpolation for intuitionistic logic \cite{Pitts92}.
+
+In this talk we explore the opposite direction of the above endeavour, arguing that uniform interpolation can entail completeness of a proof system.
+We will demonstrate this in the case of propositional modal $\mu$-calculus by showing that the uniform interpolants obtained from cyclic proofs~\cite{ALM21} play an important role in establishing completeness  for the natural Hilbert axiomatisation of this fixed point logic.
+
+\begin{thebibliography}{10}%
+\bibitem{AL22}{\scshape Bahareh Afshari and Graham E.~Leigh},{\itshape Lyndon interpolation for modal mu-calculus},
+{\bfseries\itshape Language, Logic, and Computation {TbiLLC }2019}(Cham),(Ayb{\"u}ke {\"O}zg{\"u}n
+and Yulia Zinova, editors),vol.~13206,Lecture Notes in Computer Science,2022,pp.~197--213.
+%
+\bibitem{ALM21}{\scshape Bahareh Afshari, Graham E.~Leigh and Guillermo Men\'edez Turata},{\itshape Uniform interpolation from cyclic proofs: The case of modal mu-calculus.},
+{\bfseries\itshape Automated Reasoning with Analytic Tableaux and Related Methods - 30th International Conference, {TABLEAUX} 2021}(Birmingham, UK),(Anupam Das and Sara Negri, editors),vol.~12842,Springer,2021,pp.~335--353.
+%
+\bibitem{Pitts92}{\scshape Andrew M.~Pitts},{\itshape On an interpretation of second order quantification in first order intuitionistic propositional logic},{\bfseries\itshape Journal of Symbolic Logic},vol.~57 (1992), no.~1, pp.~33--52.
+%
+\bibitem{Sham14}{\scshape Daniyar Shamkanov},{\bfseries\itshape Circular Proofs for {G}\"odel-{L}\"ob Logic},arXiv preprint arXiv:1401.4002,2014.
+\end{thebibliography}\vspace*{-0.5\baselineskip}
+
+\end{document}

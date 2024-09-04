@@ -1,0 +1,78 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex.
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION
+%% BELOW FOR INSTRUCTIONS.
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from
+%% http://aslonline.org/abstractresources.html.
+
+
+\documentclass[bsl,meeting]{asl}
+\usepackage[greek,english]{babel}
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+\usepackage{teubner}
+
+\begin{document}
+\thispagestyle{empty}
+
+
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW;
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+%\NP
+\absauth{Antonis Achilleos, Eleni Bakali, Aggeliki Chalki, Aris Pagourtzis}
+\meettitle{Descriptive complexity for hard counting problems with easy decision version}
+\affil{Department of Computer Science, Reykjavik University, Menntavegur 1, IS-102, Reykjavík, Iceland}
+%\meetemail{antonios@ru.is}
+%%% NOTE: email required for at least one author
+%%\urladdr{OPTIONAL}
+%
+\affil{School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780, Athens, Greece}
+%\meetemail{bakali@corelab.ntua.gr}
+%
+%\affil{School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780, Athens, Greece}
+\meetemail{achalki@corelab.ntua.gr}
+%
+%\affil{School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780, Athens, Greece}
+%\meetemail{pagour@cs.ntua.gr}
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+The class \textsf{\#P} is the class of functions that count the number of solutions to problems in \textsf{NP}.
+Since very few counting problems can be exactly computed in polynomial time (e.g.\ counting spanning trees), the interest of the community has  turned to the complexity of approximating them.
+The class \textsf{\#PE} of problems in \textsf{\#P} with decision version in \textsf{P} is of great significance.
+
+We focus on a subclass of \textsf{\#PE}, namely \textsf{TotP}, %which is 
+the class of functions that count the total number of paths of NPTMs. 
+%This class 
+\textsf{TotP}
+contains all self-reducible \textsf{\#PE} functions and it is \emph{robust}, in the sense that it has natural complete problems and it is closed under addition, multiplication and subtraction by one.
+
+We present logical characterizations of \textsf{TotP} and two other \emph{robust} subclasses of this class, building upon two seminal works about descriptive complexity for classes of counting problems~\cite{Saluja,Arenas}. Specifically, to capture \textsf{TotP}, we use recursion on functions over second-order variables which, we believe,  is of independent interest.
+
+This work has been partially funded by the Basic Research Program PEVE 2020 of the National Technical  University of Athens, and the project ``MoVeMnt: Mode(l)s of Verification and Monitorability'' (grant no~217987) of the Icelandic Research Fund.
+
+\begin{thebibliography}{10}
+\bibitem{Saluja}
+{\scshape S. Saluja and K.V. Subrahmanyam and M.N. Thakur},
+{\itshape Descriptive Complexity of \#{P} Functions},
+{\bfseries\itshape Journal of Computer and System Sciences},
+vol.~50, no.~3, pp.~493--505.
+
+\bibitem{Arenas}
+{\scshape M. Arenas and M. Mu{\~{n}}oz and C. Riveros},
+{\itshape Descriptive Complexity for Counting Complexity Classes},
+{\bfseries\itshape Logical Methods in Computer Science},
+vol.~16, no.~1.
+\end{thebibliography}
+
+\vspace*{-0.5\baselineskip}
+%% this space adjustment is usually necessary after a bibliography
+
+\end{document}

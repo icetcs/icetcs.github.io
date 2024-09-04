@@ -1,0 +1,174 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex. 
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION 
+%% BELOW FOR INSTRUCTIONS. 
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from 
+%% http://aslonline.org/abstractresources.html. 
+
+
+\documentclass[bsl,meeting]{asl}
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW; 
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP  
+\absauth{Luiz Carlos Pereira, Elaine Pimentel}
+\meettitle{On an ecumenical natural deduction with {\em stoup}}
+\affil{Department of Philosophy, PUC-Rio/UERJ, Rio de Janeiro, Brazil}
+\meetemail{luiz@inf.puc-rio.br}
+\affil{Department of Computer Science, UCL, London, UK}
+\meetemail{e.pimentel@ucl.ac.uk}
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+Natural deduction systems, as proposed by Gentzen~\cite{gentzen1969} and further studied by Prawitz~\cite{prawitz1965}, is one of the most well known proof-theoretical frameworks. Part of its success is based on the fact that natural deduction rules present a simple characterization of logical constants, especially in the case of intuitionistic logic. However, there has been a lot of criticism on extensions of the intuitionistic set of rules in order to deal with classical logic. Indeed, most of such extensions add, to the usual introduction and elimination rules, extra rules governing  negation. As a consequence, several meta-logical properties, the most prominent one being {\em harmony}, are lost.
+
+In~\cite{DBLP:journals/Prawitz15}, Dag Prawitz proposed a
+natural deduction {\em ecumenical system}, where classical logic and intuitionistic logic are codified in the same system. In this system, 
+the classical logician and the intuitionistic logician would share the universal quantifier, conjunction, negation and the constant for the absurd, but they would each have their own existential quantifier, disjunction and implication, with different meanings. Prawitz' main idea is that these different meanings are given by a semantical framework that can be accepted by both parties.  
+
+In this talk, we propose a different approach adapting, to the natural deduction framework,  Girard's mechanism of \textit{stoup}~\cite{DBLP:journals/mscs/Girard91}.  This will allow the definition of a pure harmonic natural deduction system ($\mathcal{LE}_{p}$) for the propositional fragment of  Prawitz' ecumenical logic.
+
+\begin{thebibliography}{10}
+
+\bibitem{gentzen1969}
+Gerhard Gentzen.
+\newblock {\em The Collected Papers of Gerhard Gentzen}.
+\newblock Amsterdam: North-Holland Pub. Co., 1969.
+
+\bibitem{DBLP:journals/mscs/Girard91}
+Jean{-}Yves Girard.
+\newblock A new constructive logic: Classical logic.
+\newblock {\em Math. Struct. Comput. Sci.}, 1(3):255--296, 1991.
+
+\bibitem{prawitz1965}
+Dag Prawitz.
+\newblock {\em Natural {D}eduction, volume 3 of Stockholm Studies in
+  Philosophy}.
+\newblock Almqvist and Wiksell, 1965.
+
+\bibitem{DBLP:journals/Prawitz15}
+Dag Prawitz.
+\newblock Classical versus intuitionistic logic.
+\newblock In Bruno~Lopes Edward Hermann~Haeusler, Wagner de Campos~Sanz,
+  editor, {\em Why is this a Proof?, Festschrift for Luiz Carlos Pereira},
+  volume~27, pages 15--32. College Publications, 2015.
+
+\end{thebibliography}
+
+
+\vspace*{-0.5\baselineskip}
+% this space adjustment is usually necessary after a bibliography
+
+\end{document}
+
+
+%% READ ME
+%% READ ME
+%% READ ME
+
+INSTRUCTIONS FOR SUPPLYING INFORMATION IN THE CORRECT FORMAT: 
+
+1. Author names are listed as First Last, First Last, and First Last.
+
+\absauth{FirstName1 LastName1, FirstName2 LastName2, and FirstName3 LastName3}
+
+
+2. Titles of abstracts have ONLY the first letter capitalized,
+except for Proper Nouns.
+
+\meettitle{Title of abstract with initial capital letter only, except for
+Proper Nouns} 
+
+
+3. Affiliations and email addresses for authors of abstracts are
+  listed separately.
+
+% First author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{First author's email}
+%%% NOTE: email required for at least one author
+\urladdr{OPTIONAL}
+%
+% Second author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{Second author's email}
+\urladdr{OPTIONAL}
+%
+% Third author's affiliation
+\affil{Department, University, Street Address, Country}
+% Second author's email
+\meetemail{Third author's email}
+\urladdr{OPTIONAL}
+
+
+4. Bibliographic Entries
+
+%%%% IF references are submitted with abstract,
+%%%% please use the following formats
+
+%%% For a Journal article
+\bibitem{cite1}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Journal name spelled out, no abbreviations},
+vol.~XX (XXXX), no.~X, pp.~XXX--XXX.
+
+%%% For a Journal article by the same authors as above,
+%%% i.e., authors in cite1 are the same for cite2
+\bibitem{cite2}
+\bysame
+{\itshape Title of article},
+{\bfseries\itshape Journal},
+vol.~XX (XXXX), no.~X, pp.~XX--XXX.
+
+%%% For a book
+\bibitem{cite3}
+{\scshape Author's Name},
+{\bfseries\itshape Title of book},
+Name of series,
+Publisher,
+Year.
+
+%%% For an article in proceedings
+\bibitem{cite4}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Name of proceedings}
+(Address of meeting),
+(First Last and First2 Last2, editors),
+vol.~X,
+Publisher,
+Year,
+pp.~X--XX.
+
+%%% For an article in a collection
+\bibitem{cite5}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Book title}
+(First Last and First2 Last2, editors),
+Publisher,
+Publisher's address,
+Year,
+pp.~X--XX.
+
+%%% An edited book
+\bibitem{cite6}
+Author's name, editor. % No special font used here
+{\bfseries\itshape Title of book},
+Publisher,
+Publisher's address,
+Year.
+

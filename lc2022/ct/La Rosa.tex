@@ -1,0 +1,70 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex. 
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION 
+%% BELOW FOR INSTRUCTIONS. 
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from 
+%% http://aslonline.org/abstractresources.html. 
+
+
+\documentclass[bsl,meeting]{asl}
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW; 
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP  
+\absauth{Elio {La Rosa}}
+\meettitle{Strong normalization for epsilon calculus}
+\affil{MCMP, LMU Munich}
+\meetemail{lrslei@gmail.com}
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+
+
+Rule-based reformulations of Hilbert and Bernays' epsilon calculus have been attempted in an effort to provide Gentzen-style normalization procedures; the problem, however, is an open one \cite{Zac17}. In this contribution, a strong normalization procedure is developed for a system of epsilon calculus based on a structural extension of natural deduction allowing for multiple conclusions. The base propositional system, inspired by that of \cite{Mar18}, has introduction and elimination rules that are both local and `symmetric', in the sense that they do not depend on assumptions and are allowed to branch the derivation upwards and downwards. The rules introducing epsilon terms, are a simple rule reformulation of the ``critical formulas'' found in the axiomatic version of epsilon calculus.  A direct (i.e., differently from \cite{Mar18}, not based on proof-search) normalization procedure is easy to formulate for the propositional part, which allows for a first elimination of detours in the derivation. In particular, every sequence of reduction steps eventually leads to a normal form. For what concerns detours caused by applications of rules introducing epsilon terms which do not appear as premises or conclusions in the derivation, reductions based on an indexing of epsilon terms and rule instances are defined. The procedure yields the first epsilon theorem and provides a form of the subformula property for the calculus.
+
+\begin{thebibliography}{10}
+
+%% INSERT YOUR BIBLIOGRAPHIC ENTRIES HERE; 
+%% SEE (4) BELOW FOR PROPER FORMAT.
+%% EACH ENTRY MUST BEGIN WITH \bibitem{citation key}
+%%
+%% IF THERE ARE NO ENTRIES  
+%% DELETE THE LINE ABOVE (\begin{thebibliography}{20}) 
+%% AND THE LINE BELOW (\end{thebibliography})
+
+\bibitem{Mar18}
+{\scshape Marcel Maretić},
+{\itshape On Multiple Conclusion Deductions in Classical Logic},
+{\bfseries\itshape Mathematical Communications},
+vol.~23 (2018), no.~1, pp.~79--95.
+
+\bibitem{Zac17}
+{\scshape Richard Zach},
+{\itshape Semantics and proof theory of the epsilon calculus},
+{\bfseries\itshape 7th Indian Conference on Logic and its Applications}
+(Kanpur),
+(Sujata Ghosh and Sanjiva Prasad, editors),
+vol.~10119,
+Springer,
+2017,
+pp.~27--47.
+\end{thebibliography}
+
+
+\vspace*{-0.5\baselineskip}
+% this space adjustment is usually necessary after a bibliography
+
+\end{document}
+

@@ -1,0 +1,187 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex. 
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION 
+%% BELOW FOR INSTRUCTIONS. 
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from 
+%% http://aslonline.org/abstractresources.html. 
+
+
+\documentclass[bsl,meeting]{asl}
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW; 
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP  
+\absauth{Katarzyna W. Kowalik}
+\meettitle{A non speed-up result for the chain-antichain principle over a weak base theory}
+\affil{Faculty of Mathematics Informatics and Mechanics, University of Warsaw,\\ Banacha 2, 02-097 Warszawa, Poland}
+\meetemail{katarzyna.kowalik@mimuw.edu.pl}
+
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+The chain-antichain principle (CAC), a well-known consequence of Ramsey's Theorem for pairs and two colours, says that for every partial order on $\mathbb{N}$ there exists an infinite chain or antichain with respect to this order. We study the strength of this principle over the weak base theory $\mathrm{RCA}_0^*$, which is obtained from $\mathrm{RCA}_0$ by replacing the $\Sigma^0_1$-induction scheme with $\Delta^0_1$-induction. %and totality of exponential function.
+
+It was shown by Patey and Yokoyama in \cite{py} that $\mathrm{RT}_2^2$ is $\Pi^0_3$-conservative over $\mathrm{RCA}_0$ and from \cite{yokoyama} it follows that $\mathrm{RT}_2^2$ is also $\Pi^0_3$-conservative over $\mathrm{RCA}^*_0$ (cf. \cite{kky}). 
+The conservativity results lead to the question whether $\mathrm{RT}_2^2$ has significantly shorter proofs for $\Pi^0_3$-sentences. The answer depends on the choice of the base theory: it was proved in \cite{pfsize} that $\mathrm{RT}_2^2$ can be polynomially simulated by $\mathrm{RCA}_0$ for $\Pi^0_3$-sentences but it has non-elementary speed-up over $\mathrm{RCA}^*_0$ for $\Sigma^0_1$-sentences.
+
+The speed-up result was obtained by the use of the exponential lower bound for the finite version of $\mathrm{RT}_2^2$. However, it follows from Dilworth's theorem that the upper bound for the finite version of CAC is polynomial. This suggests that CAC, 
+despite being a relatively strong consequence of $\mathrm{RT}_2^2$, might not have an analogous speed-up over $\mathrm{RCA}^*_0$. We confirm this conjecture by constructing a two-step forcing interpretation of $\mathrm{RCA}^*_0+$CAC in $\mathrm{RCA}^*_0$. 
+
+
+
+\begin{thebibliography}{10}
+ 
+
+
+\bibitem{kky}
+{\scshape Leszek A. Ko\l{}odziejczyk, Katarzyna W. Kowalik, Keita Yokoyama},
+{\itshape How strong is Ramsey's theorem if infinity can be weak?} Submitted. Available at arXiv:2011.02550.
+
+
+\bibitem{pfsize}
+{\scshape Leszek A. Ko\l{}odziejczyk, Tin Lok Wong, Keita Yokoyama},
+{\itshape Ramsey’s theorem for pairs, collection, and proof size.} Submitted.
+Available at arXiv:2005.06854.
+
+\bibitem{py}
+{\scshape Ludovic Patey, Keita Yokoyama},
+{\itshape The proof-theoretic strength of Ramsey’s theorem
+for pairs and two colors},
+{\bfseries\itshape Advances in Mathematics},
+vol.~330 (2018), pp.~1034--1070.
+
+
+\bibitem{yokoyama}
+{\scshape Keita Yokoyama},
+{\itshape On the strength of Ramsey's theorem without {$\Sigma_1$}-induction},
+{\bfseries\itshape Mathematical Logic Quarterly},
+vol.~59 (2013), no.~1-2, pp.~108--111.
+
+
+%% INSERT YOUR BIBLIOGRAPHIC ENTRIES HERE; 
+%% SEE (4) BELOW FOR PROPER FORMAT.
+%% EACH ENTRY MUST BEGIN WITH \bibitem{citation key}
+%%
+%% IF THERE ARE NO ENTRIES  
+%% DELETE THE LINE ABOVE (\begin{thebibliography}{20}) 
+%% AND THE LINE BELOW (\end{thebibliography})
+
+\end{thebibliography}
+
+
+\vspace*{-0.5\baselineskip}
+% this space adjustment is usually necessary after a bibliography
+
+\end{document}
+
+
+%% READ ME
+%% READ ME
+%% READ ME
+
+INSTRUCTIONS FOR SUPPLYING INFORMATION IN THE CORRECT FORMAT: 
+
+1. Author names are listed as First Last, First Last, and First Last.
+
+\absauth{FirstName1 LastName1, FirstName2 LastName2, and FirstName3 LastName3}
+
+
+2. Titles of abstracts have ONLY the first letter capitalized,
+except for Proper Nouns.
+
+\meettitle{Title of abstract with initial capital letter only, except for
+Proper Nouns} 
+
+
+3. Affiliations and email addresses for authors of abstracts are
+  listed separately.
+
+% First author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{First author's email}
+%%% NOTE: email required for at least one author
+\urladdr{OPTIONAL}
+%
+% Second author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{Second author's email}
+\urladdr{OPTIONAL}
+%
+% Third author's affiliation
+\affil{Department, University, Street Address, Country}
+% Second author's email
+\meetemail{Third author's email}
+\urladdr{OPTIONAL}
+
+
+4. Bibliographic Entries
+
+%%%% IF references are submitted with abstract,
+%%%% please use the following formats
+
+%%% For a Journal article
+\bibitem{cite1}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Journal name spelled out, no abbreviations},
+vol.~XX (XXXX), no.~X, pp.~XXX--XXX.
+
+%%% For a Journal article by the same authors as above,
+%%% i.e., authors in cite1 are the same for cite2
+\bibitem{cite2}
+\bysame
+{\itshape Title of article},
+{\bfseries\itshape Journal},
+vol.~XX (XXXX), no.~X, pp.~XX--XXX.
+
+%%% For a book
+\bibitem{cite3}
+{\scshape Author's Name},
+{\bfseries\itshape Title of book},
+Name of series,
+Publisher,
+Year.
+
+%%% For an article in proceedings
+\bibitem{cite4}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Name of proceedings}
+(Address of meeting),
+(First Last and First2 Last2, editors),
+vol.~X,
+Publisher,
+Year,
+pp.~X--XX.
+
+%%% For an article in a collection
+\bibitem{cite5}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Book title}
+(First Last and First2 Last2, editors),
+Publisher,
+Publisher's address,
+Year,
+pp.~X--XX.
+
+%%% An edited book
+\bibitem{cite6}
+Author's name, editor. % No special font used here
+{\bfseries\itshape Title of book},
+Publisher,
+Publisher's address,
+Year.
+

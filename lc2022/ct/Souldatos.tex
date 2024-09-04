@@ -1,0 +1,192 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex.
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION
+%% BELOW FOR INSTRUCTIONS.
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from
+%% http://aslonline.org/abstractresources.html.
+
+
+\documentclass[bsl,meeting]{asl}
+\usepackage{hyperref}
+\usepackage{enumerate}
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+\newcommand{\M}{\ensuremath{\mathcal{M}}} 
+\newcommand{\lomegaone}{\ensuremath{\mathcal{L}_{\omega_1,\omega}}}
+\newcommand{\LS}{LS}
+\newcommand{\cL}{\mathcal{L}}
+\def\K{\mbox{\boldmath $K$}}
+\def\subm{\prec_{\mbox{\scriptsize \boldmath $K$}}}
+
+
+\newcommand{\Card}{\mathrm{Card}}
+\newcommand{\Loo}{\mathcal{L}_{\omega_1,\omega}}
+\newcommand{\N}{\ensuremath{\mathcal{N}}}
+\renewcommand{\aa}{\aleph_{\alpha}} %aleph alpha 
+\newcommand{\aapo}{\aleph_{\alpha+1}}%aleph alpha plus one
+\newcommand{\Ord}{\mathrm{Ord}}
+\newcommand{\ZFC}{{\rm{ZFC}}}
+\newcommand{\BPFA}{{\rm{BPFA}}}
+\newcommand{\CH}{{\rm{CH}}}
+ \newcommand{\GCH}{{\rm{GCH}}}
+
+
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW;
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP
+\absauth{Ioannis Souldatos}
+\meettitle{Characterizing Cardinals by $\mathcal{L}_{\omega_1,\omega}$-sentences in an Absolute Way}
+\affil{Department of Mathematics,
+Aristotle University of Thessaloniki, Thessaloniki 54124, Greece}
+\meetemail{souldatos@math.auth.gr}
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+
+ In \cite{HjorthsKnightsModel},  Hjorth proved  that for every countable ordinal  $\alpha$, there exists a complete $\Loo$-sentence $\phi_\alpha$ that has models of all cardinalities less than or equal to $\aa$, but no models of cardinality  $\aapo$.  
+ Unfortunately, his solution yields not one  $\Loo$-sentence $\phi_\alpha$, but a  set of $\Loo$-sentences, one of which is guaranteed to work. 
+
+The following is new: It is independent of the axioms of $\ZFC$ which of the Hjorth sentences works. More specifically, we isolate a diagonalization principle for functions from $\omega_1$ to $\omega_1$ which is a consequence of the \emph{Bounded Proper Forcing Axiom} ($\BPFA$) and then we use this principle to  prove that Hjorth's solution to characterizing $\aleph_2$ in models of $\BPFA$ is different than in models of $\CH$. 
+
+This raises the question whether Hjorth's result can be proved in an \emph{absolute way} and what exactly this means, which we will discuss at the end of the talk. 
+
+
+This is joint work with Philipp~L\"ucke. 
+ 
+\textsc{References}
+\begin{thebibliography}{10}
+\bibitem{HjorthsKnightsModel}
+\newblock Greg {Hjorth}.
+\newblock {Knight's model, its automorphism group, and characterizing the
+  uncountable cardinals.}
+\newblock {\em {J. Math. Log.}}, 2(1):113--144, 2002.
+
+\bibitem{LuckeSouldatos}
+\newblock Philipp~L\"ucke, Ioannis~Souldatos,
+\newblock A lower bound for the hanf number for joint embedding.
+\newblock \url{https://arxiv.org/abs/2109.07310}
+%% INSERT YOUR BIBLIOGRAPHIC ENTRIES HERE;
+%% SEE (4) BELOW FOR PROPER FORMAT.
+%% EACH ENTRY MUST BEGIN WITH \bibitem{citation key}
+%%
+%% IF THERE ARE NO ENTRIES
+%% DELETE THE LINE ABOVE (\begin{thebibliography}{20})
+%% AND THE LINE BELOW (\end{thebibliography})
+
+\end{thebibliography}
+
+
+
+\vspace*{-0.5\baselineskip}
+% this space adjustment is usually necessary after a bibliography
+
+\end{document}
+
+
+%% READ ME
+%% READ ME
+%% READ ME
+
+INSTRUCTIONS FOR SUPPLYING INFORMATION IN THE CORRECT FORMAT:
+
+1. Author names are listed as First Last, First Last, and First Last.
+
+\absauth{FirstName1 LastName1, FirstName2 LastName2, and FirstName3 LastName3}
+
+
+2. Titles of abstracts have ONLY the first letter capitalized,
+except for Proper Nouns.
+
+\meettitle{Title of abstract with initial capital letter only, except for
+Proper Nouns}
+
+
+3. Affiliations and email addresses for authors of abstracts are
+  listed separately.
+
+% First author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{First author's email}
+%%% NOTE: email required for at least one author
+\urladdr{OPTIONAL}
+%
+% Second author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{Second author's email}
+\urladdr{OPTIONAL}
+%
+% Third author's affiliation
+\affil{Department, University, Street Address, Country}
+% Second author's email
+\meetemail{Third author's email}
+\urladdr{OPTIONAL}
+
+
+4. Bibliographic Entries
+
+%%%% IF references are submitted with abstract,
+%%%% please use the following formats
+
+%%% For a Journal article
+\bibitem{cite1}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Journal name spelled out, no abbreviations},
+vol.~XX (XXXX), no.~X, pp.~XXX--XXX.
+
+%%% For a Journal article by the same authors as above,
+%%% i.e., authors in cite1 are the same for cite2
+\bibitem{cite2}
+\bysame
+{\itshape Title of article},
+{\bfseries\itshape Journal},
+vol.~XX (XXXX), no.~X, pp.~XX--XXX.
+
+%%% For a book
+\bibitem{cite3}
+{\scshape Author's Name},
+{\bfseries\itshape Title of book},
+Name of series,
+Publisher,
+Year.
+
+%%% For an article in proceedings
+\bibitem{cite4}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Name of proceedings}
+(Address of meeting),
+(First Last and First2 Last2, editors),
+vol.~X,
+Publisher,
+Year,
+pp.~X--XX.
+
+%%% For an article in a collection
+\bibitem{cite5}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Book title}
+(First Last and First2 Last2, editors),
+Publisher,
+Publisher's address,
+Year,
+pp.~X--XX.
+
+%%% An edited book
+\bibitem{cite6}
+Author's name, editor. % No special font used here
+{\bfseries\itshape Title of book},
+Publisher,
+Publisher's address,
+Year.

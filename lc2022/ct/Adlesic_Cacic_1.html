@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Adlesic_Cacic_1</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+</head>
+<body>
+<p>Quine’s <em>New Foundations for mathematical logic</em> from 1937 (upgraded later in 1951) was originally meant as a theory for rigorously formalizing <em>classes</em>: collections of objects satisfying certain predicates. In order to avoid the usual paradoxes, Quine stipulated that objects be <em>stratified</em>—divided according to types, so that a class is of a higher type than its elements. In search of consistency proof,  proper classes were expelled (to metatheory) leaving only the theory of <em>sets</em>, the theory was reworded so  stratification became <em>syntactic</em> (the assignment of natural numbers to variables in the formula expressing the defining predicate), and also  <em>urelements</em> (“atoms” without elements, while not being equal to the empty class) were added. The resulting theory, <span class="sans-serif">NFU</span>, was shown to be consistent by Jensen in 1969.</p>
+<p>In a way, working in <span class="sans-serif">NFU</span> seems a lot like working in any “usual” set theory—until it comes to the point where it’s necessary to justify the existence of a certain set. And there are a lot of such situations: for example, proving a claim by mathematical induction amounts to showing that a certain set is inductive—but first we must ensure it is a set. Checking that a formula is stratified is a straightforward, if boring, task in the basic <span class="math inline">{∈, = }</span>-language of set theory, but it becomes much more challenging when we add abstraction terms, functional and new relational symbols. To help us work, we have programmed a framework in Coq which can be used to establish whether the formula is stratified, find the <em>least</em> typization, and use that fact in establishing new notions.</p>
+<p>INSTRUCTIONS FOR SUPPLYING INFORMATION IN THE CORRECT FORMAT:</p>
+<p>1. Author names are listed as First Last, First Last, and First Last.</p>
+<p>2. Titles of abstracts have ONLY the first letter capitalized, except for Proper Nouns.</p>
+<p>3. Affiliations and email addresses for authors of abstracts are listed separately.</p>
+<p>:<span>OPTIONAL</span>. :<span>OPTIONAL</span>. :<span>OPTIONAL</span>.</p>
+<p>4. Bibliographic Entries</p>
+<p>, <span><em>Title of article</em></span>, <span><strong><em>Journal name spelled out, no abbreviations</em></strong></span>, vol. XX (XXXX), no. X, pp. XXX–XXX.</p>
+<p>, <span><strong><em>Journal</em></strong></span>, vol. XX (XXXX), no. X, pp. XX–XXX.</p>
+<p>, <span><strong><em>Title of book</em></strong></span>, Name of series, Publisher, Year.</p>
+<p>, <span><em>Title of article</em></span>, <span><strong><em>Name of proceedings</em></strong></span> (Address of meeting), (First Last and First2 Last2, editors), vol. X, Publisher, Year, pp. X–XX.</p>
+<p>, <span><em>Title of article</em></span>, <span><strong><em>Book title</em></strong></span> (First Last and First2 Last2, editors), Publisher, Publisher’s address, Year, pp. X–XX.</p>
+<p>Author’s name, editor. <span><strong><em>Title of book</em></strong></span>, Publisher, Publisher’s address, Year.</p>
+</body>
+</html>

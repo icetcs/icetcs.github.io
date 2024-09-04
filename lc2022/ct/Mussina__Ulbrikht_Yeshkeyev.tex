@@ -1,0 +1,217 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex.
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION
+%% BELOW FOR INSTRUCTIONS.
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from
+%% http://aslonline.org/abstractresources.html.
+
+
+\documentclass[bsl,meeting]{asl}
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW;
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP
+\absauth{Aibat Yeshkeyev, Olga Ulbrikht, and Nazerke Mussina}
+\meettitle{ Syntactic and semantic similarities of hybrids of classes of
+the Jonsson spectrum of Jonsson quasivariety of the class $K$}
+\affil{Faculty of Mathematics and Information Technologies, Karaganda Buketov University, University str., 28, building 2, Kazakhstan}
+\meetemail{aibat.kz@gmail.com}
+\meetemail{ulbrikht@mail.ru}
+\meetemail{nazerke170493@mail.ru}
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+
+Let $K$ be the class of structures of countable signature $\sigma$. Let's introduce the notation:
+\begin{gather*}
+\forall\exists(K)=Th(K)\cup\{\varphi \mid \varphi\text{\;is a\;} \forall\exists\text{-sentence of considered language and\;\;} \\ \varphi\cup Th(K) \text{\;\;is a consistent}\}.
+\end{gather*}
+
+Definition 1. A variety (quasivariety) of structures $K$ is called a Jonsson variety (quasivariety) if  $\forall\exists(K)$ is a Jonsson theory.
+
+
+Consider the $JSpV(K)$ be Jonsson spectrum of the Jonsson variety of class $K$, where $K$ is the Jonsson variety:
+\begin{gather*}
+    JSpV(K)=\{T \mid  T=\forall\exists(N)\text{ is Jonsson theory,}
+    \ N \text{ is a subvariety of } K\}.
+\end{gather*}
+
+Then $JSpV(K) /_{\bowtie}$ is denoting the factor set of the Jonsson spectrum of Jonsson quasivariety of the class $K$ by the relation $\bowtie$.
+
+Similarly, we define the Jonsson spectrum of $JSpQV(K)$ quasivariety:
+\begin{gather*}
+ JSpQV(K)=\{T \mid T=\forall\exists(N)\text{ is Jonsson theory,}
+    \ N \text{ is a subquasivariety of } K\}.
+\end{gather*}
+Then $JSpQV(K) /_{\bowtie}$ denotes the factor set of the Jonsson spectrum of Jonsson quasivariety of the class $K$ by the relation $\bowtie$.
+
+
+
+
+Definition 2. Let $K$ be some Jonsson quasivariety of structures of signature $\sigma$, $[T_1], [T_2] \in JSpQV(K) /_{\bowtie}$.
+The hybrid (of the first type) $ H ([T_1], [T_2]) $ of the classes $ [T_1] $ and $ [T_2] $ is the theory $ Th _ {\forall \exists} (C_ {1} \diamond C_ {2 }) $ if it is Jonsson theory in  language of the signature $ \sigma $, where $ C_ {i} $ are semantic models of the classes $ [T_i] $, $ i = 1,2 $ respectively and $ \diamond \in \{\times,  +, \oplus, \prod \limits_ {F}, \prod \limits_ {U} \} $, where $ \times $ is cartesian product$,  +  $ is the sum, $ \oplus $ is the direct sum, $ \prod \limits_ {F} $ is reduced product and $ \prod \limits_ {U} $ is the ultraproduct of models.
+
+The following fact will be necessary for the proof of Theorem~1.
+
+Fact 1. ([1], p. 48) For any complete for $\exists$-sentences Jonsson theory $T$ the following conditions are equivalent:
+
+1) $T^{*}$ is model complete;
+
+2) for each $n<\omega$, $E_{n}(T)$ is Boolean algebra, where $E_{n}(T)$  is a lattice of $\exists$-formulas with  $n$ free variables.
+
+And in the frame above mentioned notions we have the following result.
+
+\begin{theorem} Let $K$ be some Jonsson quasivariety of structures of signature $\sigma$,
+$[T_{1}], [T_{2}]$, $[T_{3}], [T_{4}]  \in JSpQV(K)/_{\bowtie}$, $H_{1}=H([T_{1}],[T_{2}])$ and $H_{2}=H([T_{3}],[T_{4}])$ are complete for existential sentences perfect hybrids, then following conditions are equivalent:
+
+1. $H_{1}\overset{S}\sim H_{2}$;
+
+2. $H_{1}^*\overset{S}\approx H_{2}^*$.
+\end{theorem}
+
+
+All additional information regarding Jonsson theories can be found in [1].
+
+This work was supported by the Science Committee of the Ministry of Education and Science of the Republic of Kazakhstan (grand 
+AP09260237).
+
+
+\begin{thebibliography}{10}
+
+%% INSERT YOUR BIBLIOGRAPHIC ENTRIES HERE;
+%% SEE (4) BELOW FOR PROPER FORMAT.
+%% EACH ENTRY MUST BEGIN WITH \bibitem{citation key}
+%%
+%% IF THERE ARE NO ENTRIES
+%% DELETE THE LINE ABOVE (\begin{thebibliography}{20})
+%% AND THE LINE BELOW (\end{thebibliography})
+
+
+
+\bibitem{1}
+{\scshape Yeshkeyev A.R., Kassymetova M.T.},
+{\bfseries\itshape Jonsson theories and their classes of models},
+Monograph,
+KSU,
+2016.
+
+
+
+\end{thebibliography}
+
+\vspace*{-0.5\baselineskip}
+% this space adjustment is usually necessary after a bibliography
+
+\end{document}
+
+
+%% READ ME
+%% READ ME
+%% READ ME
+
+INSTRUCTIONS FOR SUPPLYING INFORMATION IN THE CORRECT FORMAT:
+
+1. Author names are listed as First Last, First Last, and First Last.
+
+\absauth{FirstName1 LastName1, FirstName2 LastName2, and FirstName3 LastName3}
+
+
+2. Titles of abstracts have ONLY the first letter capitalized,
+except for Proper Nouns.
+
+\meettitle{Title of abstract with initial capital letter only, except for
+Proper Nouns}
+
+
+3. Affiliations and email addresses for authors of abstracts are
+  listed separately.
+
+% First author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{First author's email}
+%%% NOTE: email required for at least one author
+\urladdr{OPTIONAL}
+%
+% Second author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{Second author's email}
+\urladdr{OPTIONAL}
+%
+% Third author's affiliation
+\affil{Department, University, Street Address, Country}
+% Second author's email
+\meetemail{Third author's email}
+\urladdr{OPTIONAL}
+
+
+4. Bibliographic Entries
+
+%%%% IF references are submitted with abstract,
+%%%% please use the following formats
+
+%%% For a Journal article
+\bibitem{cite1}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Journal name spelled out, no abbreviations},
+vol.~XX (XXXX), no.~X, pp.~XXX--XXX.
+
+%%% For a Journal article by the same authors as above,
+%%% i.e., authors in cite1 are the same for cite2
+\bibitem{cite2}
+\bysame
+{\itshape Title of article},
+{\bfseries\itshape Journal},
+vol.~XX (XXXX), no.~X, pp.~XX--XXX.
+
+%%% For a book
+\bibitem{cite3}
+{\scshape Author's Name},
+{\bfseries\itshape Title of book},
+Name of series,
+Publisher,
+Year.
+
+%%% For an article in proceedings
+\bibitem{cite4}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Name of proceedings}
+(Address of meeting),
+(First Last and First2 Last2, editors),
+vol.~X,
+Publisher,
+Year,
+pp.~X--XX.
+
+%%% For an article in a collection
+\bibitem{cite5}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Book title}
+(First Last and First2 Last2, editors),
+Publisher,
+Publisher's address,
+Year,
+pp.~X--XX.
+
+%%% An edited book
+\bibitem{cite6}
+Author's name, editor. % No special font used here
+{\bfseries\itshape Title of book},
+Publisher,
+Publisher's address,
+Year.
+

@@ -1,0 +1,101 @@
+
+
+\documentclass[bsl,meeting,11pt]{asl}
+
+\usepackage{hyperref, amsrefs}
+
+\AbstractsOn
+/Users/sasander/Dropbox/math temp/Talks/Reykjavik_LC2022/Abstract/Sanders_LC22_Two_computational_clusters.tex
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+
+
+\NP  
+\absauth{Sam Sanders}
+\meettitle{Two computational clusters in ordinary mathematics}
+\affil{Institute for Philosophy II, RUB Bochum, Germany}
+\meetemail{sasander@me.com}
+\urladdr{http://sasander.wixsite.com/academic}
+
+
+
+\medskip
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+
+I provide an overview of recent joint work with Dag Normann on the computability theory of ordinary mathematics (\cites{dagsamXII, dagsamXIII}), as follows.
+
+\smallskip
+
+Given a finite set, perhaps the most basic questions are \emph{how many} elements it has, and \emph{which ones}?  
+We study this question in Kleene's \emph{higher-order computability theory}, based on his computation schemes S1-S9 (\cite{longmann}).  
+In particular, a central object of study is the higher-order functional $\Omega$ which on input a finite set of real numbers, list the elements as a finite sequence. 
+
+\smallskip
+
+Perhaps surprisingly, the `finiteness' functional $\Omega$ give rise to a \emph{huge and robust} class of computationally equivalent operations, called the $\Omega$-cluster.
+For instance, many basic operations on functions of \emph{bounded variation} ($BV$) are part of the $\Omega$-cluster, including those stemming from the well-known \emph{Jordan decomposition theorem}.  
+In addition, we identify a second cluster of computationally equivalent objects, called the $\Omega_{1}$-cluster, based on the functional $\Omega_{1}$, the restriction of $\Omega$ to singletons.  
+We also show that both clusters include basic operations on \emph{regulated} and \emph{Sobolev space} functions, respectively a well-known super- and sub-class of the class of $BV$-functions. 
+
+\smallskip
+
+Our objects of study are fundamentally \emph{partial} in nature, and we formulate an elegant and equivalent $\lambda$-calculus formulation of S1-S9 to accommodate partial objects.
+The advantages of this approach are three-fold: proofs are more transparent in our $\lambda$-calculus approach, all (previously hand-waved) technical details can be settled easily, and we can show that $\Omega_{1}$ and $\Omega$ are not computationally equivalent to any \emph{total} functional.
+
+\smallskip
+
+
+\begin{thebibliography}{10}
+\bib{longmann}{book}{
+  author={Longley, John},
+  author={Normann, Dag},
+  title={Higher-order Computability},
+  year={2015},
+  publisher={Springer},
+  series={Theory and Applications of Computability},
+}
+
+\bib{dagsamXII}{article}{
+   author={Normann, Dag},
+   author={Sanders, Sam},
+   title={Betwixt Turing and Kleene},
+   journal={LNCS 13137, proceedings of LFCS22},
+   pages={pp.\ 18},
+   date={2022},
+}
+
+\bib{dagsamXIII}{article}{
+   author={Normann, Dag},
+   author={Sanders, Sam},
+   title={On the computational properties of basic mathematical notions},
+   journal={Submitted, arxiv: \url{https://arxiv.org/abs/2203.05250}},
+   pages={pp.\ 43},
+   date={2022},
+}
+
+
+
+\end{thebibliography}
+
+%\begin{bibdiv}
+%\begin{biblist}
+%\bibselect{allkeida}
+%\end{biblist}
+%\end{bibdiv}
+
+
+
+\vspace*{-0.5\baselineskip}
+% this space adjustment is usually necessary after a bibliography
+
+\end{document}

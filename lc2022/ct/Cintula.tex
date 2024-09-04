@@ -1,0 +1,103 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex.
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION
+%% BELOW FOR INSTRUCTIONS.
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from
+%% http://aslonline.org/abstractresources.html.
+
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+
+\documentclass[bsl,meeting]{asl}
+
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+\thispagestyle{empty}
+
+
+
+
+\NP
+\absauth{Petr Cintula}
+\meettitle{Abstract Lindenbaum lemma for non-finitary consequence relations}
+\affil{Institute of Computer Science of the Czech Academy of Sciences,\\ Pod Vod\' arenskou V\v e\v z\' i 271, Prague, Czech Republic}
+\meetemail{cintula@cs.cas.cz}
+
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+
+The Lindenbaum lemma is an easy yet crucial result in algebraic logic abstractly formulated as: for any \emph{finitary} consequence relation, the meet-irreducible theories form a basis of the closure system of its theories. While the finitarity restriction is crucial for its usual proof, it is not necessary: there are works (e.g.\ \cite{Goldblatt93,Segerberg94,Sundholm77}) proving it (or its variant for \emph{finitely} meet-irreducible theories) for certain \emph{infinitary structural} consequence relations. The paper~\cite{Bilkova-Cintula-Lavicka:InfinitaryWOLLIC} provides a general result (covering most of the known cases) for \emph{structural} consequence relations with a \emph{countable} Hilbert-style axiomatization and a \emph{strong disjunction}~\cite{CN:TheBook}. Identifying the essential non-structural properties of strong disjunctions we can prove:
+
+\smallskip
+
+\noindent {\bf Lemma} Let $\vdash$ be a consequence relation with a countable axiomatization such that the closure system $\mathcal T_\vdash$ of its theories is a frame (i.e.\ satisfies the corresponding infinite distributive law) and the intersection of two finitely generated theories is finitely generated. Then the finitely meet-irreducible theories form a basis of $\mathcal T_\vdash$.
+
+
+%\noindent {\bf Lemma} Consider any consequence relation with a countable axiomatization such that the closure system T of its theories is a frame (i.e.\ satisfies the corresponding infinite distributive law) and the intersection of two finitely generated theories is finitely generated. Then the finitely meet-irreducible theories form a basis of T.
+
+%
+\begin{thebibliography}{10}
+
+\bibitem{Bilkova-Cintula-Lavicka:InfinitaryWOLLIC}
+{\scshape Marta B{\'{i}}lkov{\'{a}}, Petr Cintula, Tom\' a\v s L{\'{a}}vi{\v{c}}ka},
+{\itshape Lindenbaum and pair extension lemma in infinitary logics},
+{\bfseries\itshape WoLLIC 2018},
+(Moss, de~Queiroz, Martinez, editors),
+Springer,
+2018,
+pp.~134--144.
+
+\bibitem{CN:TheBook}
+{\scshape Petr Cintula, Carles Noguera},
+{\bfseries\itshape  Logic and Implication: An Introduction to the General Algebraic Study of Non-classical Logics},
+Springer,
+2021.
+
+\bibitem{Goldblatt93}
+{\scshape Robert Goldblatt},
+{\bfseries\itshape Mathematics of Modality},
+CSLI Publications Stanford University,
+1993.
+ 
+\bibitem{Segerberg94}
+{\scshape Krister Segerberg},
+{\itshape A model existence theorem in infinitary propositional modal logic},
+{\bfseries\itshape Journal of Philosophical Logic},
+vol.~23 (1994), pp.~337--367.
+ 
+
+\bibitem{Sundholm77}
+{\scshape G\" oran Sundholm},
+{\itshape A completeness proof for an infinitary tense-logic},
+{\bfseries\itshape Theoria},
+vol.~43 (1977), pp.~47--51.
+
+
+
+
+%%% INSERT YOUR BIBLIOGRAPHIC ENTRIES HERE;
+%%% SEE (4) BELOW FOR PROPER FORMAT.
+%%% EACH ENTRY MUST BEGIN WITH \bibitem{citation key}
+%%%
+%%% IF THERE ARE NO ENTRIES
+%%% DELETE THE LINE ABOVE (\begin{thebibliography}{20})
+%%% AND THE LINE BELOW (\end{thebibliography})
+%
+\end{thebibliography}
+
+
+\vspace*{-0.5\baselineskip}
+% this space adjustment is usually necessary after a bibliography
+
+\end{document}
+

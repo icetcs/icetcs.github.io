@@ -1,0 +1,64 @@
+\documentclass[bsl,meeting]{asl}
+
+\AbstractsOn
+
+\pagestyle{plain}
+\newtheorem{definition}{Definition}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+
+\begin{document}
+\thispagestyle{empty}
+\NP  
+\absauth{Vittorio Cipriani}
+\meettitle{Equivalence relations and learning of algebraic structures}
+\affil{Dipartimento di informatica, scienze matematiche e fisiche, Universit\`{a} degli studi di
+Udine, Via delle Scienze 206, Udine (UD), Italy}
+\meetemail{cipriani.vittorio@spes.uniud.it}
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+
+In this talk we present some results related to algorithmic learning of algebraic structures. In a series of papers \cite{FKS-19, bazhenov2020learning, bazhenov2021turing} the authors developed a framework in which a learner receives larger and larger pieces of an arbitrary
+copy of a computable structure and, at each stage, is required to output a conjecture about the isomorphism type of such a structure. The learning is successful if the conjectures eventually stabilize to a correct
+guess. Borrowing ideas from descriptive set theory, we aim to calibrate the complexity of nonlearnable families, offering a new hierarchy based on reducibility between equivalence relations. To do so, we define the notion of $E$-learnability. 
+\begin{definition}
+A family of structures $\mathfrak{K}$ is $E$-learnable if there is function $\Gamma : 2^\omega \rightarrow 2^\omega$ which continuously reduce $\mathsf{LD}(\mathfrak{K})_{/\cong}$ to $E$, where $\mathsf{LD}(\mathfrak{K})$ is the collection of all copies of the structures from $\mathfrak{K}$.
+\end{definition}
+
+For example, we show that the paradigm introduced at the beginning coincides with $E_0$-learnability, where $E_0$ is the eventual agreement on reals. We then focus on the learning power of well-known benchmark Borel equivalence relations differentiating between learnability of finite and countably infinite families. 
+The work presented in this talk is a joint work with Nikolay Bazhenov and Luca San Mauro, and some of the results discussed here can be found in \cite{bcsm21}.
+
+
+\begin{thebibliography}{10}
+\bibitem[BFSM20]{bazhenov2020learning}
+Nikolay Bazhenov, Ekaterina Fokina, and Luca San~Mauro.
+\newblock Learning families of algebraic structures from informant.
+\newblock {\em Information and Computation}, 275:104590, 2020.
+\bibitem[FKSM19]{FKS-19}
+Ekaterina Fokina, Timo K{\"o}tzing, and Luca San~Mauro.
+\newblock Limit learning equivalence structures.
+\newblock In Aur\'elien Garivier and Satyen Kale, editors, {\em Proceedings of
+  the 30th International Conference on Algorithmic Learning Theory}, volume~98
+  of {\em Proceedings of Machine Learning Research}, pages 383--403, Chicago,
+  Illinois, 22--24 Mar 2019. PMLR.
+  \bibitem[BSM21]{bazhenov2021turing}
+Nikolay Bazhenov and Luca San~Mauro.
+\newblock On the {T}uring complexity of learning finite families of algebraic
+  structures.
+\newblock {\em Journal of Logic and Computation}, 2021.
+\newblock Published online. arXiv preprint arXiv:2106.14515.
+\bibitem[BCSM21]{bcsm21}
+Nikolay Bazhenov, Vittorio Ciprani and Luca San Mauro.
+\newblock Learning algebraic structures with the help of Borel equivalence relations.
+\newblock arXiv preprint available at arxiv.2110.14512.
+
+
+\end{thebibliography}
+
+
+\vspace*{-0.5\baselineskip}
+
+
+\end{document}
