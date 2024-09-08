@@ -1,0 +1,86 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex.
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION
+%% BELOW FOR INSTRUCTIONS.
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from
+%% http://aslonline.org/abstractresources.html.
+
+
+\documentclass[bsl,meeting]{asl}
+\usepackage[greek,english]{babel}
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+\newcommand{\ot}{\otimes}
+\newcommand{\I}{\mathsf{I}}
+\newcommand{\MILL}{\mathtt{MILL}}
+\newcommand{\NMILL}{\mathtt{NMILL}}
+%\usepackage{verbatim}
+\usepackage{teubner}
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW;
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+%\NP
+\absauth{Cheng-Syuan Wan}
+\meettitle{Proof Theory of Skew Non-Commutative $\MILL$}
+\affil{Department of Software Science, Tallinn University of Technology}
+\meetemail{cswan@cs.ioc.ee}
+%%% NOTE: email required for at least one author
+%\urladdr{OPTIONAL}
+%
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+Monoidal closed categories are models of non-commutative multiplicative intuitionistic linear logic ($\NMILL$).
+Skew monoidal closed categories are weak variants of monoidal closed categories \cite{cite2}.
+In the skew cases, three natural isomorphisms $\lambda : \I \ot A \cong A$, $\rho : A \cong A \ot \I$, and $\alpha : (A \ot B) \ot C \cong A \ot (B \ot C)$ are merely natural transformations with a specific orientation.
+In previous works by Uustalu et al. \cite{cite3} \cite{cite4}, proof theoretical analysis on skew monoidal categories and skew closed categories are investigated.
+In particular, the sequent calculus systems modelled by skew monoidal and skew closed categories are respectively constructed.
+Moreover, proof theoretical semantics of each system is provided according to Jean-Marc Andreoli's focusing technique \cite{cite1}.
+
+Following the results above, a question arises: is it possible to construct a sequent calculus system naturally modelled by skew monoidal closed categories?
+We answer the question positively by constructing a cut-free system $\NMILL^{s}$, a skew version of $\NMILL$.
+Furthermore, we study the proof theoretical semantics of $\NMILL^{s}$.
+The inspiration also originates from focusing, but we peculiarly employ tag annotations to keep tracking new formulae occurring in antecedent and reducing non-deterministic choices in bottom-up proof search.
+Focusing solves the coherence problem of skew monoidal closed categories by providing a decision procedure to determine equality of maps in the free skew monoidal closed category.
+% The decision procedure takes two morphisms in the free skew monoidal closed category then maps them into two derivations in the tagged sequent calculus.
+% If two derivations are syntactically identical, then we know two original morphisms are equivalent, otherwise they are not.
+
+This is joint work with Tarmo Uustalu (Reykjavik University) and Niccol{\`o} Veltri (Tallinn University of Technology).
+
+\begin{thebibliography}{10}
+\bibitem{cite1}
+{\scshape Jean-Marc Andreoli},
+{\itshape Logic Programming with Focusing Proofs in Linear Logic.},
+{\bfseries\itshape Journal of Logic and Computation},
+vol.2(3), pp.~297--347.
+\bibitem{cite2}
+{\scshape Ross Street},
+{\itshape Skew-Closed Categories.},
+{\bfseries\itshape Journal of Pure and Applied Algebra},
+vol.217(6), pp.~973--988.
+\bibitem{cite3}
+{\scshape Tarmo Uustalu, Niccol{\`o} Veltri, and Noam Zeilberger},
+{\itshape Deductive Systems and Coherence for Skew
+Prounital Closed Categories.},
+{\bfseries\itshape Eletronic Proceedings in Theoretical Computer Science},
+vol.332, pp.~35--53.
+\bibitem{cite4}
+{\scshape Tarmo Uustalu, Niccol{\`o} Veltri, and Noam Zeilberger},
+{\itshape The Sequent Calculus of Skew Monoidal Categories.},
+{\bfseries\itshape Joachim Lambek: The Interplay of Mathematics,
+Logic, and Linguistics}, pp.~377--406.
+\end{thebibliography}
+
+
+\vspace*{-0.5\baselineskip}
+%% this space adjustment is usually necessary after a bibliography
+
+\end{document}

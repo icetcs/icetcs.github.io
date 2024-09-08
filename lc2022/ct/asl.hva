@@ -1,0 +1,11 @@
+\newcommand{\absauth}[1]{#1 \linebreak}
+\newcommand{\meettitle}[1]{}
+\newcommand{\affil}[1]{}
+\newcommand{\meetemail}[1]{}
+\newcommand{\AbstractsOn}{}
+\newcommand{\Box}{\@print@u{X25A1}}
+\newcommand{\Diamond}{\@print@u{X22C4}}
+\newcommand{\llbracket}{\@print@u{X27E6}}
+\newcommand{\rrbracket}{\@print@u{X27E7}}
+\newcommand{\text}[1]{#1}
+\newcommand{\keywords}[1]{\paragraph*{Keywords} #1}

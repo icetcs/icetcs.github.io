@@ -1,0 +1,212 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex. 
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION 
+%% BELOW FOR INSTRUCTIONS. 
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from 
+%% http://aslonline.org/abstractresources.html. 
+
+
+\documentclass[bsl,meeting]{asl}
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW; 
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP  
+\absauth{Peter Koepke}
+\meettitle{Formalizing the Appendix of Kelley's General Topology in the
+Naproche Proof Checker} 
+\affil{Mathematical Institute, University of Bonn, Endenicher Allee 60, 53115 Bonn, Germany}
+\meetemail{koepke@math.uni-bonn.de}
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+
+The $\mathbb{N}$aproche natural language proof checker allows proof checked
+mathematical formalizations that read like ordinary mathematical texts
+\cite{Naproche1, Naproche}. The easiest way to use the $\mathbb{N}$aproche{} system 
+is to install the
+well-known Isabelle prover \cite{Isabelle2021-1} and to edit a file with a 
+\verb+.ftl.tex+ 
+suffix in the Isabelle/jEdit editor. Some example files are included with the
+Isabelle distribution.
+
+In my talk I shall describe a $\mathbb{N}$aproche formalization of the appendix of John L. Kelley's \textit{General Topology} \cite{Kelley}. The appendix is a short introduction
+to Kelley-Morse set theory which is taken as the foundation for the book and 
+which is developed up to some initial results on ordinals and cardinals.
+Kelley's text lends itself to formalizations due to its formalistic 
+and complete style of writing. Indeed many statements of the appendix can be
+transferred almost verbatim to $\mathbb{N}$aproche. Considering, e.g., Kelley's
+\begin{quotation}
+38 THEOREM {\it If $x$ is a set, then $2^x$ is a set, and for each $y$, $y \subset x$
+iff $y \ \varepsilon \  2^x$.}
+\end{quotation}
+about the power class $2^x$ of $x$, the obvious \LaTeX{} source is a legitimate 
+$\mathbb{N}$aproche input, save for the 
+commas:
+\begin{verbatim}
+\begin{theorem}
+If $x$ is a set then $2^x$ is a set and for each $y$ $y \subset x$ 
+iff $y \in 2^x$.
+\end{theorem}
+\end{verbatim}
+
+Based on the Kelley formalization I shall conclude with general remarks on the
+natural language of mathematics.
+
+
+\begin{thebibliography}{10}
+
+\bibitem{Kelley}
+{\scshape John L. Kelley},
+{\bfseries\itshape General Topology},
+van Nostrand, 1955.
+
+\bibitem{Naproche1}
+{\scshape Adrian De Lon, Peter Koepke, Anton Lorenzen, Adrian Marti,
+Marcel Sch{\"u}tz, Makarius Wenzel}
+{\itshape The Isabelle/Naproche Natural Language Proof Assistant},
+{\bfseries\itshape Automated Deduction -- CADE 28},
+Springer LNAI, volume 12699, 614 -- 624,
+2021.
+
+\bibitem{Naproche}
+Naproche source code on Github: 
+\verb+https://github.com/naproche/naproche+
+
+
+\bibitem{Isabelle2021-1}
+{\scshape Isabelle contributors},
+{\bfseries\itshape The Isabelle2021-1 release},\\
+\verb+https://isabelle.in.tum.de/+,
+December 2021.
+
+
+
+
+
+%% INSERT YOUR BIBLIOGRAPHIC ENTRIES HERE; 
+%% SEE (4) BELOW FOR PROPER FORMAT.
+%% EACH ENTRY MUST BEGIN WITH \bibitem{citation key}
+%%
+%% IF THERE ARE NO ENTRIES  
+%% DELETE THE LINE ABOVE (\begin{thebibliography}{20}) 
+%% AND THE LINE BELOW (\end{thebibliography})
+
+\end{thebibliography}
+
+
+\vspace*{-0.5\baselineskip}
+% this space adjustment is usually necessary after a bibliography
+
+\end{document}
+
+
+%% READ ME
+%% READ ME
+%% READ ME
+
+INSTRUCTIONS FOR SUPPLYING INFORMATION IN THE CORRECT FORMAT: 
+
+1. Author names are listed as First Last, First Last, and First Last.
+
+\absauth{FirstName1 LastName1, FirstName2 LastName2, and FirstName3 LastName3}
+
+
+2. Titles of abstracts have ONLY the first letter capitalized,
+except for Proper Nouns.
+
+\meettitle{Title of abstract with initial capital letter only, except for
+Proper Nouns} 
+
+
+3. Affiliations and email addresses for authors of abstracts are
+  listed separately.
+
+% First author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{First author's email}
+%%% NOTE: email required for at least one author
+\urladdr{OPTIONAL}
+%
+% Second author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{Second author's email}
+\urladdr{OPTIONAL}
+%
+% Third author's affiliation
+\affil{Department, University, Street Address, Country}
+% Second author's email
+\meetemail{Third author's email}
+\urladdr{OPTIONAL}
+
+
+4. Bibliographic Entries
+
+%%%% IF references are submitted with abstract,
+%%%% please use the following formats
+
+%%% For a Journal article
+\bibitem{cite1}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Journal name spelled out, no abbreviations},
+vol.~XX (XXXX), no.~X, pp.~XXX--XXX.
+
+%%% For a Journal article by the same authors as above,
+%%% i.e., authors in cite1 are the same for cite2
+\bibitem{cite2}
+\bysame
+{\itshape Title of article},
+{\bfseries\itshape Journal},
+vol.~XX (XXXX), no.~X, pp.~XX--XXX.
+
+%%% For a book
+\bibitem{cite3}
+{\scshape Author's Name},
+{\bfseries\itshape Title of book},
+Name of series,
+Publisher,
+Year.
+
+%%% For an article in proceedings
+\bibitem{cite4}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Name of proceedings}
+(Address of meeting),
+(First Last and First2 Last2, editors),
+vol.~X,
+Publisher,
+Year,
+pp.~X--XX.
+
+%%% For an article in a collection
+\bibitem{cite5}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Book title}
+(First Last and First2 Last2, editors),
+Publisher,
+Publisher's address,
+Year,
+pp.~X--XX.
+
+%%% An edited book
+\bibitem{cite6}
+Author's name, editor. % No special font used here
+{\bfseries\itshape Title of book},
+Publisher,
+Publisher's address,
+Year.
+

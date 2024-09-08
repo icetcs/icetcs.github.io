@@ -1,0 +1,206 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex.
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION
+%% BELOW FOR INSTRUCTIONS.
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from
+%% http://aslonline.org/abstractresources.html.
+
+
+\documentclass[bsl,meeting]{asl}
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW;
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP \absauth{Beibut Kulpeshov, Sergey Sudoplatov} \meettitle{On
+theories of dense spherical orders}
+
+\affil{Kazakh-British Technical University, Almaty, Kazakhstan}
+\meetemail{b.kulpeshov@kbtu.kz}
+
+\affil{Sobolev Institute of Mathematics, Novosibirsk State
+Technical University, Novosibirsk State University, Novosibirsk,
+Russia} \meetemail{sudoplat@math.nsc.ru}
+%\urladdr{http://math.nsc.ru/$\sim$sudoplatov/}
+
+
+
+\noindent
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+
+We study properties of theories of $n$-spherical orders $K_n$
+\cite{aafot, ananat} which naturally generalize linear orders
+$K_2$ and circular orders $K_3$ \cite{KulMac, Kulp3, Kulp4}.
+
+A {\em $n$-spherical} order relation, for $n\geq 2$, is described
+by a $n$-ary relation $K_n$ satisfying the following conditions:
+ (nso1) $\forall x_1,\ldots,x_n (K_n(x_1,x_2,\ldots,x_n)\to K_n(x_2,\ldots,x_n,x_1));$
+ (nso2) $\forall x_1,\ldots,x_n
+ \biggm((K_n(x_1,\ldots,x_i,\ldots,x_j,\ldots,x_n)\land$
+ $K_n(x_1,\ldots,x_j,\ldots,x_i,\ldots,x_n))$ $\leftrightarrow\bigvee\limits_{1\leq k<l\leq n} x_k\approx x_l\biggm)$ for any $1\leq i<j\leq n$;
+ (nso3) $\forall x_1,\ldots,x_n\biggm(K_n(x_1,\ldots,x_n)\to$
+ $\forall t\left(\bigvee\limits_{i=1}^nK_n(x_1,\ldots,x_{i-1},t,x_{i+1},\ldots,x_n)\right)\biggm);$
+ (nso4) $\forall x_1,\ldots,x_n (K_n(x_1,\ldots,x_i,$ $\ldots,$ $x_j,\ldots,x_n)\lor$
+ $\lor K_n(x_1,\ldots,x_j,\ldots,x_i,\ldots,x_n)),\,\, 1\leq i<j\leq
+ n.$
+
+Structures $\mathcal{A}=\langle A,K_n\rangle$ with $n$-spherical
+orders are called {\em $n$-spherical orders}, too.
+
+A $n$-spherical order $K_n$ is called {\em dense} if it contains
+at least two elements and for each $(a_1,a_2,a_3,\ldots,a_n)\in
+K_n$ with $a_1\ne a_2$ there is $b\notin\{a_1,a_2,\ldots,a_n\}$
+with
+$
+\models K_n(a_1,b,a_3,\ldots,a_n)\wedge K_n(b,a_2,a_3,\ldots,a_n).
+$
+
+\begin{theorem}\label{th_dense_isom}
+If $\mathcal{A}$ and $\mathcal{B}$ are countable dense
+$n$-spherical orders, $n\geq 2$, without endpoints for $n=2$, then
+$\mathcal{A}\simeq\mathcal{B}$.
+\end{theorem}
+
+\begin{theorem}\label{th_dec}
+For any natural $n\geq 2$ the theory $T_n$ of dense $n$-spherical
+order is decidable.
+\end{theorem}
+
+The research is supported by Committee of Science in Education and
+Science Ministry of the Republic of Kazakhstan, Grant No.
+AP08855544 and Russian Scientific Foundation, Project
+No.~22-21-00044. The work of the second author was carried out in
+the framework of the State Contract of the Sobolev Institute of
+Mathematics, Project No.~FWNF-2022-0012.
+
+\begin{thebibliography}{10}
+
+\bibitem{aafot} {\scshape  S.V.~Sudoplatov}, {\itshape Arities and aritizabilities of first-order
+theories}, Preprint at https://arxiv.org/abs/2112.09593v1 (2021).
+
+\bibitem{ananat} {\scshape  S.V.~Sudoplatov}, {\itshape Almost $n$-ary and almost $n$-aritizable
+theories}, Preprint at https://arxiv.org/abs/2112.10330v1 (2021).
+
+\bibitem{KulMac} {\scshape B.Sh.~Kulpeshov, H.D.~Macpherson}, {\itshape Minimality
+conditions on circularly ordered structures}, {\bfseries\itshape
+Mathematical Logic Quarterly}, Vol.~51, No.~4 (2005),
+pp.~377--399.
+
+\bibitem{Kulp3} {\scshape A.B.~Altaeva, B.Sh.~Kulpeshov},
+{\itshape On almost binary weakly circularly minimal
+structures},{\bfseries\itshape Bulletin of Karaganda University,
+Mathematics}, Vol.~78, No.~2 (2015), pp.~74--82.
+
+\bibitem{Kulp4} {\scshape B.Sh.~Kulpeshov}, {\itshape On almost binarity in weakly
+circularly minimal structures}, {\bfseries\itshape Eurasian
+Mathematical Journal}, Vol.~, No.~2 (2016), pp.~38--49.
+
+
+
+
+%% INSERT YOUR BIBLIOGRAPHIC ENTRIES HERE;
+%% SEE (4) BELOW FOR PROPER FORMAT.
+%% EACH ENTRY MUST BEGIN WITH \bibitem{citation key}
+%%
+%% IF THERE ARE NO ENTRIES
+%% DELETE THE LINE ABOVE (\begin{thebibliography}{20})
+%% AND THE LINE BELOW (\end{thebibliography})
+
+\end{thebibliography}
+
+
+\vspace*{-0.5\baselineskip}
+% this space adjustment is usually necessary after a bibliography
+
+\end{document}
+
+
+%% READ ME
+%% READ ME
+%% READ ME
+
+INSTRUCTIONS FOR SUPPLYING INFORMATION IN THE CORRECT FORMAT:
+
+1. Author names are listed as First Last, First Last, and First
+Last.
+
+\absauth{FirstName1 LastName1, FirstName2 LastName2, and
+FirstName3 LastName3}
+
+
+2. Titles of abstracts have ONLY the first letter capitalized,
+except for Proper Nouns.
+
+\meettitle{Title of abstract with initial capital letter only,
+except for Proper Nouns}
+
+
+3. Affiliations and email addresses for authors of abstracts are
+  listed separately.
+
+% First author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{First author's email}
+%%% NOTE: email required for at least one author
+\urladdr{OPTIONAL}
+%
+% Second author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{Second author's email} \urladdr{OPTIONAL}
+%
+% Third author's affiliation
+\affil{Department, University, Street Address, Country}
+% Second author's email
+\meetemail{Third author's email} \urladdr{OPTIONAL}
+
+
+4. Bibliographic Entries
+
+%%%% IF references are submitted with abstract,
+%%%% please use the following formats
+
+%%% For a Journal article
+\bibitem{cite1}
+{\scshape Author's Name}, {\itshape Title of article},
+{\bfseries\itshape Journal name spelled out, no abbreviations},
+vol.~XX (XXXX), no.~X, pp.~XXX--XXX.
+
+%%% For a Journal article by the same authors as above,
+%%% i.e., authors in cite1 are the same for cite2
+\bibitem{cite2}
+\bysame {\itshape Title of article}, {\bfseries\itshape Journal},
+vol.~XX (XXXX), no.~X, pp.~XX--XXX.
+
+%%% For a book
+
+
+%%% For an article in proceedings
+\bibitem{cite4}
+{\scshape Author's Name}, {\itshape Title of article},
+{\bfseries\itshape Name of proceedings} (Address of meeting),
+(First Last and First2 Last2, editors), vol.~X, Publisher, Year,
+pp.~X--XX.
+
+%%% For an article in a collection
+\bibitem{cite5}
+{\scshape Author's Name}, {\itshape Title of article},
+{\bfseries\itshape Book title} (First Last and First2 Last2,
+editors), Publisher, Publisher's address, Year, pp.~X--XX.
+
+%%% An edited book
+\bibitem{cite6}
+Author's name, editor. % No special font used here
+{\bfseries\itshape Title of book}, Publisher, Publisher's address,
+Year.

@@ -1,0 +1,55 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex. 
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION 
+%% BELOW FOR INSTRUCTIONS. 
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from 
+%% http://aslonline.org/abstractresources.html. 
+
+
+\documentclass[bsl,meeting]{asl}
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW; 
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP  
+\absauth{Gerhard J\"ager}
+\meettitle{The admissible extension of subsystems of second order arithmetic}
+\affil{Institute of Computer Science, University of Bern, Neubr\"uckstrasse 10, 3012 Bern, Switzerland}
+\meetemail{gerhard.jaeger@inf.unibe.ch}
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+
+\smallskip
+
+Given a first order structure $\mathfrak{M}$, the next admissible $\mathbb{H}\mathrm{YP}_{\mathfrak{M}}$ and Barwise's cover $\mathbb{C}\mathrm{ov}_{\mathfrak{M}}$ -- provided that $\mathfrak{M}$ is a model of Kripke-Platek set theory $\mathsf{KP}$  -- are examples of structures that extend $\mathfrak{M}$ to a (in some sense) larger admissible set; see his textbook ``Admissible Sets and Structures''. But observe that these processes do not affect the underlying $\mathfrak{M}$.
+
+\smallskip
+
+Now let $T$ be a a subsystem of second order arithmetic. What happens when we combine $T$ with Kripke-Platek set theory $\mathsf{KP}$? Let us start off from a structure $\mathfrak{M} = (\mathbb{N},\mathbb{S},\in)$ of the natural numbers $\mathbb{N}$ and collection of sets of natural numbers $\mathbb{S}$ that has to obey the axioms of $T$. Then we erect a set-theoretic world with transfinite levels on top of $\mathfrak{M}$ governed by the axioms of $\mathsf{KP}$. However, owing to the interplay of $T$ and $\mathsf{KP}$, either theory's axioms may force new sets of natural to exists which in turn may engender yet new sets of naturals on account of the axioms of the other.  Therefore, the admissible extension of $T$ is usually not a conservative extension of $T$.
+
+\smallskip
+
+It turns out that for many familiar theories $T$, the second order part of the admissible extension of  $T$ equates to $T$ augmented by transfinite induction over all initial segments of the Bachmann-Howard ordinal.
+
+\smallskip
+
+This is joint work with Michael Rathjen.
+
+
+
+\vspace*{-0.5\baselineskip}
+% this space adjustment is usually necessary after a bibliography
+
+\end{document}

@@ -1,0 +1,241 @@
+% Abstract for LC 2022 
+\documentclass[bsl,meeting]{asl}
+\AbstractsOn
+\pagestyle{plain}
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+\begin{document}
+\thispagestyle{empty}
+\NP  
+\absauth{Joachim Mueller-Theys}
+\meettitle{The inhomogeneity of concepts}
+\affil{Independent researcher, Heidelberg, Germany}
+\meetemail{mueller-theys@gmx.de}
+\par 
+We may think of 
+$ P , Q , \ldots \subseteq M $
+as properties or concepts. 
+For 
+$ a , b , \ldots \in M $, 
+$ P ( a ) $ 
+:iff 
+$ a \in P $. 
+$ P $ 
+is 
+{\it total} 
+:iff 
+$ P = M $, 
+$ P $ 
+{\it vacuous} 
+:iff 
+$ - P $
+total,
+$ P $ 
+{\it real} 
+:iff 
+$ P $ 
+not vacuous. 
+We naturally call 
+$ P $ 
+{\it extreme}
+:iff
+$ P $ 
+is 
+vacuous 
+or
+total
+iff. 
+$ P $ 
+real 
+implies
+$ P $ 
+total.  
+$ P $ 
+{\it singular} 
+:iff 
+$ | P | = 1 $.
+We 
+naturally call 
+$ P $ 
+{\it genuine} 
+iff 
+$ P $ 
+is neither 
+vacuous 
+nor
+singular. 
+\par 
+We have defined
+$ P ${\em -similarity} 
+$ a \sim _P b $
+by
+$ P ( a ) \  \& \  P ( b ) $
+and 
+$ P ${\em -equality} 
+$ a \equiv_P b $
+by 
+$ P ( a ) \Leftrightarrow P ( b ) $.
+The basic connection is 
+$ \sim _P \  \subseteq \  \equiv _P $; 
+the converse is not true in general. 
+\par
+We say that 
+$ Q $ 
+{\it differentiates} 
+$ P $ 
+:iff 
+$ P ( a ) $, 
+$ P ( b ) $, 
+but
+$ a \not\equiv _Q b $
+for some 
+$ a $, 
+$ b $.  
+For example, 
+evil differentiates human, 
+transuranic differentiates element. 
+We call 
+$ P $ 
+{\it inhomogeneous}
+iff 
+there exists
+$ Q $ 
+such that 
+$ Q $ 
+differentiates 
+$ P $. 
+Accordingly, 
+human
+and 
+element 
+are inhomogeneous. 
+We have found that, 
+in general, 
+{\it all genuine concepts are inhomogeneous}:
+Let 
+$ P $ 
+be genuine,
+whence 
+$ | P | \geq 2 $, 
+whereby 
+$ P ( a ) $, 
+$ P ( b ) $
+for some
+$ a \neq b $.
+Now let 
+$ Q : = P \, \backslash \, \{ b \} $, 
+whence
+$ Q ( a ) $, 
+but 
+non 
+$ Q ( b ) $, 
+whereby 
+$ a \not\equiv _Q b $. 
+Thus
+$ {\rm Diff} _Q (P) $, 
+whence 
+$ {\rm Inhom} ( P ) $. 
+\par 
+$ {\rm Inhom} ( P ) $
+may be seen as formalisation of sayings of the form
+``$ P $ {\it is not} $ P $'',
+like human is not human, 
+element is not element. 
+Phrases of the form 
+``$ P $ {\it is} $ P $'',
+like 
+``human is human'',
+may be precisefied by 
+$ a \equiv _P b $
+for all 
+$ a , b \in P $,
+which is a special case 
+of 
+{\it ``all $ P $ are $ Q $-equal''}: 
+$ {\rm AllEq} _Q (P) $
+iff
+$ {\rm non} $
+$ {\rm Diff} _Q ( P ) $. 
+$ {\it Dicho} _Q ( P ) $
+$ : =  $
+$ P \subseteq Q $
+$ {\rm or} $
+$ P , Q $
+disjoint. 
+We had found and proven 
+the 
+{\it Dichotomy Theorem}: 
+$ {\rm AllEq} _Q (P) $ 
+{\it iff}
+$ {\rm Dicho} _Q ( P ) $. 
+\par
+Since 
+$ P \subseteq - Q $ 
+iff
+$ P \, \cap \, Q = \emptyset $, 
+$ {\it Hom} _Q ( P ) $
+$ : = $ 
+$ P \subseteq Q $
+$ \rm or $ 
+$ P \subseteq - Q $
+iff
+$ {\rm Dicho} _Q ( P ) $,
+whence
+$ {\rm AllEq} _Q (P) $ 
+{\it iff}
+$ {\rm Hom} _Q ( P ) $. 
+Now as {\it corollaries}, 
+$ {\rm AllEq} _P ( M ) $ 
+{\it iff} 
+Extr($ P $),
+whereby 
+human beings are equal only with respect to human, 
+and 
+$ {\rm Inhom} ( P ) $
+iff
+there is 
+$ Q $
+with
+$ {\rm Inhom} _Q ( P ) $.
+Moreover, 
+$ {\rm Inhom} _Q ( P ) $
+coincides 
+with 
+{\it heterogeneity}
+$ {\it Het} _Q ( P ) $
+$ : = $
+$ P \cap Q \neq \emptyset $ 
+$ \& $ 
+$ P \cap - Q \neq \emptyset $. 
+\par
+A sophisticated formal interpretation of 
+``$ P $ {\it is} $ P $''
+may now be 
+$ \forall Q $: 
+$ {\rm Hom} _Q ( P ) $ 
+$ \Rightarrow $
+$ {\rm AllEq} _Q ( P ) $
+(``all $ P $ are equal with respect to all homogeneous $ Q $''). 
+It is curious that 
+``$ P $ {\it is} $ P $''
+and 
+``$ P $ {\it is not} $ P $ if $ P $ is genuine''
+are tautologies both. 
+\par 
+Joint work with Wilfried Buchholz.
+For related achievements and acknowledgments, 
+see 
+``Similarity and equality'' 
+(abstract \& talk, 
+2021 North American Annual Meeting of the Association for Symbolic Logic 
+(cf. Long Program),
+The Bulletin of Symbolic Logic 27 (2021), p. 329),
+``Mathematical theorems on equality and unequality''
+(abstract, 
+Logic Colloquium 2021, 
+by title), 
+``Equivalence''
+(2022 ASL Annual Meeting, 
+Long Program). 
+\end{document}

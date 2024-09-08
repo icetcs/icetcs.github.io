@@ -1,0 +1,195 @@
+% Abstract for LC 2022
+\documentclass[bsl,meeting]{asl}
+\AbstractsOn
+\pagestyle{plain}
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+\begin{document}
+\thispagestyle{empty}
+\NP  
+\absauth{Joachim Mueller-Theys}
+\meettitle{The inhomogeneity of concepts}
+\affil{Heidelberg, Germany}
+\meetemail{mueller-theys@gmx.de}
+\par 
+We may think of 
+$ P , Q , \ldots \subseteq M $
+as properties or concepts. 
+$ P $ 
+is {\it total} 
+:iff 
+$ P = M $, 
+$ P $ 
+is {\it vacuous} 
+:iff 
+$ P = \emptyset $. 
+$ P $ 
+is {\it singular} 
+:iff 
+$ | P \, | = 1 $.
+We 
+naturally call 
+$ P $ 
+{\it genuine} 
+iff 
+$ P $ 
+is neither 
+vacuous 
+nor
+singular.  
+For 
+$ a , b , \ldots \in M $, 
+$ P ( a ) $ :iff $ a \in P $. 
+We have defined
+$ P ${\em -similarity} 
+$ a \sim _P b $
+by
+$ P ( a ) \  \& \  P ( b ) $
+and 
+$ P ${\em -equivalence} 
+$ a \equiv_P b $
+by 
+$ P ( a ) \Leftrightarrow P ( b ) $.
+The basic connection is 
+$ \sim _P \  \subseteq \  \equiv _P $. 
+Following Leibniz, 
+$ a \equiv ^\ast b $ 
+$ : \Leftrightarrow $
+$ \forall P \subseteq M $
+$ a \equiv _P b $
+and 
+$ a \equiv ^\ast b $
+$ \Leftrightarrow $
+$ a = b $.  
+\par
+Phrases of the form 
+``$ P $ {\it is} $ P $'',
+like 
+``human is human'',
+may be precisefied by 
+$ P ( a ) \,  \& \,  P ( b ) \Rightarrow a \equiv _P b $. 
+That's the case 
+$ Q : = P $ 
+of 
+``all $ P $ are $ Q $-equal'', 
+viz. 
+$ {\it AllEq} _Q (P) $
+$ : \Leftrightarrow $
+$ \forall a , b \in P \  a \equiv _Q b $.
+We had already found and proven 
+the Theorem: 
+$ {\rm AllEq} _Q (P) $ 
+$ \Leftrightarrow $ 
+$ {\rm Hom} _Q ( P ) $, 
+whereby
+homogeneity
+$ {\it Hom} _Q ( P ) $ 
+is defined by
+$ P \subseteq Q 
+\vee 
+P \subseteq - Q $.
+Particularly,
+$ {\rm AllEq} _P ( M ) $ 
+$ \Leftrightarrow $ 
+$ {\rm Hom} _P ( M ) $
+$ \Leftrightarrow $ 
+$ M \subseteq P \vee M \subseteq - P $
+$ \Leftrightarrow $ 
+$ P = M \vee P = \emptyset $
+$ \Leftrightarrow $ 
+($ P $ non-vacuous 
+$ \Rightarrow $ 
+$ P $ total). 
+A sophisticated interpretation of 
+``$ P $ {\it is} $ P $''
+might now be that 
+all $ P $ are equal with respect to all homogeneous $ Q $. 
+On the contrary, 
+$ {\it Inhom} _Q ( P ) $
+$ :\Leftrightarrow $
+$ \neg {\rm Hom} _Q ( P ) $
+coincides 
+with 
+{\it heterogeneity}
+$ {\it Het} _Q ( P ) $
+$ :\Leftrightarrow $
+$ P \cap Q \neq \emptyset $ 
+$ \& $ 
+$ P \cap - Q \neq \emptyset $. 
+\par
+Sayings of the form 
+``$ P $ {\it is not} $ P $'', 
+like 
+``human is not human'', 
+``wine is not wine'', 
+``element is not element'', 
+may be formalised 
+through the existence of {\it differentiating} 
+$ Q $,
+viz.  
+$ {\it Uneq} _Q ( P ) $
+$ : \Leftrightarrow $
+$ \neg {\rm AllEq} _Q ( P) $,
+viz. 
+$ P ( a ) \  \& \  P ( b ) $, 
+but 
+$ a \not\equiv _Q b $
+for some 
+$ a $, 
+$ b $\,: 
+Mulder is not criminal, whereas Counter is;
+Chasselas is white, while Primitivo is not; 
+plutonium is transuranic, while selenium is not.  
+\par
+Differentiating properties always exist. 
+By the Theorem, 
+$ {\rm Uneq} _Q ( P ) $
+iff 
+$ {\rm Inhom} _Q ( P ) $.
+Accordingly, 
+we call 
+$ P $
+{\it inhomogeneous} 
+iff 
+$ {\rm Inhom} _Q ( P ) $
+for some 
+$ Q $. 
+\\
+{\sc Theorem}. 
+{\it 
+All genuine properties are inhomogeneous}.
+\\
+Proof. 
+Let 
+$ P $ 
+be genuine,
+whence 
+$ | P | \geq 2 $, 
+whereby 
+$ P ( a ) $, 
+$ P ( b ) $
+for some
+$ a \neq b $.
+By the latter
+and  
+Leibniz's theorem, 
+$ a \not\equiv _Q b $
+for some 
+$ Q $. 
+Thus
+$ {\rm Uneq} _Q (P) $, 
+whence 
+$ {\rm Inhom} _Q ( P ) $. 
+\par 
+Note. 
+For previous achievements and acknowledgments, 
+see 
+``Similarity and equality'' 
+(abstract \& talk, 
+2021 ASL Annual Meeting (cf. Long Program), 
+The Bulletin of Symbolic Logic 27 (2021), p. 329),
+``Mathematical theorems on equality and unequality''
+(abstract, 
+Logic Colloquium 2021, by title). 
+\end{document}

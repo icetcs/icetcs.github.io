@@ -1,0 +1,172 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex. 
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION 
+%% BELOW FOR INSTRUCTIONS. 
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from 
+%% http://aslonline.org/abstractresources.html. 
+
+
+\documentclass[bsl,meeting]{asl}
+
+\usepackage[utf8]{inputenc}
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW; 
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP  
+\absauth{Åsa Hirvonen and Joni Puljujärvi}
+\meettitle{Games and Scott sentences for positive distances between metric structures}
+\affil{Department of Mathematics and Statistics, University of Helsinki, Finland}
+\meetemail{joni.puljujarvi@helsinki.fi}
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+
+
+We develop an abstract framework of infinitary logic, inspired by Henson's positive bounded logic with approximations~\cite{cite1}, and various related Ehrenfeucht--Fraïssé games that we then use to study distances defined on classes of (unbounded) metric structures. We show that the second player has a winning strategy in an EF game of length $\omega$ and precision $\varepsilon>0$ between two separable structures exactly when the distance between the structures is $<\varepsilon$. Using tools from Scott analysis, we then obtain Scott sentences that can express the distance being $<\varepsilon$.
+
+We study two forms of distances: pseudometrics stemming from mapping spaces onto each other with some form of approximate isomorphism, and metrics stemming from measuring the distances between two spaces isometrically embedded into a third space. Our main example of the former notion is the linear isomorphism between Banach spaces, with a fixed bi-Lipschitz constant, and of the latter notion the Kadets distance between Banach spaces.
+
+Unlike in classical Scott analysis or Scott analysis for bounded metric structures with continuous infinitary logic~\cite{cite2}, the traditional methods seem to only give us Scott sentences in $\mathcal{L}_{\omega_2\omega}$ rather than in $\mathcal{L}_{\omega_1\omega}$. However, if we are only concerned with distance $0$, we obtain a variant of the result of~\cite{cite2}, i.e. Scott sentences in $\mathcal{L}_{\omega_1\omega}$.
+
+
+\begin{thebibliography}{10}
+
+%% INSERT YOUR BIBLIOGRAPHIC ENTRIES HERE; 
+%% SEE (4) BELOW FOR PROPER FORMAT.
+%% EACH ENTRY MUST BEGIN WITH \bibitem{citation key}
+%%
+%% IF THERE ARE NO ENTRIES  
+%% DELETE THE LINE ABOVE (\begin{thebibliography}{20}) 
+%% AND THE LINE BELOW (\end{thebibliography})
+
+\bibitem{cite2}
+{\scshape  Itaï Ben Yaacov, Michal Doucha, André Nies, and Todor Tsankov},
+{\itshape Metric Scott analysis},
+{\bfseries\itshape Advances in Mathematics},
+vol.~318 (2017), %no.~X,
+pp.~46--87.
+
+\bibitem{cite1}
+{\scshape C. Ward Henson},
+{\itshape Nonstandard hulls of banach spaces},
+{\bfseries\itshape Israel Journal of Mathematics},
+vol.~25 (1976), no.~1--2, pp.~108--144.
+
+\end{thebibliography}
+
+
+\vspace*{-0.5\baselineskip}
+% this space adjustment is usually necessary after a bibliography
+
+\end{document}
+
+
+%% READ ME
+%% READ ME
+%% READ ME
+
+INSTRUCTIONS FOR SUPPLYING INFORMATION IN THE CORRECT FORMAT: 
+
+1. Author names are listed as First Last, First Last, and First Last.
+
+\absauth{FirstName1 LastName1, FirstName2 LastName2, and FirstName3 LastName3}
+
+
+2. Titles of abstracts have ONLY the first letter capitalized,
+except for Proper Nouns.
+
+\meettitle{Title of abstract with initial capital letter only, except for
+Proper Nouns} 
+
+
+3. Affiliations and email addresses for authors of abstracts are
+  listed separately.
+
+% First author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{First author's email}
+%%% NOTE: email required for at least one author
+\urladdr{OPTIONAL}
+%
+% Second author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{Second author's email}
+\urladdr{OPTIONAL}
+%
+% Third author's affiliation
+\affil{Department, University, Street Address, Country}
+% Second author's email
+\meetemail{Third author's email}
+\urladdr{OPTIONAL}
+
+
+4. Bibliographic Entries
+
+%%%% IF references are submitted with abstract,
+%%%% please use the following formats
+
+%%% For a Journal article
+\bibitem{cite1}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Journal name spelled out, no abbreviations},
+vol.~XX (XXXX), no.~X, pp.~XXX--XXX.
+
+%%% For a Journal article by the same authors as above,
+%%% i.e., authors in cite1 are the same for cite2
+\bibitem{cite2}
+\bysame
+{\itshape Title of article},
+{\bfseries\itshape Journal},
+vol.~XX (XXXX), no.~X, pp.~XX--XXX.
+
+%%% For a book
+\bibitem{cite3}
+{\scshape Author's Name},
+{\bfseries\itshape Title of book},
+Name of series,
+Publisher,
+Year.
+
+%%% For an article in proceedings
+\bibitem{cite4}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Name of proceedings}
+(Address of meeting),
+(First Last and First2 Last2, editors),
+vol.~X,
+Publisher,
+Year,
+pp.~X--XX.
+
+%%% For an article in a collection
+\bibitem{cite5}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Book title}
+(First Last and First2 Last2, editors),
+Publisher,
+Publisher's address,
+Year,
+pp.~X--XX.
+
+%%% An edited book
+\bibitem{cite6}
+Author's name, editor. % No special font used here
+{\bfseries\itshape Title of book},
+Publisher,
+Publisher's address,
+Year.
+

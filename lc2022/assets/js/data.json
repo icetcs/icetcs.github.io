@@ -1,0 +1,590 @@
+{
+    "days": [
+        {
+            "name": "Monday",
+            "hash": "mo",
+            "date": "2022-06-27"
+        },
+        {
+            "name": "Tuesday",
+            "hash": "tue",
+            "date": "2022-06-28"
+        },
+        {
+            "name": "Wednesday",
+            "hash": "wed",
+            "date": "2022-06-29"
+        },
+        {
+            "name": "Thursday",
+            "hash": "thu",
+            "date": "2022-06-30"
+        },
+        {
+            "name": "Friday",
+            "hash": "fri",
+            "date": "2022-07-01"
+        }
+    ],
+
+    "rooms": {
+    },
+
+    "speakers": {
+        "Aggeliki Chalki" : {
+            "name": "Aggeliki Chalki",
+            "href": "/lc2022/speakers/Aggeliki_Chalki/"
+        },
+        "Alex Kruckman" : {
+            "name": "Alex Kruckman",
+            "href": "/lc2022/speakers/Alex_Kruckman/"
+        },
+        "Alexander Melnikov" : {
+            "name": "Alexander Melnikov",
+            "href": "/lc2022/speakers/Alexander_Melnikov/"
+        },
+        "Alexis Saurin" : {
+            "name": "Alexis Saurin",
+            "href": "/lc2022/speakers/Alexis_Saurin/"
+        },
+        "Andrea Vaccaro" : {
+            "name": "Andrea Vaccaro",
+            "href": "/lc2022/speakers/Andrea_Vaccaro/"
+        },
+        "" : {
+            "name": "Andreas Weiermann",
+            "href": "/lc2022/speakers/Andreas_Weiermann/"
+        },
+        "Anton Freund" : {
+            "name": "Anton Freund",
+            "href": "/lc2022/speakers/Anton_Freund/"
+        },
+        "Bahareh Afshari" : {
+            "name": "Bahareh Afshari",
+            "href": "/lc2022/speakers/Bahareh_Afshari/"
+        },
+        "Ben De Bondt" : {
+            "name": "Ben De Bondt",
+            "href": "/lc2022/speakers/Ben_De_Bondt/"
+        },
+        "Brett McLean" : {
+            "name": "Brett McLean",
+            "href": "/lc2022/speakers/Brett_McLean/"
+        },
+        "Brice Halimi" : {
+            "name": "Brice Halimi",
+            "href": "/lc2022/speakers/Brice_Halimi/"
+        },
+        "Chris Conidis" : {
+            "name": "Chris Conidis",
+            "href": "/lc2022/speakers/Chris_Conidis/"
+        },
+        "Damian Sobota" : {
+            "name": "Damian Sobota",
+            "href": "/lc2022/speakers/Damian_Sobota/"
+        },
+        "" : {
+            "name": "Dana Bartosova",
+            "href": "/lc2022/speakers/Dana_Bartosova/"
+        },
+        "David Fernandez-Duque" : {
+            "name": "David Fernandez-Duque",
+            "href": "/lc2022/speakers/David_Fernandez_Duque/"
+        },
+        "Denis Hirschfeldt" : {
+            "name": "Denis Hirschfeldt",
+            "href": "/lc2022/speakers/Denis_Hirschfeldt/"
+        },
+        "Diana Carolina Montoya" : {
+            "name": "Diana Carolina Montoya",
+            "href": "/lc2022/speakers/Diana_Montoya/"
+        },
+        "" : {
+            "name": "Dugald Macpherson",
+            "href": "/lc2022/speakers/Dugald_Macpherson/"
+        },
+        "Fabio Mogavero" : {
+            "name": "Fabio Mogavero",
+            "href": "/lc2022/speakers/Fabio_Mogavero/"
+        },
+        "Fedor Pakhomov" : {
+            "name": "Fedor Pakhomov",
+            "href": "/lc2022/speakers/Fedor_Pakhomov/"
+        },
+        "Françoise Point" : {
+            "name": "Françoise Point",
+            "href": "/lc2022/speakers/Francoise_Point/"
+        },
+        "Gerhard Jaeger" : {
+            "name": "Gerhard Jaeger",
+            "href": "/lc2022/speakers/Gerhard_Jaeger/"
+        },
+        "" : {
+            "name": "Giorgio Venturi",
+            "href": "/lc2022/speakers/Giorgio_Venturi/"
+        },
+        "Giovanni Soldà" : {
+            "name": "Giovanni Soldà",
+            "href": "/lc2022/speakers/Giovanni_Solda/"
+        },
+        "Gunnar Wilken" : {
+            "name": "Gunnar Wilken",
+            "href": "/lc2022/speakers/Gunnar_Wilken/"
+        },
+        "Gunter Fuchs" : {
+            "name": "Gunter Fuchs",
+            "href": "/lc2022/speakers/GunterFuchs/"
+        },
+        "" : {
+            "name": "Ilijas Farah",
+            "href": "/lc2022/speakers/Ilijas_Farah/"
+        },
+        "" : {
+            "name": "James Ladyman",
+            "href": "/lc2022/speakers/James_Ladyman/"
+        },
+        "Jan Dobrowolski" : {
+            "name": "Jan Dobrowolski",
+            "href": "/lc2022/speakers/Jan_Dobrowolski/"
+        },
+        "Jing Zhang" : {
+            "name": "Jing Zhang",
+            "href": "/lc2022/speakers/Jing_Zhang/"
+        },
+        "Joanna Ochremiak" : {
+            "name": "Joanna Ochremiak",
+            "href": "/lc2022/speakers/Joanna_Ochremiak/"
+        },
+        "Juan P. Aguilera" : {
+            "name": "Juan P. Aguilera",
+            "href": "/lc2022/speakers/Juan_P_Aguilera/"
+        },
+        "Juliette Kennedy" : {
+            "name": "Juliette Kennedy",
+            "href": "/lc2022/speakers/Juliette_Kennedy/"
+        },
+        "Karen Lange" : {
+            "name": "Karen Lange",
+            "href": "/lc2022/speakers/Karen_Lange/"
+        },
+        "Katarzyna W. Kowalik" : {
+            "name": "Katarzyna W. Kowalik",
+            "href": "/lc2022/speakers/Katarzyna_Kowalik/"
+        },
+        "Laura Crosilla" : {
+            "name": "Laura Crosilla",
+            "href": "/lc2022/speakers/Laura_Crosilla/"
+        },
+        "Léo Exibard" : {
+            "name": "Léo Exibard",
+            "href": "/lc2022/speakers/Leo_Exibard/"
+        },
+        "" : {
+            "name": "Lev Beklemishev",
+            "href": "/lc2022/speakers/Lev_Beklemishev/"
+        },
+        "Libor Barto" : {
+            "name": "Libor Barto",
+            "href": "/lc2022/speakers/Libor_Barto/"
+        },
+        "Luca San Mauro" : {
+            "name": "Luca San Mauro",
+            "href": "/lc2022/speakers/Luca_San_Mauro/"
+        },
+        "" : {
+            "name": "Ludovic Patey",
+            "href": "/lc2022/speakers/Ludovic_Patey/"
+        },
+        "Mariana Vicaria" : {
+            "name": "Mariana Vicaria",
+            "href": "/lc2022/speakers/Mariana_Vicaria/"
+        },
+        "" : {
+            "name": "Marta Fiori Carones",
+            "href": "/lc2022/speakers/Marta_Fiori_Carones/"
+        },
+        "Moritz Müller" : {
+            "name": "Moritz M&uuml;ller",
+            "href": "/lc2022/speakers/Moritz_Muller/"
+        },
+        "" : {
+            "name": "Nicola Galesi",
+            "href": "/lc2022/speakers/Nicola_Galesi/"
+        },
+        "Patricia Blanchette" : {
+            "name": "Patricia Blanchette",
+            "href": "/lc2022/speakers/Patricia_Blanchette/"
+        },
+        "Paweł Idziak" : {
+            "name": "Pawe&#322; Idziak",
+            "href": "/lc2022/speakers/Pawel_Idziak/"
+        },
+        "Revantha Ramanayake" : {
+            "name": "Revantha Ramanayake",
+            "href": "/lc2022/speakers/Revantha_Ramanayake/"
+        },
+        "Richard Matthews" : {
+            "name": "Richard Matthews",
+            "href": "/lc2022/speakers/Richard_Matthews/"
+        },
+        "Salvatore Florio" : {
+            "name": "Salvatore Florio",
+            "href": "/lc2022/speakers/Salvatore_Florio/"
+        },
+        "Sam Braunfeld" : {
+            "name": "Sam Braunfeld",
+            "href": "/lc2022/speakers/Sam_Braunfeld/"
+        },
+        "Sandra Müller" : {
+            "name": "Sandra Müller",
+            "href": "/lc2022/speakers/Sandra_Muller/"
+        },
+        "Susanna F. de Rezende" : {
+            "name": "Susanna F. de Rezende",
+            "href": "/lc2022/speakers/Susanna_de_Rezende/"
+        },
+        "Sylvy Anscombe" : {
+            "name": "Sylvy Anscombe",
+            "href": "/lc2022/speakers/Sylvy_Anscombe/"
+        },
+        "" : {
+            "name": "Tarmo Uustalu",
+            "href": "/lc2022/speakers/Tarmo_Uustalu/"
+        },
+        "Thomas Daniells Gilton" : {
+            "name": "Thomas Daniells Gilton",
+            "href": "/lc2022/speakers/Thomas_Daniells_Gilton/"
+        },
+        "Thorsten Altenkirch" : {
+            "name": "Thorsten Altenkirch",
+            "href": "/lc2022/speakers/Thorsten_Altenkirch/"
+        },
+        "Tim Button" : {
+            "name": "Tim Button",
+            "href": "/lc2022/speakers/Tim_Button/"
+        },
+        "Tingxiang Zou" : {
+            "name": "Tingxiang Zou",
+            "href": "/lc2022/speakers/Tingxiang_Zou/"
+        },
+        "Tuna Altinel" : {
+            "name": "Tuna Altinel",
+            "href": "/lc2022/speakers/Tuna_Altinel/"
+        },
+        "Wei Wang" : {
+            "name": "Wei Wang",
+            "href": "/lc2022/speakers/Wei_Wang/"
+        },
+        "Yuke Liao" : {
+            "name": "Yuke Liao",
+            "href": "/lc2022/speakers/Yuke_Liao/"
+        },
+        "Adrian Portillo" : {
+            "name": "Adrian Portillo",
+            "href": "/lc2022/speakers/adrian-portillo/"
+        },
+        "Agata Tomczyk" : {
+            "name": "Agata Tomczyk",
+            "href": "/lc2022/speakers/agata-tomczyk/"
+        },
+        "Agnieszka Widz" : {
+            "name": "Agnieszka Widz",
+            "href": "/lc2022/speakers/agnieszka-widz/"
+        },
+        "Alexej Pynko" : {
+            "name": "Alexej Pynko",
+            "href": "/lc2022/speakers/alexej-pynko/"
+        },
+        "Amir Djamel Eddine" : {
+            "name": "Amir Djamel Eddine",
+            "href": "/lc2022/speakers/amir-djamel-eddine/"
+        },
+        "Andreas Weiermann" : {
+            "name": "Andreas Weiermann",
+            "href": "/lc2022/speakers/andreas-weiermann/"
+        },
+        "Andrei Sipos" : {
+            "name": "Andrei Sipos",
+            "href": "/lc2022/speakers/andrei-sipos/"
+        },
+        "Avgerinos Delkos" : {
+            "name": "Avgerinos Delkos",
+            "href": "/lc2022/speakers/avgerinos-delkos/"
+        },
+        "Beibut Kulpeshov" : {
+            "name": "Beibut Kulpeshov",
+            "href": "/lc2022/speakers/beibut-kulpeshov/"
+        },
+        "Bjarki Geir Benediktsson" : {
+            "name": "Bjarki Geir Benediktsson",
+            "href": "/lc2022/speakers/bjarki-geir-benediktsson/"
+        },
+        "Bogdan Macovei" : {
+            "name": "Bogdan Macovei",
+            "href": "/lc2022/speakers/bogdan-macovei/"
+        },
+        "Brett McLean" : {
+            "name": "Brett McLean",
+            "href": "/lc2022/speakers/brett-mclean/"
+        },
+        "Bruno Bentzen" : {
+            "name": "Bruno Bentzen",
+            "href": "/lc2022/speakers/bruno-bentzen/"
+        },
+        "Cezary Cieśliński" : {
+            "name": "Cezary Cieśliński",
+            "href": "/lc2022/speakers/cezary-cieslinski/"
+        },
+        "Cheng-Syuan Wan" : {
+            "name": "Cheng-Syuan Wan",
+            "href": "/lc2022/speakers/cheng-syuan-wan/"
+        },
+        "Daichi Hayashi" : {
+            "name": "Daichi Hayashi",
+            "href": "/lc2022/speakers/daichi-hayashi/"
+        },
+        "Davide Quadrellaro" : {
+            "name": "Davide Quadrellaro",
+            "href": "/lc2022/speakers/davide-quadrellaro/"
+        },
+        "Dino Rossegger" : {
+            "name": "Dino Rossegger",
+            "href": "/lc2022/speakers/dino-rossegger/"
+        },
+        "Dorottya Sziraki" : {
+            "name": "Dorottya Sziraki",
+            "href": "/lc2022/speakers/dorottya-sziraki/"
+        },
+        "Elaine Pimentel" : {
+            "name": "Elaine Pimentel",
+            "href": "/lc2022/speakers/elaine-pimentel/"
+        },
+        "Elio La Rosa" : {
+            "name": "Elio La Rosa",
+            "href": "/lc2022/speakers/elio-la-rosa/"
+        },
+        "Francesco Gallinaro" : {
+            "name": "Francesco Gallinaro",
+            "href": "/lc2022/speakers/francesco-gallinaro/"
+        },
+        "Fredrik Engstrom" : {
+            "name": "Fredrik Engstrom",
+            "href": "/lc2022/speakers/fredrik-engstrom/"
+        },
+        "Gabor Sagi" : {
+            "name": "Gabor Sagi",
+            "href": "/lc2022/speakers/gabor-sagi/"
+        },
+        "Gemma Robles" : {
+            "name": "Gemma Robles",
+            "href": "/lc2022/speakers/gemma-robles/"
+        },
+        "Gihanee M. D. Senadheera" : {
+            "name": "Gihanee M. D. Senadheera",
+            "href": "/lc2022/speakers/gihanee-m-d-senadheera/"
+        },
+        "Guillermo Badia" : {
+            "name": "Guillermo Badia",
+            "href": "/lc2022/speakers/guillermo-badia/"
+        },
+        "Hafiz Ullah" : {
+            "name": "Hafiz Ullah",
+            "href": "/lc2022/speakers/hafiz-ullah/"
+        },
+        "Hitoshi Omori" : {
+            "name": "Hitoshi Omori",
+            "href": "/lc2022/speakers/hitoshi-omori/"
+        },
+        "Hrafn Oddsson" : {
+            "name": "Hrafn Oddsson",
+            "href": "/lc2022/speakers/hrafn-oddsson/"
+        },
+        "Hsing-Chien Tsai" : {
+            "name": "Hsing-Chien Tsai",
+            "href": "/lc2022/speakers/hsing-chien-tsai/"
+        },
+        "Ioannis Souldatos" : {
+            "name": "Ioannis Souldatos",
+            "href": "/lc2022/speakers/ioannis-souldatos/"
+        },
+        "Iosif Petrakis" : {
+            "name": "Iosif Petrakis",
+            "href": "/lc2022/speakers/iosif-petrakis/"
+        },
+        "Jan Hubicka" : {
+            "name": "Jan Hubicka",
+            "href": "/lc2022/speakers/jan-hubicka/"
+        },
+        "Jason Block" : {
+            "name": "Jason Block",
+            "href": "/lc2022/speakers/jason-block/"
+        },
+        "Jonathan Schilhan" : {
+            "name": "Jonathan Schilhan",
+            "href": "/lc2022/speakers/jonathan-schilhan/"
+        },
+        "Joni Puljujarvi" : {
+            "name": "Joni Puljujarvi",
+            "href": "/lc2022/speakers/joni-puljujarvi/"
+        },
+        "José M. Méndez" : {
+            "name": "José M. Méndez",
+            "href": "/lc2022/speakers/jose-m-mendez/"
+        },
+        "Jouko Väänänen" : {
+            "name": "Jouko Väänänen",
+            "href": "/lc2022/speakers/jouko-vaananen/"
+        },
+        "Katalin Bimbó" : {
+            "name": "Katalin Bimbó",
+            "href": "/lc2022/speakers/katalin-bimbo/"
+        },
+        "Katarzyna W. Kowalik" : {
+            "name": "Katarzyna W. Kowalik",
+            "href": "/lc2022/speakers/katarzyna-w-kowalik/"
+        },
+        "Kentaro Yamamoto" : {
+            "name": "Kentaro Yamamoto",
+            "href": "/lc2022/speakers/kentaro-yamamoto/"
+        },
+        "Konstantinos Papafilippou" : {
+            "name": "Konstantinos Papafilippou",
+            "href": "/lc2022/speakers/konstantinos-papfilippou/"
+        },
+        "Ludovica Conti" : {
+            "name": "Ludovica Conti",
+            "href": "/lc2022/speakers/ludovica-conti/"
+        },
+        "Maria Beatrice Buonaguidi" : {
+            "name": "Maria Beatrice Buonaguidi",
+            "href": "/lc2022/speakers/maria-beatrice-buonaguidi/"
+        },
+        "Mark Addis" : {
+            "name": "Mark Addis",
+            "href": "/lc2022/speakers/mark-addis/"
+        },
+        "Matej Konecny" : {
+            "name": "Matej Konecny",
+            "href": "/lc2022/speakers/matej-konecny/"
+        },
+        "Mateusz Lelyk" : {
+            "name": "Mateusz Lelyk",
+            "href": "/lc2022/speakers/mateusz-lelyk/"
+        },
+        "Mattias Granberg Olsson" : {
+            "name": "Mattias Granberg Olsson",
+            "href": "/lc2022/speakers/mattias-granberg-olsson/"
+        },
+        "Maxwell Levine" : {
+            "name": "Maxwell Levine",
+            "href": "/lc2022/speakers/maxwell-levine/"
+        },
+        "Michal Godziszewski" : {
+            "name": "Michal Godziszewski",
+            "href": "/lc2022/speakers/michal-godziszewski/"
+        },
+        "Muhammad Usama Sardar" : {
+            "name": "Muhammad Usama Sardar",
+            "href": "/lc2022/speakers/muhammad-usama-sardar/"
+        },
+        "Name" : {
+            "name": "Cheng-Syuan Wan",
+            "href": "/lc2022/speakers/name/"
+        },
+        "Nazerke Mussina" : {
+            "name": "Nazerke Mussina",
+            "href": "/lc2022/speakers/nazerke-mussina/"
+        },
+        "Olga Ulbrikht" : {
+            "name": "Olga Ulbrikht",
+            "href": "/lc2022/speakers/olga-ulbrikht/"
+        },
+        "Oriola Gjetaj" : {
+            "name": "Oriola Gjetaj",
+            "href": "/lc2022/speakers/oriola-gjetaj/"
+        },
+        "Pablo Dopico" : {
+            "name": "Pablo Dopico",
+            "href": "/lc2022/speakers/pablo-dopico/"
+        },
+        "Patrick Uftring" : {
+            "name": "Patrick Uftring",
+            "href": "/lc2022/speakers/patrick-uftring/"
+        },
+        "Patrycja Kupś" : {
+            "name": "Patrycja Kupś",
+            "href": "/lc2022/speakers/patrycja-kups-speaker-tbd/"
+        },
+        "Peter Koepke" : {
+            "name": "Peter Koepke",
+            "href": "/lc2022/speakers/peter-koepke/"
+        },
+        "Petr Cintula" : {
+            "name": "Petr Cintula",
+            "href": "/lc2022/speakers/petr-cintula/"
+        },
+        "Philipp Provenzano" : {
+            "name": "Philipp Provenzano",
+            "href": "/lc2022/speakers/philipp-provenzano/"
+        },
+        "Philipp Schlicht" : {
+            "name": "Philipp Schlicht",
+            "href": "/lc2022/speakers/philipp-schlicht/"
+        },
+        "Richard Matthews" : {
+            "name": "Richard Matthews",
+            "href": "/lc2022/speakers/richard-matthews/"
+        },
+        "Sam Sanders" : {
+            "name": "Sam Sanders",
+            "href": "/lc2022/speakers/sam-sanders/"
+        },
+        "Sebastian G.W. Speitel" : {
+            "name": "Sebastian G.W. Speitel",
+            "href": "/lc2022/speakers/sebastian-g-w-speitel/"
+        },
+        "Sergey Sudoplatov" : {
+            "name": "Sergey Sudoplatov",
+            "href": "/lc2022/speakers/sergey-sudoplatov/"
+        },
+        "Szymon Chlebowski" : {
+            "name": "Szymon Chlebowski",
+            "href": "/lc2022/speakers/szymon-chlebowski/"
+        },
+        "Tapio Saarinen" : {
+            "name": "Tapio Saarinen",
+            "href": "/lc2022/speakers/tapio-saarinen/"
+        },
+        "Tin Adlesic" : {
+            "name": "Tin Adlesic",
+            "href": "/lc2022/speakers/tin-adlesic/"
+        },
+        "Tinko Tinchev" : {
+            "name": "Tinko Tinchev",
+            "href": "/lc2022/speakers/tinko-tinchev/"
+        },
+        "Tonicha Crook" : {
+            "name": "Tonicha Crook",
+            "href": "/lc2022/speakers/tonicha-crook/"
+        },
+        "Vedran Cacic" : {
+            "name": "Vedran Cacic",
+            "href": "/lc2022/speakers/vedran-cacic/"
+        },
+        "Vittorio Cipriani" : {
+            "name": "Vittorio Cipriani",
+            "href": "/lc2022/speakers/vittorio-cipriani/"
+        },
+        "Will Stafford" : {
+            "name": "Will Stafford",
+            "href": "/lc2022/speakers/will-stafford/"
+        },
+        "Yong Cheng" : {
+            "name": "Yong Cheng",
+            "href": "/lc2022/speakers/yong-cheng/"
+        }
+    },
+
+    "talks": {
+    }
+}

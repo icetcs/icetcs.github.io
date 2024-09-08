@@ -1,0 +1,45 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex.
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION
+%% BELOW FOR INSTRUCTIONS.
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from
+%% http://aslonline.org/abstractresources.html.
+
+
+\documentclass[bsl,meeting]{asl}
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW;
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP%
+\absauth{Joanna Ochremiak}%
+\meettitle{On the Power of Symmetric Linear Programs}%
+\affil{Univ. Bordeaux, CNRS,  Bordeaux INP, LaBRI, UMR 5800, F-33400, Talence, France}%
+\meetemail{joanna.ochremiak@gmail.com}%
+%\urladdr{}
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+
+We consider families of symmetric linear programs (LPs) that decide a property of graphs (or other relational structures) in the sense that, for each size of graph, there is an LP defining a polyhedral lift that separates the integer points corresponding to graphs with the property from those corresponding to graphs without the property. We show that this is equivalent, with at most polynomial blow-up in size, to families of symmetric Boolean circuits with threshold gates.
+
+When we consider polynomial-size LPs, the model is equivalent to definability in a non-uniform version of fixed-point logic with counting (FPC). Known upper and lower bounds for FPC apply to the non-uniform version. In particular, this implies that the class of graphs with perfect matchings has polynomial-size symmetric LPs, while we obtain an exponential lower bound for symmetric LPs for the class of Hamiltonian graphs.
+
+The talki is based on joint work with Albert Atserias and Anuj Dawar~\cite{10.1145/3456297}.
+
+\begin{thebibliography}{1}
+\bibitem{10.1145/3456297} Albert Atserias, Anuj Dawar, and Joanna Ochremiak. On the power of symmetric linear programs. \emph{J. ACM}, 68(4), jul 2021.
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,65 @@
+\documentclass[bsl,meeting]{asl}
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+\NP%
+\absauth{Anton Freund}%
+\meettitle{The uniform Kruskal theorem:\ a bridge between finite combinatorics and abstract set existence}%
+\affil{Department of Mathematics, Technical University of Darmstadt, Schlossgartenstr.~7,
+64289~Darmstadt, Germany}%
+\meetemail{freund@mathematik.tu-darmstadt.de}%
+\urladdr{https://sites.google.com/view/antonfreund}
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+
+An important theorem of J.~Kruskal states that any infinite sequence $t_0,t_1,\ldots$ of finite trees admits $i<j$ such that $t_i$ embeds into~$t_j$. As shown by H.~Friedman, this theorem -- and even a `finitized' corollary -- is unprovable in predicative axiom systems, such as the theory $\mathsf{ATR_0}$ from reverse mathematics. This is one of the most convincing mathematical examples for the incompleteness phenomenon from G\"odel's theorems.
+
+The `minimal bad sequence lemma' due to C.~Nash-Williams provides a particularly elegant proof of Kruskal's theorem. By a result of A.~Marcone, this lemma is equivalent to the impredicative principle of $\Pi^1_1$-comprehension, over a weak base theory from reverse mathematics. Kruskal's theorem itself cannot be equivalent to this principle, as its quantifier complexity is too low. This suggests the following question:
+\begin{quote}
+\emph{In which sense can we view Kruskal's theorem as the concrete `shadow' of an abstract set existence principle?}
+\end{quote}
+
+To suggest an answer, I will present joint work with M.~Rathjen and A.~Weiermann~\cite{FRW_Kruskal}, which shows that $\Pi^1_1$-comprehension is equivalent to a uniform version of Kruskal's theorem (with general recursive data types at the place of trees). Together with the aforementioned result of Marcone, this confirms the intuition that minimal bad sequences provide `the' canonical proof.
+
+An analogous equivalence~\cite{Freund_Kruskal-Friedman} has been established between $\Pi^1_1$-transfinite recursion, a minimal bad sequence result of I.~K\v{r}\'{i}\v{z}, and a uniform version of Friedman's extended Kruskal theorem with ordinal labels and gap condition. The results rely on previous work~\cite{Freund_Rel-Bachmann,Freund-Rathjen_TR} that connects the `concrete' viewpoint of ordinal analysis with the more `abstract' setting of reverse mathematics.
+
+The results and proofs will be presented on an intuitive level. Beyond the specific case of Kruskal's theorem, the hope is to shed some light on a remarkable phenomenon in modern mathematics: that concrete statements about finite objects are sometimes proved via abstract and infinite ones.
+
+\begin{thebibliography}{10}
+
+\bibitem{Freund_Rel-Bachmann}
+{\scshape Anton Freund},
+{\itshape {$\Pi^1_1$}-comprehension as a well-ordering principle},
+{\bfseries\itshape Advances in Mathematics},
+vol.~355 (2019), article no.~106767, 65~pp.
+
+\bibitem{Freund_Kruskal-Friedman}
+{\scshape Anton Freund},
+{\itshape Reverse mathematics of a uniform Kruskal-Friedman theorem},
+arXiv:2112.08727 (preprint), 25~pp.
+
+\bibitem{Freund-Rathjen_TR}
+{\scshape Anton Freund and Michael Rathjen},
+{\itshape Well ordering principles for iterated {$\Pi^1_1$}-comprehension},
+arXiv:2112.08005 (preprint), 67~pp.
+
+\bibitem{FRW_Kruskal}
+{\scshape Anton Freund, Michael Rathjen and Andreas Weiermann},
+{\itshape Minimal bad sequences are necessary for a uniform Kruskal theorem},
+{\bfseries\itshape Advances in Mathematics},
+vol.~400 (2022), article no.~108265 , 44~pp.
+\end{thebibliography}
+
+
+\end{document}

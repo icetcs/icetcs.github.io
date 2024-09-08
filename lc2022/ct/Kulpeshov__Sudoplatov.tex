@@ -1,0 +1,204 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex.
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION
+%% BELOW FOR INSTRUCTIONS.
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from
+%% http://aslonline.org/abstractresources.html.
+
+
+\documentclass[bsl,meeting]{asl}
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW;
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP \absauth{Beibut Kulpeshov, Sergey Sudoplatov} \meettitle{On
+algebras of binary formulas for weakly circularly minimal theories
+}
+
+\affil{Kazakh-British Technical University, Almaty, Kazakhstan}
+\meetemail{b.kulpeshov@kbtu.kz}
+
+\affil{Sobolev Institute of Mathematics, Novosibirsk State
+Technical University, Novosibirsk State University, Novosibirsk,
+Russia} \meetemail{sudoplat@math.nsc.ru}
+%\urladdr{http://math.nsc.ru/$\sim$sudoplatov/}
+
+
+
+\noindent
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+
+Algebras of binary formulas are a tool for describing
+relationships between elements of the sets of realizations of
+1-types at binary level with respect to superpositions of binary
+definable sets. We consider algebras of binary isolating formulas
+originally studied in \cite{KScite1, KScite2}, where under a
+binary isolating formula we understand a formula of the form
+$\varphi(x,y)$, without parameters, such that for some parameter
+$a$ the formula $\varphi(a,y)$ isolates some complete type from
+$S_1(\{a\})$.
+
+The notion of {\it weak circular minimality} was originally
+studied in \cite{KScite3}. A {\it weakly circularly minimal
+structure} is a circularly ordered structure $M=\langle M,
+K_3,\ldots\rangle$ such that any definable (with parameters)
+subset of $M$ is a union of finitely many convex sets in $M$. In
+\cite{KScite4} countably categorical 1-transitive non-primitive
+weakly circularly minimal structures of convexity rank 1 with
+non-trivial definable closure have been described up to binarity.
+
+Here we discuss algebras of binary isolating formulas for these
+structures and give the following criterion for commutability of
+such algebras:
+
+\begin{theorem}
+Let $M$ be a countably categorical $1$-transitive non-primitive
+weakly circularly minimal structure of convexity rank $1$ with
+${\rm dcl}(a)\ne \{a\}$ for some $a\in M$. Then the algebra
+$\mathfrak{P}_{M}$ of binary isolating formulas is commutable iff
+there exists an $\emptyset$-definable non-trivial monotonic-to-right bijection
+on $M$.
+\end{theorem}
+
+This research has been funded by Science Committee of Ministry of
+Education and Science of the Republic of Kazakhstan (Grant
+No.~AP08855544), and by Russian Scientific Foundation (Project
+No.~22-21-00044).
+
+\begin{thebibliography}{10}
+
+\bibitem{KScite1}
+{\scshape  S.V.~Sudoplatov},{\bfseries\itshape Classification of
+countable models of complete theories}, Novosibirsk, Edition of
+NSTU, 2018.
+
+\bibitem{KScite2}
+{\scshape  I.V.~Shulepov, S.V.~Sudoplatov}, {\itshape Algebras of
+distributions for isolating formulas of a complete theory},
+{\bfseries\itshape Siberian Electronic Mathematical Reports},
+Vol.~11 (2014), pp.~362--389.
+
+\bibitem{KScite3}
+{\scshape  B.Sh.~Kulpeshov, H.D.~Macpherson}, {\itshape Minimality
+conditions on circularly ordered struc\-tures}, {\bfseries\itshape
+Mathematical Logic Quarterly}, Vol.~51, No.~4 (2005),
+pp.~377--399.
+
+\bibitem{KScite4}
+{\scshape B.Sh.~Kulpeshov}, {\itshape On $\aleph_0$-categorical
+weakly circularly minimal struc\-tures}, {\bfseries\itshape
+Ma\-the\-ma\-ti\-cal Logic Quarterly}, Vol.~52, No.~6 (2006),
+pp.~555--574.
+
+
+
+
+
+
+%% INSERT YOUR BIBLIOGRAPHIC ENTRIES HERE;
+%% SEE (4) BELOW FOR PROPER FORMAT.
+%% EACH ENTRY MUST BEGIN WITH \bibitem{citation key}
+%%
+%% IF THERE ARE NO ENTRIES
+%% DELETE THE LINE ABOVE (\begin{thebibliography}{20})
+%% AND THE LINE BELOW (\end{thebibliography})
+
+\end{thebibliography}
+
+
+\vspace*{-0.5\baselineskip}
+% this space adjustment is usually necessary after a bibliography
+
+\end{document}
+
+
+%% READ ME
+%% READ ME
+%% READ ME
+
+INSTRUCTIONS FOR SUPPLYING INFORMATION IN THE CORRECT FORMAT:
+
+1. Author names are listed as First Last, First Last, and First
+Last.
+
+\absauth{FirstName1 LastName1, FirstName2 LastName2, and
+FirstName3 LastName3}
+
+
+2. Titles of abstracts have ONLY the first letter capitalized,
+except for Proper Nouns.
+
+\meettitle{Title of abstract with initial capital letter only,
+except for Proper Nouns}
+
+
+3. Affiliations and email addresses for authors of abstracts are
+  listed separately.
+
+% First author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{First author's email}
+%%% NOTE: email required for at least one author
+\urladdr{OPTIONAL}
+%
+% Second author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{Second author's email} \urladdr{OPTIONAL}
+%
+% Third author's affiliation
+\affil{Department, University, Street Address, Country}
+% Second author's email
+\meetemail{Third author's email} \urladdr{OPTIONAL}
+
+
+4. Bibliographic Entries
+
+%%%% IF references are submitted with abstract,
+%%%% please use the following formats
+
+%%% For a Journal article
+\bibitem{cite1}
+{\scshape Author's Name}, {\itshape Title of article},
+{\bfseries\itshape Journal name spelled out, no abbreviations},
+vol.~XX (XXXX), no.~X, pp.~XXX--XXX.
+
+%%% For a Journal article by the same authors as above,
+%%% i.e., authors in cite1 are the same for cite2
+\bibitem{cite2}
+\bysame {\itshape Title of article}, {\bfseries\itshape Journal},
+vol.~XX (XXXX), no.~X, pp.~XX--XXX.
+
+%%% For a book
+
+
+%%% For an article in proceedings
+\bibitem{cite4}
+{\scshape Author's Name}, {\itshape Title of article},
+{\bfseries\itshape Name of proceedings} (Address of meeting),
+(First Last and First2 Last2, editors), vol.~X, Publisher, Year,
+pp.~X--XX.
+
+%%% For an article in a collection
+\bibitem{cite5}
+{\scshape Author's Name}, {\itshape Title of article},
+{\bfseries\itshape Book title} (First Last and First2 Last2,
+editors), Publisher, Publisher's address, Year, pp.~X--XX.
+
+%%% An edited book
+\bibitem{cite6}
+Author's name, editor. % No special font used here
+{\bfseries\itshape Title of book}, Publisher, Publisher's address,
+Year.

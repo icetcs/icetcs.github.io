@@ -1,0 +1,81 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex. 
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION 
+%% BELOW FOR INSTRUCTIONS. 
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from 
+%% http://aslonline.org/abstractresources.html. 
+
+
+\documentclass[bsl,meeting]{asl}
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW; 
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP  
+\absauth{Andrei Sipo\c s}
+\meettitle{On extracting variable Herbrand disjunctions}
+\affil{Research Center for Logic, Optimization and Security (LOS), Department of Computer Science, Faculty of Mathematics and Computer Science, University of Bucharest, Academiei 14, 010014 Bucharest, Romania}
+\affil{Simion Stoilow Institute of Mathematics of the Romanian Academy, Calea Grivi\c tei 21, 010702 Bucharest, Romania}
+\meetemail{andrei.sipos@fmi.unibuc.ro}
+\urladdr{https://cs.unibuc.ro/\~{}asipos/}
+
+In 2005, Gerhardy and Kohlenbach \cite{GerKoh05} gave a new proof of the classical Herbrand theorem, by using the Shoenfield variant \cite{Sho67} of G\"odel's {\it Dialectica} interpretation. Such proof interpretations usually serve as a loose analogue to Herbrand's theorem for systems which include arithmetical axioms; they play a central role in the research program of {\it proof mining}, given maturity by the school of Kohlenbach \cite{Koh08}, where they are applied to ordinary mathematical proofs in order to uncover new information.
+
+Even though proof interpretations usually produce terms expressible in sophisticated systems, it has been observed that sometimes the extracted terms may take the form of a classical Herbrand disjunction but of variable length. What we do here is to logically elucidate this empirical fact, by extending the proof of Gerhardy and Kohlenbach to theories which are on the level of first-order arithmetic, dealing with the corresponding recursors (used to interpret induction) through Tait's infinite terms \cite{Tai65}.
+
+The results presented in this talk may be found in \cite{SipXX}.
+
+\begin{thebibliography}{20}
+\bibitem{GerKoh05}
+{\scshape P. Gerhardy, U. Kohlenbach},
+{\itshape Extracting Herbrand disjunctions by functional interpretation},
+{\bfseries\itshape Archive for Mathematical Logic},
+vol.~44 (2005), no.~5, pp.~633--644.
+
+\bibitem{Koh08}
+{\scshape U. Kohlenbach},
+{\bfseries\itshape Applied proof theory: Proof interpretations and their use in mathematics},
+Springer Monographs in Mathematics,
+Springer-Verlag,
+2008.
+
+\bibitem{Sho67}
+{\scshape J. Shoenfield},
+{\bfseries\itshape  Mathematical Logic},
+Addison-Wesley Series in Logic,
+Addison-Wesley Publishing Co.,
+1967.
+
+\bibitem{SipXX}
+{\scshape A. Sipo\c s},
+{\itshape On extracting variable Herbrand disjunctions},
+arXiv:2111.12133 [math.LO], 2021. To appear in: {\bfseries\itshape Studia Logica}.
+
+\bibitem{Tai65}
+{\scshape W. W. Tait},
+{\itshape Infinitely long terms of transfinite type},
+{\bfseries\itshape Formal Systems and Recursive Functions}
+(J. N. Crossley and M. A. E. Dummett, editors),
+Elsevier,
+Amsterdam,
+1965,
+pp.~176--185.
+\end{thebibliography}
+
+
+\vspace*{-0.5\baselineskip}
+% this space adjustment is usually necessary after a bibliography
+
+\end{document}

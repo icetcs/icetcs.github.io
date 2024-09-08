@@ -1,0 +1,367 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex. 
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION 
+%% BELOW FOR INSTRUCTIONS. 
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from 
+%% http://aslonline.org/abstractresources.html. 
+
+
+\documentclass[bsl,meeting]{asl}
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+
+
+
+% 
+% 
+% 
+% \usepackage{amsfonts,qtree,stmaryrd,textcomp}
+% \usepackage{pifont,amssymb,amsmath,amsthm,tabularx,graphicx}
+% \usepackage{tree-dvips,pictexwd,dcpic}
+% \usepackage{bbm}
+% \usepackage{bm}
+% 
+% 
+% \usepackage{stmaryrd}
+% 
+% %\usepackage{undertilde}
+% %\usepackage{bussproofs}
+% \usepackage[T1]{fontenc}
+% \usepackage[latin1]{inputenc}
+% %\usepackage[ngerman]{babel}
+% \usepackage[text={17cm,26cm},centering]{geometry}
+% 
+% 
+% 
+% \usepackage{etex}
+% %\usepackage{a4wide}
+% \usepackage{fancyhdr}
+% \usepackage{graphicx}
+% %\usepackage{german}
+% %\usepackage[bookmarks,pdfpagelabels]{hyperref}
+% %\usepackage[pdfpagelabels]{hyperref}
+% %\usepackage{hyperref}
+% 
+% %\usepackage[latin1]{inputenc}
+% %\usepackage{amsthm}
+% %\usepackage{appendix}
+% %\usepackage[toc,pages]{appendix} % makes a page only with "Appendices".
+% \usepackage{enumitem}
+% \usepackage{amsmath}
+% \usepackage[bbgreekl]{mathbbol}% order sensitive; it is before amssymb
+% \usepackage{amssymb}
+% \usepackage{amsthm}
+% \usepackage[all]{xy}
+% 
+% 
+% 
+
+\newcommand{\B}{\boldsymbol}
+   %Bold math symbol, use as \B{a}
+\newcommand{\C}[1]{\mathcal{#1}}
+   %Euler Script - only caps, use as \C{A}
+\newcommand{\D}[1]{\mathbb{#1}}
+   %Doubles - only caps, use as \D{A}
+\newcommand{\F}[1]{\mathfrak{#1}}
+   %Fraktur, use as \F{a}
+\newcommand{\M}[1]{\mathscr{#1}}
+
+
+% 
+% 
+ \newcommand{\Chu}{\textnormal{\textbf{Chu}}}
+% \newcommand{\CMC}{\mathrm{CMC}}
+% \newcommand{\CSMC}{\mathrm{CSMC}}
+% 
+% \newcommand{\tro}{\rightarrowtriangle}
+% 
+% 
+% \newcommand{\mto}{\hookrightarrow}
+% 
+% %\newcommand{\MOR}{\textnormal{\textbf{Mor}}}
+% 
+% \newcommand{\op}{\mathrm{op}}
+% 
+% \newcommand{\sym}{\mathrm{sym}}
+% 
+% 
+% 
+% 
+% \newcommand{\Fun}{\mathrm{Fun}}
+% 
+% \newcommand{\cnt}{\mathrm{cnt}}
+% 
+% 
+% 
+% \newcommand{\Inf}{\textnormal{\textbf{Inf}}}
+% 
+% 
+% \newcommand{\crTop}{\textnormal{\textbf{crTop}}}
+% 
+% 
+% \newcommand{\fin}{\textnormal{\texttt{fin}}}
+% 
+% \newcommand{\Aff}{\textnormal{\textbf{Aff}}}
+% 
+% 
+% 
+% 
+% 
+% \newcommand{\Hom}{\mathrm{Hom}}
+% 
+% 
+% 
+% 
+% \newcommand{\Sub}{\textnormal{\textbf{Sub}}}
+% 
+% 
+% 
+% \newcommand{\Groth}{\textnormal{\textbf{Groth}}}
+% 
+% \newcommand{\ccCat}{\textnormal{\textbf{ccCat}}}
+% 
+% 
+% 
+% \newcommand{\Ob}{\mathrm{Ob}}
+% 
+% 
+% \newcommand{\Rel}{\textnormal{\textbf{Rel}}}   
+% 
+% 
+% 
+% \newcommand{\smallCat}{\textnormal{\textbf{smallCat}}}
+% \newcommand{\finSet}{\textnormal{\textbf{finSet}}}
+% \newcommand{\simplSet}{\textnormal{\textbf{simplSet}}}
+% 
+% \newcommand{\CCC}{\mathrm{CCC}}
+% 
+% 
+% \newcommand{\End}{\mathrm{End}}
+
+
+
+\newcommand{\CHU}{\textnormal{\textbf{CHU}}}
+
+
+\newcommand{\Set}{\mathrm{\mathbf{Set}}}
+
+
+
+
+\newcommand{\Disj}{\B \rrbracket \B \llbracket}
+
+\newcommand{\BISH}{\mathrm{BISH}}
+
+
+
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+
+
+
+
+
+
+
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW; 
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP  
+\absauth{Iosif Petrakis}
+\meettitle{Positive negation in constructive mathematics}
+\affil{Mathematisches Institut, Ludwig-Maximilians-Universit\"at M\"unchen, Theresienstrasse 39, D-80333 Munich, Germany}
+\meetemail{petrakis@math.lmu.de}
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+
+
+In standard constructive logic negation is treated as in classical logic in a negativistic and weak way. 
+This is in contrast to the use of a positive and strong ``or'' and ``exists''. 
+In constructive mathematics~\cite{BB85}
+however, we often find a positive and strong approach to negatively defined concepts, 
+like that of inequality.
+This fact motivates a clear distinction between a positive and strong negation and the standard weak negation.
+Bringing together older ideas of Griss and
+Nelson and recent work of Shulman~\cite{Sh21} and ours~\cite{Pe21}, we investigate the role of a positive and 
+strong negation in Bishop-style constructive mathematics $\BISH$. We define the positive negation of a formula in
+$\BISH$, we determine the formulas of $\BISH$ that are used to define the equality of a Bishop set, and we define the 
+canonical inequality of a Bishop set through positive negation of its given equality formula. Consequently, many 
+seemingly ad hoc definitions of concepts of $\BISH$, such as the complement of a subset, the empty subset,
+complemented subsets, and the $F$-complement of a closed set, are canonical definitions through 
+positive negation.   
+
+
+
+
+% 
+% 
+% If $\C C$ is a closed symmetric monoidal category (CSMC) and $\gamma$ is an object of $\C C$, 
+% the Chu category $\Chu(\C C, \gamma)$ over 
+% $\C C$ and $\gamma$ was defined by Chu 
+% in~\cite{Ba79}, as a $*$-autonomous category generated from $\C C$. 
+% In~\cite{Bi67} Bishop introduced the thin category 
+% $\C P^{\neq}(X)$ 
+% of complemented subsets of a set $X$, in order to overcome 
+% the problems generated by the use of negation in constructive measure theory. In~\cite{Sh18} Shulman mentions
+% that Bishop's complemented subsets correspond roughly to the Chu construction. Here we explain
+% this correspondence by showing that there is a Chu representation (a full embedding) of $\C P^{\neq}(X)$ into 
+% $\Chu(\Set, X \times X)$. A Chu representation of the category of Bishop spaces into $\Chu(\Set, \D R)$ is shown, as 
+% the constructive analogue to the standard Chu representation of the category of topological spaces into $\Chu(\Set, 2)$.
+% In order to represent the category of predicates (with objects pairs $(X, A)$, where $A$ is a subset of $X$), 
+% and the category of complemented predicates (with objects pairs $(X, A)$, where $A$ is a complemented subset of $X$),
+% we generalise the Chu construction by defining the Chu category over a CSMC $\C C$ and an endofunctor 
+% $\Gamma \colon \C C \to \C C$.
+
+\begin{thebibliography}{10}
+
+%% INSERT YOUR BIBLIOGRAPHIC ENTRIES HERE; 
+%% SEE (4) BELOW FOR PROPER FORMAT.
+%% EACH ENTRY MUST BEGIN WITH \bibitem{citation key}
+%%
+%% IF THERE ARE NO ENTRIES  
+%% DELETE THE LINE ABOVE (\begin{thebibliography}{20}) 
+%% AND THE LINE BELOW (\end{thebibliography})
+
+% \bibitem{Ba79}
+% {\scshape M.~Barr},
+% {\bfseries\itshape  $^*$-Autonomous Categories},
+% LNM 752, Springer-Verlag, 1979.
+% 
+
+
+\bibitem{BB85}
+{\scshape E.~Bishop, D.~Bridges},
+{\bfseries\itshape Constructive Analysis},
+Springer-Verlag, 1985.
+
+\bibitem{Pe21}
+{\scshape I.~Petrakis},
+{\itshape Families of Sets in Bishop Set Theory},
+{\bfseries\itshape arXiv:2109.04183v1 }
+(2021).
+
+\bibitem{Sh21}
+{\scshape M.~Shulman},
+{\itshape Affine Logic for Constructive Mathematics},
+{\bfseries\itshape arXiv:1805.07518v2}
+(2021).
+
+\end{thebibliography}
+
+
+\vspace*{-0.5\baselineskip}
+% this space adjustment is usually necessary after a bibliography
+
+\end{document}
+
+
+%% READ ME
+%% READ ME
+%% READ ME
+
+INSTRUCTIONS FOR SUPPLYING INFORMATION IN THE CORRECT FORMAT: 
+
+1. Author names are listed as First Last, First Last, and First Last.
+
+\absauth{FirstName1 LastName1, FirstName2 LastName2, and FirstName3 LastName3}
+
+
+2. Titles of abstracts have ONLY the first letter capitalized,
+except for Proper Nouns.
+
+\meettitle{Title of abstract with initial capital letter only, except for
+Proper Nouns} 
+
+
+3. Affiliations and email addresses for authors of abstracts are
+  listed separately.
+
+% First author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{First author's email}
+%%% NOTE: email required for at least one author
+\urladdr{OPTIONAL}
+%
+% Second author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{Second author's email}
+\urladdr{OPTIONAL}
+%
+% Third author's affiliation
+\affil{Department, University, Street Address, Country}
+% Second author's email
+\meetemail{Third author's email}
+\urladdr{OPTIONAL}
+
+
+4. Bibliographic Entries
+
+%%%% IF references are submitted with abstract,
+%%%% please use the following formats
+
+%%% For a Journal article
+\bibitem{cite1}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Journal name spelled out, no abbreviations},
+vol.~XX (XXXX), no.~X, pp.~XXX--XXX.
+
+%%% For a Journal article by the same authors as above,
+%%% i.e., authors in cite1 are the same for cite2
+\bibitem{cite2}
+\bysame
+{\itshape Title of article},
+{\bfseries\itshape Journal},
+vol.~XX (XXXX), no.~X, pp.~XX--XXX.
+
+%%% For a book
+\bibitem{cite3}
+{\scshape Author's Name},
+{\bfseries\itshape Title of book},
+Name of series,
+Publisher,
+Year.
+
+%%% For an article in proceedings
+\bibitem{cite4}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Name of proceedings}
+(Address of meeting),
+(First Last and First2 Last2, editors),
+vol.~X,
+Publisher,
+Year,
+pp.~X--XX.
+
+%%% For an article in a collection
+\bibitem{cite5}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Book title}
+(First Last and First2 Last2, editors),
+Publisher,
+Publisher's address,
+Year,
+pp.~X--XX.
+
+%%% An edited book
+\bibitem{cite6}
+Author's name, editor. % No special font used here
+{\bfseries\itshape Title of book},
+Publisher,
+Publisher's address,
+Year.
+

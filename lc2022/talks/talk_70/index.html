@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Compositional proof-theoretic semantics for natural language. - Logic Colloquium 2022</title>
+  <meta name="description" content="Talk by Will Stafford at Logic Colloquium 2022" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:image" content="http://localhost:4000/lc2022/assets/images/twitter_preview.png" />
+  <meta name="twitter:title" content="Compositional proof-theoretic semantics for natural language." />
+  <meta name="twitter:description" content="Talk by Will Stafford at Logic Colloquium 2022" />
+
+  <meta property="og:site_name" content="Logic Colloquium 2022" />
+  <meta property="og:image" content="http://localhost:4000/lc2022/assets/images/facebook_preview.png" />
+  <meta property="og:url" content="http://localhost:4000/lc2022/talks/talk_70/" />
+  <meta property="og:title" content="Compositional proof-theoretic semantics for natural language." />
+  <meta property="og:description" content="Talk by Will Stafford at Logic Colloquium 2022" />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="/lc2022/assets/css/main.css?t=1725450393" />
+
+  <link rel="preload" as="font" href="/lc2022/assets/webfonts/fa-regular-400.woff2" type="font/woff2" crossorigin="anonymous" />
+  <link rel="preload" as="font" href="/lc2022/assets/webfonts/fa-solid-900.woff2" type="font/woff2" crossorigin="anonymous" />
+  <link rel="prefetch" as="image" href="/lc2022/assets/icons/live.svg" type="image/svg+xml" crossorigin="anonymous" />
+  <link rel="prefetch" as="fetch" href="/lc2022/assets/js/data.json" type="application/json" crossorigin="anonymous" />
+</head>
+
+<body class="pb-4">
+  <header>
+    <!-- navigation bar (web only): --><nav class="navbar navbar-expand-md navbar-light bg-light mb-3">
+  <div class="container">
+
+    <a class="navbar-brand" href="/lc2022/">Logic Colloquium 2022</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown0" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Home
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbar-dropdown0">
+                  <a class="dropdown-item" href="/lc2022/" title="About">
+                    About
+                  </a>
+                  <a class="dropdown-item" href="/lc2022/important_dates/" title="Important Dates">
+                    Important Dates
+                  </a>
+                  <a class="dropdown-item" href="/lc2022/pc/" title="Program Committee">
+                    Program Committee
+                  </a>
+              </div>
+            </li>
+            <li class="nav-item "><a class="nav-link" href="/lc2022/cfp/" title="CFP">
+                CFP
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Program
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbar-dropdown2">
+                  <a class="dropdown-item" href="/lc2022/program/" title="Schedule">
+                    Schedule
+                  </a>
+                  <a class="dropdown-item" href="/lc2022/plenary/" title="Plenary Speakers">
+                    Plenary Speakers
+                  </a>
+                  <a class="dropdown-item" href="/lc2022/special_sessions/" title="Special Sessions">
+                    Special Sessions
+                  </a>
+              </div>
+            </li>
+            <li class="nav-item "><a class="nav-link" href="/lc2022/location/" title="Location">
+                Location
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Previous Editions
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbar-dropdown4">
+                  <a class="disabled dropdown-item" href="#">
+                    2022 (current)
+                  </a>
+                  <a class="dropdown-item" href="https://lc2021.pl/" title="2021">
+                    2021
+                  </a>
+                  <a class="dropdown-item" href="https://lc2019.cz/" title="2019">
+                    2019
+                  </a>
+                  <a class="dropdown-item" href="https://lc18.uniud.it/" title="2018">
+                    2018
+                  </a>
+                  <a class="dropdown-item" href="https://www.math-stockholm.se/konferenser-och-akti/logic-in-stockholm-2/logic-colloquium-201/logic-colloquium-2017-august-14-20-1.717629" title="2017">
+                    2017
+                  </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Registration
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbar-dropdown5">
+                  <a class="dropdown-item" href="/lc2022/fees/" title="Fees">
+                    Fees
+                  </a>
+                  <a class="dropdown-item" href="https://kom.eventsair.com/logic-colloquium/logic22reg/Site/Register" title="Registration Form">
+                    Registration Form
+                  </a>
+              </div>
+            </li>
+      </ul>
+    </div>
+
+  </div>
+</nav><!-- site title (print only): -->
+      <div class="container d-none d-print-block mt-4 mb-4">
+        <h1 class="display-4">
+          Logic Colloquium 2022
+        </h1>
+      </div></header>
+  <main class="container"><div class="d-flex flex-lg-row flex-column container-fluid mb-2 p-0">
+    <div class="h6 mt-2 mb-0 mr-1 pr-1 pb-1">
+      
+      <span class="p-1 pl-2 pr-2 border-soft-warning bg-soft-warning font-weight-normal">
+        Talk
+      </span>
+    </div>
+
+    
+  </div><h1 class="font-weight-light">Compositional proof-theoretic semantics for natural language.</h1><p class="mb-3 font-weight-light">
+    <a class="text-reset" href="/lc2022/speakers/will-stafford/">Will Stafford</a>
+  </p>
+
+  <div class="mb-3 p-0">
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+      
+    
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+    
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+    
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <span class="live-hide" data-start="1656633600" data-end="1656633600"><span class="d-none d-sm-inline">
+                <!--true-->
+                On
+            </span> <a href="/lc2022/program#fri" class="badge badge-light font-weight-normal text-left ">
+  <i class="far fa-clock"></i>&nbsp;Fri, 17:10</a></span><a title="" data-toggle="modal" data-target="#stream-modal" data-room="M208" href="#" class="live-show live-button badge badge-dark font-weight-normal text-center d-none " data-start="1656633600" data-end="1656633600">
+    <object data="/lc2022/assets/icons/live.svg" type="image/svg+xml">!</object>
+    Live</a><span class="d-none d-sm-inline ml-1">in</span> <a href="/lc2022/rooms/M208/" class="badge badge-light font-weight-normal"><i class="far fa-square"></i>&nbsp;M208</a><span class="d-none d-sm-inline ml-1">for</span> <span class="badge badge-light font-weight-normal text-left">
+  <i class="fas fa-stopwatch"></i>&nbsp;20min
+</span>
+
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+    
+  </div>
+  <div class="mb-3 p-0"><a href="/lc2022/ct/Stafford.pdf" class="badge badge-light font-weight-normal">PDF Abstract</a></div>
+  <div class="mb-3 p-0"><div class="badge badge-light font-weight-normal">Online</div></div>
+
+  
+
+
+  
+
+  
+
+  
+
+  <p class="d-print-none mt-5">
+    <a href="/lc2022/talks" class="btn btn-light">
+      <i class="fas fa-bullhorn"></i>&nbsp;Overview
+    </a>
+
+    <a href="/lc2022/program" class="btn btn-light">
+      <i class="far fa-calendar-alt"></i>&nbsp;Program
+    </a>
+  </p>
+  </main>
+  <footer class="container"></footer><div class="modal fade" id="link-modal" tabindex="-1" role="dialog" aria-labelledby="link-modal-label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title" id="link-modal-label">
+          <h3 class="mb-2 font-weight-light"></h3>
+          <h5 class="mb-0 font-weight-light"></h5>
+        </div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer justify-content-start">
+        <p></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="stream-modal" tabindex="-1" role="dialog" aria-labelledby="link-modal-label" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">
+          Live Stream
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="" frameborder="none" allowfullscreen="allowfullscreen" seamless="seamless" scrolling="no"></iframe>
+        <div id="stream-placeholder" class="embed-responsive-item d-none justify-content-center align-items-center">
+          <div></div>
+        </div>
+      </div>
+
+      <div class="modal-footer flex-column justify-content-start d-none live-past" id="stream-info" data-time="">
+        <div class="my-0 small align-self-start live-time" id="stream-info-time" data-time=""></div>
+        <div class="pl-2 align-self-start" id="stream-info-color">
+          <p class="mb-0">
+            <a class="text-reset" href="#" id="stream-info-talk"></a>
+          </p>
+          <p class="font-weight-light mb-0" id="stream-info-speakers"></p>
+        </div>
+      </div>
+
+      <div class="modal-footer justify-content-around"><a id="stream-button1" href="#" class="btn btn-outline-primary d-none d-sm-inline disabled" role="button" data-room="Main - M101">
+            Main - M101
+          </a><a id="stream-button2" href="#" class="btn btn-outline-primary d-none d-sm-inline disabled" role="button" data-room="M101 [M103]">
+            M101 [M103]
+          </a><a id="stream-button3" href="#" class="btn btn-outline-primary d-none d-sm-inline disabled" role="button" data-room="M101 [M105]">
+            M101 [M105]
+          </a><a id="stream-button4" href="#" class="btn btn-outline-primary d-none d-sm-inline disabled" role="button" data-room="M103">
+            M103
+          </a><a id="stream-button5" href="#" class="btn btn-outline-primary d-none d-sm-inline disabled" role="button" data-room="M104">
+            M104
+          </a><a id="stream-button6" href="#" class="btn btn-outline-primary d-none d-sm-inline disabled" role="button" data-room="M105">
+            M105
+          </a><a id="stream-button7" href="#" class="btn btn-outline-primary d-none d-sm-inline disabled" role="button" data-room="M208">
+            M208
+          </a><a id="stream-button8" href="#" class="btn btn-outline-primary d-none d-sm-inline disabled" role="button" data-room="M209">
+            M209
+          </a><a id="stream-button9" href="#" class="btn btn-outline-primary d-none d-sm-inline disabled" role="button" data-room="V102 [M104]">
+            V102 [M104]
+          </a><a id="stream-button10" href="#" class="btn btn-outline-primary d-none d-sm-inline disabled" role="button" data-room="Local Information">
+            Local Information
+          </a>
+        <div class="form-group w-100 d-block d-sm-none">
+          <select class="form-control" id="stream-select"><option value="1" disabled>Main - M101</option><option value="2" disabled>M101 [M103]</option><option value="3" disabled>M101 [M105]</option><option value="4" disabled>M103</option><option value="5" disabled>M104</option><option value="6" disabled>M105</option><option value="7" disabled>M208</option><option value="8" disabled>M209</option><option value="9" disabled>V102 [M104]</option><option value="10" disabled>Local Information</option>
+          </select>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- Append build time to avoid caching of live program embedded in JavaScript file -->
+  <script src="/lc2022/assets/js/main.js?t=1725450393"></script>
+
+  <center> <small> If you encounter any issues with this website, please get in touch with <a href="mailto:leoe@ru.is">Léo Exibard</a>. </small> </center>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+\documentclass[bsl,meeting]{asl}
+
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+
+\begin{document}
+\thispagestyle{empty}
+
+
+\NP  
+\absauth{Luca San Mauro}
+\meettitle{Computable reductions of equivalence relations}
+\affil{Department of Mathematics, Sapienza University of Rome}
+\meetemail{luca.sanmauro@uniroma1.it}
+
+
+The study of the complexity of equivalence relations has been a major
+thread of research in diverse areas of logic. A reduction of an equivalence relation $E$ on a domain $X$ to an equivalence relation $F$ on
+a domain $Y$ is a function $f : X \rightarrow Y$ which induces an injection on the quotient sets, $X_{/E}\rightarrow Y_{/F}$.
+ In the literature, there are two main definitions for this reducibility: 
+\begin{itemize}
+\item In descriptive set theory, \emph{Borel reducibility} is defined by assuming that $X$ and $Y$ are Polish spaces and $f$ is Borel;
+\item  In computability theory, \emph{computable reducibility} is defined by
+assuming that $X$ and $Y$ coincide with the set of natural numbers
+and $f$ is computable.
+\end{itemize}
+
+The theory of Borel equivalence relations is
+a central field of modern descriptive set theory and it shows deep connections with topology, group theory, combinatorics, model theory, and ergodic
+theory -- to name a few. On the other hand, computable reducibility dates back to the 1970s and it found remarkable applications in a diverse collection of fields, including the theory of numberings, proof theory, computable structure theory, combinatorial algebra, and theoretical computer science. 
+
+
+Despite the clear analogy between the two notions, for a long time the study of Borel
+and computable reducibility were conducted independentely. Yet, it is rapidly emerging a theory of computable reductions which blends ideas from both computability theory and descriptive set theory.  This tutorial will overview such a theory. We will present computable, or computably enumerable, analogs of fundamental concepts from the Borel theory (e.g., benchmark equivalence relations, dichotomy results,  orbit equivalence relations, the Friedman-Stanley jump), highlighting differences and similarities between  the Borel and the computable setting.  We will also report on recent progress in the abstract study of computable reducibility, focusing on both
+ local structures of equivalence relations of given complexity and the global structure of all equivalence relations on the natural numbers.
+\end{document}

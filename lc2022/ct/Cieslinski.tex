@@ -1,0 +1,231 @@
+%% FIRST RENAME THIS FILE <yoursurname>.tex. 
+%% BEFORE COMPLETING THIS TEMPLATE, SEE THE "READ ME" SECTION 
+%% BELOW FOR INSTRUCTIONS. 
+%% TO PROCESS THIS FILE YOU WILL NEED TO DOWNLOAD asl.cls from 
+%% http://aslonline.org/abstractresources.html. 
+
+
+\documentclass[bsl,meeting]{asl}
+
+
+
+
+
+
+\newtheorem{examp}{}
+
+
+
+
+
+
+\newcommand{\sentt}{Sent_{L_T}}
+\newcommand{\sentpa}{Sent_{\lpa}}
+\newcommand{\lt}{L_T}
+\newcommand{\lpa}{L_{PA}}
+\newcommand{\lkb}{L_{K, B}}
+\newcommand{\tria}{\vartriangleleft}
+\newcommand{\etria}{\trianglelefteq}
+\newcommand{\trias}{\vartriangleleft^*}
+\newcommand{\etrias}{\trianglelefteq^*}
+\newcommand{\twk}{T^{WK}}
+\newcommand{\tsk}{T^{SK}}
+\newcommand{\omck}{\omega_1^{CK}}
+
+\newcommand{\axiom}[1]{\ensuremath{\text{\textsc{\lowercase{#1}}}}}
+\newcommand{\nec}{\axiom{NEC}}
+\newcommand{\conec}{\axiom{CONEC}}
+\newcommand{\gen}{\axiom{GEN}}
+\newcommand{\Ref}{\axiom{REF}}
+\newcommand{\con}{\axiom{CON}}
+\newcommand{\cent}[1]{\begin{center} {\large #1}   \end{center}}
+
+\newcommand{\hr}{\axiom{HR}}
+
+
+\newcommand{\LL}{  ${L^*_\emptyset}$ }
+\newcommand{\Vo}{V_\omega}
+\newcommand{\msk}{\models_{sk}}
+
+\newcommand{\uu}{\cup}
+\newcommand{\UU}{\bigcup}
+\newcommand{\nn}{\cap}
+\newcommand{\NN}{\bigcap}
+
+\newcommand{\imp}{\Rightarrow}
+\newcommand{\revimp}{\Leftarrow}
+\newcommand{\disj}{\vee}
+\newcommand{\Disj}{\bigvee}
+\newcommand{\conj}{\wedge}
+\newcommand{\Conj}{\bigwedge}
+
+\newcommand{\cart}{\times}    %%%!!!
+
+\newcommand{\Equiv}{\Longleftrightarrow}
+
+\newcommand{\typ}{\mbox{\bf {\sf TYP}}}
+\newcommand{\goed}[1]{ \ulcorner #1 \urcorner }
+\newcommand{\g}[1]{\goed{#1}}
+\newcommand{\isfunc}[3]{#1: #2 \longrightarrow #3}
+\AbstractsOn
+
+\pagestyle{plain}
+
+\def\urladdr#1{\endgraf\noindent{\it URL Address}: {\tt #1}.}
+
+
+\newcommand{\NP}{}
+%\usepackage{verbatim}
+
+\begin{document}
+\thispagestyle{empty}
+
+%% BEGIN INSERTING YOUR ABSTRACT DIRECTLY BELOW; 
+%% SEE INSTRUCTIONS (1), (2), (3), and (4) FOR PROPER FORMATS
+
+\NP  
+\absauth{Cezary Cie\'sli\'nski}
+\meettitle{Two halves of disjunctive correctness}
+\affil{Faculty of Philosophy, University of Warsaw, Poland}
+\meetemail{c.cieslinski@uw.edu.pl} \\ \\
+
+%% INSERT TEXT OF ABSTRACT DIRECTLY BELOW
+The disjunctive correctness principle (DC) states that a disjunction of arbitrary length is true if and only if one of its disjuncts is true. On first sight, the principle seems an innocent and natural generalization of the familiar compositional truth axiom for disjunction, which states that a disjunction of $two$ sentences is true if and only if one of them is true. Since the generalized version applies to disjunctions of arbitrary lengths, it can be applied also in non-standard models of arithmetic, where some disjunctions will have a non-standard length.
+
+Ali Enayat and Fedor Pakhomov (see \cite{enpa}) demonstrated that adding (DC) to the classical compositional truth theory $CT^-$ permits to prove $\Delta_0$ induction for the language with the truth predicate, hence it produces a non-conservative extension of the background arithmetical theory (see \cite{wcislyk}).
+
+We will present the proof of a stronger result. Let (DC-Elim) be just one direction of (DC), namely, the implication ``if a disjunction is true, then one of it disjuncts is true''. We will show that already (DC-Elim) carries the full strength of $\Delta_0$ induction; moreover, the proof of this fact will be significantly simpler than the original argument of Enayat and Pakhomov.
+
+Let (DC-intro) be the opposite direction of (DC), namely, the implication ``if a given sentence $\varphi$ is true, then a disjunction having $\varphi$ as a disjunct is true''. Unlike (DC-Elim), (DC-intro) can be conservatively added to the truth axioms of $CT^-$.
+ \\ \\
+
+\begin{thebibliography}{10}
+
+\bibitem{enpa}
+{\scshape Enayat, Ali and Pakhomov, Fedor},
+{\itshape Truth, disjunction, and induction},
+{\bfseries\itshape Archive for
+Mathematical Logic},
+vol.~58 (2019), pp.~753--766.
+
+\bibitem{wcislyk}
+{\scshape \L{}e\l{}yk, Mateusz and Wcis\l{}o, Bartosz},
+{\itshape Notes on bounded induction for the composi-
+tional truth predicate},
+{\bfseries\itshape Review of Symbolic Logic},
+vol.~10 (2017), pp.~355--480.
+%% INSERT YOUR BIBLIOGRAPHIC ENTRIES HERE; 
+%% SEE (4) BELOW FOR PROPER FORMAT.
+%% EACH ENTRY MUST BEGIN WITH \bibitem{citation key}
+%%
+%% IF THERE ARE NO ENTRIES  
+%% DELETE THE LINE ABOVE (\begin{thebibliography}{20}) 
+%% AND THE LINE BELOW (\end{thebibliography})
+
+\end{thebibliography}
+
+
+\vspace*{-0.5\baselineskip}
+% this space adjustment is usually necessary after a bibliography
+
+\end{document}
+
+
+%% READ ME
+%% READ ME
+%% READ ME
+
+INSTRUCTIONS FOR SUPPLYING INFORMATION IN THE CORRECT FORMAT: 
+
+1. Author names are listed as First Last, First Last, and First Last.
+
+\absauth{FirstName1 LastName1, FirstName2 LastName2, and FirstName3 LastName3}
+
+
+2. Titles of abstracts have ONLY the first letter capitalized,
+except for Proper Nouns.
+
+\meettitle{Title of abstract with initial capital letter only, except for
+Proper Nouns} 
+
+
+3. Affiliations and email addresses for authors of abstracts are
+  listed separately.
+
+% First author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{First author's email}
+%%% NOTE: email required for at least one author
+\urladdr{OPTIONAL}
+%
+% Second author's affiliation
+\affil{Department, University, Street Address, Country}
+\meetemail{Second author's email}
+\urladdr{OPTIONAL}
+%
+% Third author's affiliation
+\affil{Department, University, Street Address, Country}
+% Second author's email
+\meetemail{Third author's email}
+\urladdr{OPTIONAL}
+
+
+4. Bibliographic Entries
+
+%%%% IF references are submitted with abstract,
+%%%% please use the following formats
+
+%%% For a Journal article
+\bibitem{cite1}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Journal name spelled out, no abbreviations},
+vol.~XX (XXXX), no.~X, pp.~XXX--XXX.
+
+%%% For a Journal article by the same authors as above,
+%%% i.e., authors in cite1 are the same for cite2
+\bibitem{cite2}
+\bysame
+{\itshape Title of article},
+{\bfseries\itshape Journal},
+vol.~XX (XXXX), no.~X, pp.~XX--XXX.
+
+%%% For a book
+\bibitem{cite3}
+{\scshape Author's Name},
+{\bfseries\itshape Title of book},
+Name of series,
+Publisher,
+Year.
+
+%%% For an article in proceedings
+\bibitem{cite4}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Name of proceedings}
+(Address of meeting),
+(First Last and First2 Last2, editors),
+vol.~X,
+Publisher,
+Year,
+pp.~X--XX.
+
+%%% For an article in a collection
+\bibitem{cite5}
+{\scshape Author's Name},
+{\itshape Title of article},
+{\bfseries\itshape Book title}
+(First Last and First2 Last2, editors),
+Publisher,
+Publisher's address,
+Year,
+pp.~X--XX.
+
+%%% An edited book
+\bibitem{cite6}
+Author's name, editor. % No special font used here
+{\bfseries\itshape Title of book},
+Publisher,
+Publisher's address,
+Year.
+

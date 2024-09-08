@@ -1,0 +1,167 @@
+
+%%****************************************************************************%%
+%%                                                                            %%
+%% Article Title                                                              %%
+%%                                                                            %%
+%% Article.tex                                                                %%
+%%                                                                            %%
+%% Copyright (C) 20xx, Fabio Mogavero.                                        %%
+%% All rights reserved.                                                       %%
+%%                                                                            %%
+%%****************************************************************************%%
+
+% Begin of file Article.tex
+
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+
+\documentclass[bsl, meeting, bibother]{asl}
+
+\input{Format}
+
+% \input{Macros}
+
+% \input{Figures}
+
+% \input{Tables}
+
+% \input{Algorithms}
+
+
+\hyphenation{}
+
+
+\hypersetup
+  {
+  pdftitle  = {Alternating (In)Dependence-Friendly Logic},
+  pdfauthor = {F. Mogavero}
+  }
+
+
+\AbstractsOn
+\pagestyle{plain}
+
+
+\begin{document}
+
+  \thispagestyle{empty}
+  \absauth{Fabio Mogavero}
+  \meettitle{Alternating (In)Dependence-Friendly Logic~\ddag}
+  \affil{Universit\`a degli Studi di Napoli Federico II}
+  \meetemail{fabio.mogavero@unina.it}
+
+  \vspace{0.5em}
+
+  \emph{Informational independence} is a phenomenon that emerges quite naturally
+  in \emph{game theory}, as players in a game make moves based on what they know
+  about the state of the current play~\cite{NM44}.
+  %
+  In games such as Chess or Go, both players have \emph{perfect information}
+  about the current state of the play and the moves they and their adversary
+  have previously made.
+  For other games, like Poker and Bridge, the players have to make decisions
+  based only on \emph{imperfect information} on the state of the play.
+  %
+  Given the tight connection between games and logics, think for instance at
+  \emph{game-theoretic semantics}~\cite{Lor61,Lor68,Hin73}, a number of
+  proposals have been put forward to reason with or about informational
+  independence, most notably, \emph{Independence-Friendly Logic}~\cite{HS89},
+  \emph{Dependence Logic}~\cite{Vaa07}, and logics derived thereof.
+
+  Independence-Friendly Logic (\IF) was originally introduced by Hintikka and
+  Sandu~\cite{HS89}, and later extensively studied, \eg, in~\cite{MSS11}, as an
+  extension of \emph{First-Order Logic} (\FOL) with informational independence
+  as first-class notion.
+  Unlike in \FOL, where quantified variables always functionally depend on all
+  the previously quantified ones, the values for quantified variables in \IF can
+  be chosen independently of the values of specific variables quantified before
+  in the formula.
+  %
+  From a general game-theoretic viewpoint, however, the \IF semantics exhibits
+  some limitations.
+  It treats the players asymmetrically, truly allowing only one of the two
+  players to have imperfect information. In addition, sentences of the logic can
+  only encode the existence of a uniform winning strategy for one of the two
+  players and, as a consequence, \IF does admit undetermined sentences, which
+  are neither true nor false.
+
+  In this talk I will present an extension of \IF, called \emph{Alternating
+  (In)Dependence Friendly Logic} (\ADIF), tailored to overcome these limitations
+  and that appears more adequate when reasoning about games with full imperfect
+  information is the main concern.
+  To this end, we introduce a novel compositional semantics, generalising
+  Hodges' semantics for \IF based on trumps/teams~\cite{Hod97a,Vaa07,MSS11},
+  which
+  \begin{inparaenum}[(i)]
+    \item
+      allows for restricting the two players, aiming at describing both
+      symmetric and asymmetric imperfect information games,
+    \item
+      recovers the law of excluded middle for sentences, and
+    \item
+      grants \ADIF the full descriptive power of \emph{Second Order Logic}.
+  \end{inparaenum}
+  We also provide both an equivalent Herbrand-Skolem semantics and a
+  game-theoretic semantics for the prenex fragment of \ADIF, the latter being
+  defined in terms of a determined infinite-duration game that precisely
+  captures the compositional semantics on finite structures.
+
+  \vspace{0.5em}
+
+  \footnotesize
+  \bibliographystyle{plain}
+
+  \begin{thebibliography}{1}
+
+  \bibitem{Hin73}
+  J.~Hintikka.
+  \newblock {\em {Logic, Language-Games and Information: Kantian Themes in the
+    Philosophy of Logic.}}
+  \newblock Oxford University Press, 1973.
+
+  \bibitem{HS89}
+  J.~Hintikka and G.~Sandu.
+  \newblock {Informational Independence as a Semantical Phenomenon.}
+  \newblock In {\em ICLMPS'89}, pages 571--589. Elsevier, 1989.
+
+  \bibitem{Hod97a}
+  W.~Hodges.
+  \newblock {Compositional Semantics for a Language of Imperfect Information.}
+  \newblock {\em LJIGPL}, 5(4):539--563, 1997.
+
+  \bibitem{Lor68}
+  K.~Lorenz.
+  \newblock {Dialogspiele als Semantische Grundlage von Logikkalk\"ulen.}
+  \newblock {\em AMLG}, 11:32--55, 1968.
+
+  \bibitem{Lor61}
+  P.~Lorenzen.
+  \newblock {Ein Dialogisches Konstruktivit\"atskriterium.}
+  \newblock In {\em SFM'59}, pages 193--200. PWN, 1961.
+
+  \bibitem{MSS11}
+  A.L. Mann, G.~Sandu, and M.~Sevenster.
+  \newblock {\em {Independence-Friendly Logic - A Game-Theoretic Approach.}}
+  \newblock CUP, 2011.
+
+  \bibitem{Vaa07}
+  J.A. V{\"a}{\"a}n{\"a}nen.
+  \newblock {\em {Dependence Logic: A New Approach to Independence Friendly
+    Logic.}}, volume~70 of {\em {London Mathematical Society Student Texts.}}
+  \newblock CUP, 2007.
+
+  \bibitem{NM44}
+  J.~von Neumann and O.~Morgenstern.
+  \newblock {\em {Theory of Games and Economic Behavior.}}
+  \newblock Princeton University Press, 1944.
+
+  \end{thebibliography}
+
+  \normalsize
+  \noindent
+  \ddag~Joint work with Dylan Bellier, Massimo Benerecetti, and Dario Della
+  Monica.
+
+\end{document}
+
+% End of file Article.tex
