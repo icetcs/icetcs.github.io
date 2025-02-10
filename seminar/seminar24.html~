@@ -3,8 +3,6 @@
 <head>
   <title>ICE-TCS: Seminar 2024</title>
 
-  <link rel="icon"  type="image/x-icon" href="ru-icon.png">
-
   <link rel="stylesheet" type="text/css" href="../icetcs.css" />
 </head>
 
@@ -31,7 +29,7 @@ Reykjavik), but we usually also stream them by Zoom.</p>
 
 <li>
   Mon, 9 December 2024, 13:00, room M113:<br />
-  <a href="https://www.long.direct/">Quan Long</a>, ENS Paris Saclay, <br />
+  Quan Long, ENS Paris Saclay, <br />
   <i>Centre of strong graded monads</i>.
 </li>
 

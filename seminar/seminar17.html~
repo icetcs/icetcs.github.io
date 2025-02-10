@@ -1,0 +1,113 @@
+<html>
+
+<head>
+  <title>ICE-TCS: Seminar 2017</title>
+
+  <link rel="stylesheet" type="text/css" href="../icetcs.css" />
+</head>
+
+<body>
+
+<h2>Seminar 2017</h2>
+
+<p>Here are the talks given in 2017 in the ICE-TCS seminar 
+  series.</p>
+
+<ul>
+
+
+<li> Thursday, 9 November 2017, 11:00, room M1.02:<br />
+<a href="http://www.cs.toronto.edu/~bor/">Allan Borodin</a>,
+  University of Toronto,<br />
+<i>Online bipartite matching revisited</i>.
+</li>
+
+<li> Monday, 9 October 2017, 12:10, room M1.03:<br />
+  <a href="https://cs.ioc.ee/~tarmo/">>Tarmo Uustalu</a>,
+Reykjavik University and Tallinn University of Technology,
+<i>Directed containers: shape, position and subshape fun</i>.
+</li>
+
+<li> Monday, 2 October 2017, 12:10, room M1.03:<br />
+  <a href="https://webdocs.cs.ualberta.ca/~hayward/">Ryan Hayward</a>,
+University of Alberta<br />
+<i>Hexbots post-AlphaGo</i>.
+</li>
+
+<li> Monday, 25 September 2017, 12:10, room M1.03:<br />
+  Eyjólfur Ingi Ásgeirsson, Reykjavik University,
+ <i>Universal framework for wireless scheduling problems</i>.
+</li>
+
+<li> Friday, 12 May 2017, 12:15, room M1.13:<br />
+<a href=https://dl.dropboxusercontent.com/u/1356725/caltais/index.html>Georgiana
+  Caltais</a>, University of Konstanz,<br />
+<i>Causality checking to support functional safety in cyber-physical systems: the quantUM
+approach</i>.
+</li>
+
+<li> Thursday, 27 April 2017, 16:00, room M2.08:<br />
+  <a href="https://www.cs.cornell.edu/~kozen/">Dexter Kozen</a>,
+  Cornell University,<br />
+  <i>NetKAT: a formal system for the verification of networks</i>. 
+</li>
+
+<li> Friday, 21 April 2017, 12:15, room M1.13:<br />
+  Christian Bean, Reykjavik University,<br />
+  <i>Creating a
+virtual combinatorist</i>.<br />
+<a href="https://www.ru.is/haskolinn/lidnir-vidburdir/ice-tcs-seminar-christian-bean-2">details</a>
+</li>
+
+<li> Friday, 7 April 2017, 12:15, room M1.13:<br />
+  Piotr Lasek, University Rzeszów<br />
+<i>Interactive data visualization through inductive aggregation</i>.<br />
+A joint CRESS/ICE-TCS talk.<br />
+<a href="https://www.ru.is/haskolinn/vidburdir/cress-talk-interactive-data-visualization-through-inductive-aggregation">details</a>
+</li>
+
+<li> Friday, 17 March 2017, 12:15, room M1.13:<br />
+<a href="http://dblp2.uni-trier.de/pers/hd/c/Cassar:Ian">Ian Cassar</a>,
+  University of Malta<br />
+<i>Different Flavours of Runtime Monitoring</i>.<br />
+<a href="https://www.ru.is/haskolinn/vidburdir/ice-tcs-talk-ian-cassar-university-of-malta">details</a>
+</li>
+
+<li> Friday, 3 March 2017, 12:15, room M1.13:<br />
+<a href="https://remybelmonte.wordpress.com/about/">Rémy Belmonte</a>,
+University of Electro-Communications, Tokyo<br />
+<i>Defective coloring on classes of perfect graphs</i>.<br />
+<a href="http://www.ru.is/haskolinn/vidburdir/ice-tcs-seminar-remy-belmonte">details</a>
+</li>
+
+<li> Friday, 24 February 2017, 12:15, room M1.13:<br />
+<a href="http://www.win.tue.nl/~luttik/">Bas Luttik</a>, TU Eindhoven,<br />
+ <i>Executability
+theory</i>.<br />
+<a href="http://www.ru.is/haskolinn/vidburdir/ice-tcs-seminar-bas-luttik-eindhoven-university-of-technology">details</a>
+</li>
+
+<li> Friday, 10 February 2017, 12:15, room M1.13:<br />
+  Baldur Blöndal, Chalmers University of
+Technology and Reykjavík Functional Programming group, <i>Functional
+programming and types</i>.<br /> 
+<a href="http://www.ru.is/haskolinn/vidburdir/ice-tcs-functional-programming-types">details</a>
+</li>
+
+<li> Friday, 27 January 2017, 12:15, room M.13:<br />
+  <a href="http://antonis.ws.gc.cuny.edu/">Antonis Achilleos</a>,
+  Reykjavik University<br />
+<i>Determinizing monitors for HML with recursion</i>.
+</li>
+
+
+
+</ul>
+
+<hr />
+
+<address>
+Last update 7 June 2024
+</address>
+
+</body>  

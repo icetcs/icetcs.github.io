@@ -1,0 +1,106 @@
+<html>
+
+<head>
+  <title>ICE-TCS: Seminar 2022</title>
+
+  <link rel="stylesheet" type="text/css" href="../icetcs.css" />
+</head>
+
+<body>
+
+<h2>Seminar 2022</h2>
+
+<p>Here is the list of talks given in 2022 in the ICE-TCS seminar 
+series.</p>
+
+<ul>
+
+<li>
+  15 December 2022, 14:00, room M102:<br />
+  Maxime Flin,
+  Reykjavik University,<br />
+  <i>Distributed palette sparsification</i>.<br />
+  Details <a href="https://gamli.ru.is/haskolinn/vidburdir-hr/allir-vidburdir/seminar-maxime-flin">here</a>.
+</li>  
+
+<li>
+  1 December 2022, 14:00, room V105:<br />
+  Valentina Castiglioni,
+  Reykjavik University,<br />
+  <i>Uncertainties, adaptability and verification</i>.
+</li>
+
+<li>
+  24 November 2022, 14:00, room V105 (speaker online):<br />
+  Lukas Nabergall
+  [<a href="https://scholar.google.com/citations?user=1JdLSEwAAAAJ">GS</a>],
+  University of Waterloo,<br />
+  <i>Finding structure in chord diagrams</i>.
+</li>  
+
+<li>
+  23 November 2022, 14:00, room M209:<br />
+  <a href="https://homes.cs.aau.dk/~kgl/">Kim G. Larsen</a>,
+  Aalborg University,<br />
+  <i>On-line testing and monitoring of real-time systems</i>.<br />
+  Details <a href="https://gamli.ru.is/haskolinn/vidburdir-hr/allir-vidburdir/on-line-testing-and-monitoring-of-real-time-systems">here</a>.
+</li>  
+
+<li>
+  17 November 2022, 14:00, room M109:<br />
+  Aggeliki Chalki,
+  Reykjavik University,<br />
+  <i>Descriptive complexity of hard counting problems with an easy decision version</i>.<br />
+  Details <a href="https://gamli.ru.is/haskolinn/vidburdir-hr/allir-vidburdir/descriptive-complexity-of-hard-counting-problems-with-an-easy-decision-version">here</a>.
+</li>
+
+<li>
+  7 November 2022, 15:00, room M109:<br />
+  <a href="https://arkor.co/">Nathanael Arkor</a>,
+  Masaryk University, Brno,<br />
+  <i>A 2-dimensional perspective on polymorphism</i>.<br />
+  Details <a href="https://gamli.ru.is/haskolinn/vidburdir-hr/allir-vidburdir/a-2-dimensional-perspective-on-polymorphism">here</a>.
+</li>
+
+<li>
+  27 October 2022, 14:00, room M109:<br />
+  <a href="https://sites.google.com/view/giulio-cerbai/">Giulio Cerbai</a>,
+  University of Iceland,<br />
+  <i>A solution to the flip problem via Fishburn trees</i>.
+</li>
+
+<li>
+  18 October 2022, 15:00, room M104:<br />
+  <a href="https://nicolapaoletti.com/">Nicola Paoletti</a>,
+  King's College London,<br />
+  <i>On guaranteed optimal robust explanations for NLP models</i>.<br />
+  Details <a href="https://gamli.ru.is/haskolinn/vidburdir-hr/allir-vidburdir/on-guaranteed-optimal-robust-explanations-for-nlp-models">here</a>.
+</li>
+
+<li>
+  13 October 2022, 14:00, room M109:<br />
+  <a href="https://www.eng.biu.ac.il/rawitzd/">Dror Rawitz</a>,
+  Bar-Ilan University,<br />
+  <i>You're fired! greedy set selection with dismissals</i>.<br />
+  Details <a href="https://gamli.ru.is/haskolinn/vidburdir-hr/allir-vidburdir/you_re-fired-greedy-set-selection-with-dismissals">here</a>.
+</li>
+
+<li>
+  26 September 2022, 12:00, room M208:<br />
+  <a href="http://www.es.mdh.se/staff/3242-Marjan_Sirjani">Marjan Sirjani</a>,
+  Mälardalen University,<br />
+  <i>Integrating design-time and run-time methods for detecting cyber-attacks</i>.
+</li>  
+
+
+</li>  
+
+</ul>
+
+<hr />
+
+<pre>
+Last update 11 April 2024
+</pre>
+
+</body>  
