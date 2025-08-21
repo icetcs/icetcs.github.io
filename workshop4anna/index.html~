@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  
+<meta charset="UTF-8">
+
+<title> Workshop for Anna Ingólfsdóttir</title> 
+
+<link rel="icon"  type="image/x-icon" href="../ru-icon.png">
+
+<link rel="STYLESHEET" type="text/css" href="../icetcs.css">
+
+</head>
+  
+<body>
+
+<center>
+<h2>Anna Ingólfsdóttir <br> 
+From functional analysis to learning, <br> via bioinformatics, concurrency theory and logic <p> 
+Friday, 14 November 2025, from 13:00 till 15:45 <br>
+Room M220, Reykjavik University</h2>
+</center>
+
+<center>
+<image width="40%" src="Photo_Anna.jpg">
+</center>
+
+<h3>Aim of the workshop</h3>
+
+This workshop celebrates Anna Ingólfsdóttir's academic career spanning a period of nearly forty years. <p>
+
+After finishing a master's degree with a thesis in functional analysis, in 1987 Anna Ingólfsdóttir wrote a master's thesis in Computer Science titled "Fra Hennessy-Milner logik til CCS-processer" (From Hennessy-Milner logic to CCS processes), co-authored with <a href="https://dblp.org/pid/g/JCGodskesen.html">Jens Christian Godskesen</a> and Michael Zeeberg under <a href="https://kgl.cs.aau.dk/">Kim G. Larsen</a>'s supervision. She then obtained a DPhil in Computer Science under <a href="https://scholar.google.com/citations?user=wIto1LUAAAAJ&hl=en">Matthew Hennessy</a>'s supervision at the University of Sussex. Her subsequent research journey has offered contributions to a variety of topics in Computer Science, including algebras of processes, bioinformatics, concurrency theory, learning probabilistic models, logic in computer science and runtime monitoring.
+See Anna's <a href="https://dblp.org/pid/i/AIngolfsdottir.html">DBLP page</a> and her profile on <a href="https://scholar.google.com/citations?user=B0YC1p8AAAAJ&hl=en">Google Scholar</a> for more information on her research output.  A profile of her research (in Icelandic) is available <a href="https://www.visindavefur.is/svar.php?id=76919">here</a>. <p>
+
+Anna Ingólfsdóttir joined Reykjavik University in September 2005 and became the first female full professor in Computer Science in Iceland in 2006. She co-founded the <a href="https://icetcs.github.io/">Icelandic Centre of Excellence in Theoretical Computer Science</a> at the end of April 2005 and has been a scientific co-director of that centre since then. Before joining Reykjavik University, she held positions at Aalborg University, the University of Iceland, DeCode Genetics and the University of Sussex, as well as visiting positions at the Chinese Academy of Sciences, DTU, Universidad Complutense Madrid and the University of Florence, amongst others. <p>
+
+At Reykjavik University, Anna has supervised seven PhD students and mentored ten postdoctoral researchers. Today, one of her mentees is a full professor, four are associate professors, four are assistant professors and five hold research positions at high-quality universities and research centres. She has also co-authored a widely used <a href="https://rsbook.cs.aau.dk/">textbook</a> on modelling, specification and verification of reactive systems, published by Cambridge University Press.
+
+<h3>Programme of the workshop (TBC)</h3>
+
+<ul>
+<li>13:00-13:05: Welcome </li>
+<li>13:05-13:35: <a href="https://kgl.cs.aau.dk/">Kim G. Larsen</a> (Aalborg University, Denmark). <I>TBA</I> </li>
+<li>13:35-14:05: <a href="https://l0e42.github.io/">Elli Anastasiadi</a> (Aalborg University, Denmark). <I>TBA</I> </li>
+<li>14:05-14:30: Coffee break </li>
+<li>14:30-15:00: <a href="https://homes.cs.aau.dk/~giovbacci/">Giovanni Bacci</a> (Aalborg University, Denmark). <I>TBA</I> </li>
+<li> 15:00-15:30: <a href="https://www.southampton.ac.uk/people/668l6v/doctor-maria-oskarsdottir">Maria Oskarsdottir</a> (University of Southampton, UK, and Reykjavik University, Iceland). <I>TBA</I> </li>
+<li> 15:30-15:45: Closing </li>
+</ul>
+
+<hr />
+<address>
+Last update: 20 August 2025
+</address>  
+
+</body>  
+  
+</html>
