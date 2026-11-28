@@ -1,12 +1,592 @@
 <html>
 
-  <head>
-    <meta http-equiv="refresh" content="1; url=https://cs.ioc.ee/~tarmo/qei/" />
-  </head>
+<head>
 
-  <body>
-    Redirecting
-    to <a href="https://cs.ioc.ee/~tarmo/">https://cs.ioc.ee/~tarmo/qei</a>...
-  </body>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<title>Quantified computational effects and interaction</title>
+
+<link rel="icon"  type="image/x-icon"
+      href="https://icetcs.github.io/ru-icon.png">
+
+<link rel="stylesheet" type="text/css" 
+      href="https://icetcs.github.io/icetcs.css">
+
+</head>
+
+<body>
+
+<h1>Quantified computational effects and interaction</h1>
+    
+<p>This is a research project funded by
+the <a href="https://en.rannis.is/funding/research/icelandic-research-fund/">Icelandic
+Research Fund</a>, run at the Department of Computer Science of
+<a href="http://en.ru.is/">Reykjavik University</a> from Jan. 2019
+to Dec. 2021 (extended until Aug. 2022).</p>
+
+
+<h3>Research programme</h3>
+
+<p>We study the following topics:</p>  
+
+<ul>
+<li>graded monads and monad-like objects,</li>
+<li>graded distributive laws,</li>  
+<li>interaction laws of monads and monad-like objects.
+</ul>  
+
+<h3>People</h3>
+
+<h4>Participants</h4>
+
+<ul>
+  <li><a href="https://cs.ioc.ee/~tarmo/">Tarmo Uustalu</a>, PI</li>
+  <li><a href="https://group-mmm.org/~s-katsumata/index-e.html">Shin-ya Katsumata</a> (NII, Tokyo), co-PI</li>
+  <li><a href="https://maciejpirog.github.io/">Maciej Piróg</a> (U. of Wroclaw), co-PI</li>
+  <br />
+  <li><a href="https://dylanm.org/">Dylan McDermott</a>, postdoc</li>
+  <li>Yasuaki Morita, PhD student</li>  
+  <li>Ülo Reimaa (U. of Tartu), guest postdoc</li> 
+</ul>  
+
+<h4>Collaborators</h4>
+
+<ul>
+  <li><a href="https://danel.ahman.ee/">Danel Ahman</a> (U. of Ljubljana)</li>
+  <li><a href="https://lipn.univ-paris13.fr/~breuvart/">Flavien Breuvart</a> (LIPN)</li>
+  <li><a href="https://www8.cs.fau.de/people/sergey-goncharov/">Sergey Goncharov</a> (FAU Erlangen-Nürnberg)</li>
+  <li><a href="https://alfa.di.uminho.pt/~nevrenato/">Renato Neves</a> (INESC Tec and U. do Minho)</li>
+  <li><a href="https://dcc.fceia.unr.edu.ar/~erivas/">Exequiel Rivas</a> (Inria Paris, then UN Rosario)</li>
+  <li><a href="https://niccoloveltri.github.io/">Niccolò Veltri</a> (Tallinn UT)</li>
+  <li><a href="https://nvoorneveld.com/">Niels Voorneveld</a> (Tallinn UT)</li>   
+</ul>  
+
+
+<h3>Project activity</h3>
+
+<h4>Research and conference visits</h4>
+
+<ul>
+  <li>Tarmo Uustalu, RU &rarr; Xitou (IFIP WG 2.1 #78), 16-23 March 2019</li> 
+  <li><span style="color:gray">Sergey Goncharov, FAU Erlangen-Nürnberg &rarr; RU, 26 March-4
+  Apr. 2019 <i>(paid by FAU Erlangen-Nürnberg)</i></span></li>
+  <li>Exequiel Rivas, Inria Paris &rarr; RU, 26 Apr.-4 May 2019</li>
+  <li>Tarmo Uustalu, RU &rarr; London (CALCO/MFPS '19),
+    3-7 June 2019</li>
+  <li><span style="color:gray">Tarmo Uustalu, RU &rarr; Amsterdam (CONCUR '19), 25-31 Aug. 2019 <i>(funded by T.U.'s RU research grant)</i></span></li>
+  <li><span style="color:gray">Tarmo Uustalu, RU &rarr; LIPN, U. Sorbonne Paris Nord, 16-30 Sept. 2019 <i>(paid by LIPN)</i></span></li> 
+  <li>Maciej Piróg, U. of Wroclaw &rarr; RU, 28 Nov.-2 Dec. 2019</li>
+  <li>Renato Neves, U. do Minho &rarr; RU, 1-8 Dec. 2019</li>
+  <li><span style="color:gray">Tarmo Uustalu, RU &rarr; Otterlo (IFIP WG 2.1 #79), 5-8 Jan. 2020 <i>(funded by T.U.'s RU research grant)</i></span></li> 
+  <li>Shin-ya Katsumata, NII Tokyo &rarr; RU, 26 Jan.-6 Feb. 2020</li>
+  <li>Ülo Reimaa, U. of Tartu &rarr; RU, 31 Jan.-15 March 2020</li>
+  <li>Dylan McDermott, RU &rarr; U. of Cambridge, 2-4 Feb. 2020</li>
+  <li><span style="color:gray">Niccolò Veltri, Tallinn UT &rarr; RU, 16-21 Feb. 2020 <i>(paid by Tallinn UT)</i></span></li>
+  <li><span style="color:gray">Niels Voorneveld, Tallinn UT &rarr; RU, 10-15 March 2020 <i>(paid by Tallinn UT)</i></span></li>
+  <li>Exequiel Rivas, Inria Paris &rarr; RU, 18-29 Aug. 2020</li>
+  <li>Tarmo Uustalu, RU &rarr; U. of Wroclaw, 23-31 Aug. 2021</li>
+  <li>Dylan McDermott, RU &rarr; U. of Wroclaw and Tallinn UT (incl. PPDP '21), 24 Aug.-13 Sept. 2021</li>
+  <li>Yasuaki Morita,  RU &rarr; Tallinn UT, 4-18 Oct. 2021</li>
+  <li><span style="color:gray">Niels Voorneveld, Tallinn UT &rarr; RU, 29 Oct.-12 Nov. 2021 <i>(paid by Tallinn UT)</i></span></li>
+  <li>Dylan McDermott, RU &rarr; Tallinn (SYCO-8), 12-20 Dec. 2021</li>
+  <li><span style="color:gray">Tarmo Uustalu, RU &rarr; &#321;ód&zacute; (NCL '22), <!--(12)-->13-18<!--(20)--> March 2022 <i>(funded by T.U.'s RU research grant)</i></span></li>
+  <li>Dylan McDermott, RU &rarr; München (ETAPS '22), 1-7 Apr. 2022</li>
+  <li><span style="color:gray">Tarmo Uustalu, RU &rarr; München (ETAPS '22), 1-5 Apr. 2022 <i>(funded by T.U.'s RU research grant)</i></span></li>
+  <li>Dylan McDermott, RU &rarr; Brno (PSSL-106), 13-18 May 2022 <i>(funded partially by T.U.'s RU research grant)</i></li>
+</ul>
+
+
+<h4>Talks of visitors at RU</h4>
+
+<ul>
+
+<li>S. Goncharov, Guarded traced categories for recursion and
+  iteration (joint work with L. Schröder, P. B. Levy), talk at ICE-TCS
+  seminar, RU, 2 Apr. 2019</li>
+
+<li>E. Rivas, Effects and monads: merging operators (joint work with
+  M. Jaskelioff), keynote talk at ICE-TCS Theory Day, RU, 3 May 2019</li>
+
+<li>M. Piróg, Equational theories and monads from polynomial Cayley
+  representations (joint work with P. Polesiuk, F. Sieczkowski), talk
+  at ICE-TCS seminar, RU, 29 Nov. 2019</li>
+
+<li>S. Katsumata, Differentiable causal computations via delayed trace
+  (joint work with D. Sprunger), talk at ICE-TCS seminar, RU, 27
+  Jan. 2020</li>
+
+<li>N. Veltri, Formalizing pi-calculus in Guarded Cubical
+  Agda (joint work with A. Vezzosi), talk at ICE-TCS seminar, RU, 17
+  Feb. 2020</li>
+
+<li>N. Voorneveld, Inductive and coinductive predicate liftings for
+  effectful programs (joint work with N. Veltri), talk at ICE-TCS
+  seminar, RU, 8 Nov. 2021</li>
+</ul>  
+
+
+<h3>Results and dissemination</h3>
+
+<h4>Articles</h4>
+
+<ul>
+
+<li>D. Ahman, <b>T. Uustalu</b>. Decomposing comonad morphisms. 
+In M. Roggenbach, A. Sokolova, eds., <i>Proc. of 8th Conf. on Algebra 
+and Coalgebra in Computer Science, CALCO 2019 (London, June 2019)</i>, 
+v. 139 of <i>Leibniz Int. Proc. in Inf.</i>, art. 14, 19 pp. Dagstuhl 
+Publishing, 2019. <a 
+href="https://doi.org/10.4230/lipics.calco.2019.14">doi:10.4230/lipics.calco.2019.14</a></li>
+
+<li><b>S. Katsumata</b>, E. Rivas, <b>T. Uustalu</b>. Interaction laws
+of monads and comonads. In <i>Proc. of 35th Ann. ACM/IEEE Symp. on
+Logic in Computer Science, LICS&nbsp;2020 (Saarbrücken, July
+2020)</i>, pp.  604-618. ACM Press,
+2020. <a href="https://doi.org/10.1145/3373718.3394808">doi:10.1145/3373718.3394808</a>  [<a href="https://cs.ioc.ee/~tarmo/qei/katsumata-rivas-uustalu-lics20.pdf">copy</a>]</li>
+
+<li><b>D. McDermott</b>, <b>M. Piróg</b>, <b>T. Uustalu</b>. Degrading
+lists. In
+<i>Proc. of 22nd Int. Symp. on Principles and Practice of Declarative
+Languages, PPDP 2020 (Bologna, Sept. 2020)</i>, <i>ACM
+Int. Conf. Proc.  Series</i>, art. 6, 14 pp. ACM Press,
+2020. <a href="https://doi.org/10.1145/3414080.3414084">doi:10.1145/3414080.3414084</a> <!--[<a 
+href="https://dl.acm.org/doi/10.1145/3414080.3414084?cid=81100651156">free 
+copy via ACM Author-Izer</a>]-->
+[<a href="https://hdl.handle.net/20.500.11815/4018">postprint in Opin vísindi</a>] 
+<!--[<a href="https://cs.ioc.ee/~tarmo/qei/mcdermott-pirog-uustalu-ppdp20.pdf">copy</a>]-->
+</li>
+
+<li><b>T. Uustalu</b>, N. Veltri, N. Zeilberger. Eilenberg-Kelly
+reloaded. <i>Electron. Notes in Theor. Comput. Sci.</i>, v. 352 (P.
+Johann, ed., Proc. of 36th Conf. on Mathematical Foundations of
+Programming Semantics, MFPS XXXVI, Paris, June 2020), pp. 233-256,
+2020.
+<a 
+   href="https://doi.org/10.1016/j.entcs.2020.09.012">doi:10.1016/j.entcs.2020.09.012</a></li>
+
+<li><b>T. Uustalu</b>, N. Veltri, N. Zeilberger. Proof theory of 
+partially normal skew monoidal categories. In D. I. Spivak, J. Vicary, 
+eds., <i>Proc. of 3rd Ann. Int. Applied Category Theory Conf., ACT 2020 
+(Cambridge, MA, July 2020)</i>, v. 333 of <i>Electron. Proc. in Theor. 
+Comput. Sci.</i>, pp. 230-246. Open Publishing Assoc., 2021. <a 
+href="https://doi.org/10.4204/eptcs.333.16">doi:10.4204/eptcs.333.16</a></li>
+
+<li><b>T. Uustalu</b>, N. Voorneveld. Algebraic and coalgebraic
+perspectives on interaction laws. In B. C. d. S. Oliveira,
+ed., <i>Proc.  of 18th Asian Symp. on Programming Languages and
+Systems, APLAS 2020 (Fukuoka, Nov./Dec. 2020)</i>, v. 12470
+of <i>Lect. Notes in Comput.  Sci.</i>, pp. 186-205. Springer,
+  2020. <a href="https://doi.org/10.1007/978-3-030-64437-6_10">doi:10.1007/978-3-030-64437-6_10</a>
+[<a href="https://hdl.handle.net/20.500.11815/4001">postprint in Opin vísindi</a>] 
+ <!--[<a href="https://cs.ioc.ee/~tarmo/qei/uustalu-voorneveld-aplas20.pdf">copy</a>]--></li>
+
+<li><b>T. Uustalu</b>, N. Veltri, N. Zeilberger. Deductive 
+systems and coherence for skew prounital closed categories. In C. 
+Sacerdoti Coen, A. Tiu, eds., <i>Proc. of 15th Int. Wksh. on Logical 
+Frameworks and Metalanguages: Theory and Practice, LFMTP 2020 (Paris, 
+June 2020)</i>, v. 332 of <i>Electron. Proc. in Theor. Comput. Sci.</i>, 
+pp. 35-53. Open Publishing Assoc., 2021. <a 
+href="https://doi.org/10.4204/eptcs.332.3">doi:10.4204/eptcs.332.3</a></li>
+
+<li>N. Arkor, <b>D. McDermott</b>. Abstract clones for abstract
+syntax. In N. Kobayashi, ed., <i>Proc.  of 6th Int. Conf. on Formal
+Structures for Computation and Deduction, FSCD 2021 (Buenos Aires,
+July 2021)</i>, v. 195 of <i>Leibniz Int. Proc.  in Inform.</i>,
+art. 30, 19 pp. Dagstuhl Publishing,
+  2021. <a href="https://doi.org/10.4230/lipics.fscd.2021.30">doi:10.4230/lipics.fscd.2021.30</a></li>
+
+<li><b>D. McDermott</b>, E. Rivas, <b>T. Uustalu</b>. Sweedler theory
+of monads. In P. Bouyer, L. Schröder, eds., <i>Proc. of 25th
+Int. Conf. on Foundations of Software Science and Computation
+Structures, FoSSaCS 2022 (Munich, Apr. 2022)</i>, v. 13242 of <i>Lect.
+Notes in Comput. Sci.</i>, pp. 428-448. Springer,
+2022. <a href="https://doi.org/10.1007/978-3-030-99253-8_22">doi:10.1007/978-3-030-99253-8_22</a></li>
+
+<li><b>T. Uustalu</b>, N. Veltri, C.-S. Wan. Proof theory of
+skew non-commutative MILL.  In A. Indrzejczak, M. Zawidzki, eds.,
+<i>Proc. of 10th Int. Conf. on Non-classical Logics: Theory and
+Applications, NCL '22 (&#321;ód&#378;, March 2022)</i>, v. 358
+of <i>Electron. Proc. in Theor. Comput. Sci.</i>, pp. 118-135. Open
+Publishing Assoc., 2022.
+<a href="https://doi.org/10.4204/eptcs.358.9">doi:10.4204/eptcs.358.9</a></li>
+
+<li><b>D. McDermott</b>, <b>T. Uustalu</b>. What makes a strong monad?
+In J.  Gibbons, M. S. New, eds., <i>Proc. of 9th Wksh. on
+Mathematically Structured Functional Programming, MSFP 2022 (Munich,
+Apr. 2022)</i>, v. 360 of
+<i>Electron Proc. in Theor. Comput. Sci.</i>, pp. 113-133. Open
+Publishing Assoc.,
+2022. <a href="https://doi.org/10.4204/eptcs.360.6">doi:10.4204/eptcs.360.6</a></li>
+
+<li><b>D. McDermott</b>, A. Mycroft. Galois connecting call-by-value
+and call-by-name. In A. Felty, ed., <i>Proc. of 7th Int. Conf. on
+Formal Structures for Computation and Deduction, FSCD 2022 (Haifa,
+Aug. 2022)</i>, v. 228 of <i>Leibniz Int. Proc. in Inform.</i>,
+art. 32, 19 pp. Dagstuhl Publishing,
+2022. <a href="https://doi.org/10.4230/lipics.fscd.2022.32">doi:10.4230/lipics.fscd.2022.32</a></li>
+
+<li><b>D. McDermott</b>, <b>T. Uustalu</b>. Flexibly graded monads and
+graded algebras.  In E. Komendantskaya, ed., <i>Proc. of 14th
+Int. Conf. on Mathematics of Program Construction, MPC 2022 (Tbilisi,
+Sept. 2022)</i>, v. 13544 of <i>Lect. Notes in Comput. Sci.</i>,
+pp. 102-128.  Springer,
+  2022. <a href="https://doi.org/10.1007/978-3-031-16912-0_4">doi:10.1007/978-3-031-16912-0_4</a>
+[<a href="https://hdl.handle.net/20.500.11815/4016">postprint in Opin vísindi</a>] 
+  <!--[<a href="https://cs.ioc.ee/~tarmo/qei/mcdermott-uustalu-mpc22.pdf">copy</a>]-->
+</li>
+
+<li><b>S. Katsumata</b>, <b>D. McDermott</b>, <b>T. Uustalu</b>,
+N. Wu. Flexible presentations of graded monads. <i>Proc. of ACM on
+Program. Lang.</i>, v. 6, n. ICFP (Proc. of 27th ACM SIGPLAN
+Int. Conf. on Functional Programming, ICFP '22, Ljubljana,
+Sept. 2022), art. 123, 29 pp., 2022.
+<a href="https://doi.org/10.1145/3547654">doi:10.1145/3547654</a>
+</li>
+
+<li>F. Breuvart, <b>D. McDermott</b>, <b>T. Uustalu</b>. Canonical
+gradings of monads.  In J. Master, M. Lewis, eds., <i>Proc. of 5th
+Int. Conf. on Applied Category Theory, ACT 2022 (Glasgow, July
+2022)</i>, v. 380 of <i>Electron. Proc. in Theor Comput. Sci.</i>,
+pp. 1-21.  Open Publishing Assoc.,
+2023. <a href="https://doi.org/10.4204/eptcs.380.1">doi:10.4204/eptcs.380.1</a></li>
+
+<li><b>D. McDermott</b>, <b>Y. Morita</b>, <b>T. Uustalu</b>. A type
+system with subtyping for WebAssembly's stack polymorphism. In
+H. Seidl, Z. Liu, C. S. Pasareanu, eds., <i>Proc. of 19th
+Int. Coll. on Theoretical Aspects of Computing, ICTAC 2022 (Tbilisi,
+Sept. 2022)</i>, v. 13572 of <i>Lect. Notes in Comput. Sci.</i>,
+pp. 305-323.  Springer,
+  2022. <a href="https://doi.org/10.1007/978-3-031-17715-6_20">doi:10.1007/978-3-031-17715-6_20</a>
+ [<a href="https://hdl.handle.net/20.500.11815/4017">postprint in Opin vísindi</a>] 
+<!--[<a href="https://cs.ioc.ee/~tarmo/qei/mcdermott-morita-uustalu-ictac22.pdf">copy</a>]--></li>
+
+</ul>
+
+
+<h4>Talks</h4>
+
+<ul>
+
+<li>T. Uustalu, The functional programming revolution, talk at
+  UTmessan, Reykjavik, 8 Feb. 2019
+  [<a href="https://www.youtube.com/watch?v=E2Wwd4Rzt1E">video<a>]</li>
+  
+<li>T. Uustalu, Decomposing comonad morphisms (joint work with
+  D. Ahman), talk at CALCO 2019, London, 3-6 June 2019</li>
+
+<li>T. Uustalu, Concurrent monads of resumptions and traces, talk at
+  RADICAL 2019, Amsterdam, 26 Aug. 2019</li>
+
+<li>T. Uustalu, Resumption monads for shared-memory concurrency, talk
+  at Joint Estonian-Latvian Theory Days in Pärnu, 11-13 Oct. 2019</li>
+
+<li>D. McDermott, On the relation between call-by-value and
+  call-by-name (joint work with A. Mycroft), talk at ICE-TCS seminar,
+  RU, 4 Nov. 2019</li>
+
+<li>T. Uustalu, Monad-comonad interaction laws (joint work with
+  S. Katsumata, E. Rivas), talk at IFIP WG 2.1 meeting #79, Otterlo,
+  6-10 Jan. 2020</li>
+					     
+<li>T. Uustalu, Ultrasubstructural logics (joint work with N. Veltri,
+  N. Zeilberger), talk at ICE-TCS seminar, RU, 24 Feb. 2020</li>
+
+<li>N. Veltri, Skew everything! diving deep under substructural
+  logics (joint work with T. Uustalu, N. Zeilberger), talk at CS Theory
+  Seminar, Tallinn UT, 27 Feb. 2020</li>
+
+<li>N. Veltri. Eilenberg-Kelly reloaded (joint work with T. Uustalu,
+  N. Zeilberger), talk at MFPS 2020, Paris, online, 2-5 June 2020
+  [<a href="https://www.youtube.com/watch?v=pZQtKg2ACTQ">video</a>]</li>
+					     
+<li>D. McDermott, Higher-order algebraic theories (joint work with
+  N. Arkor), talk at CS Theory Seminar, Tallinn UT,
+  online, 4 June 2020</li>
+
+<li>T. Uustalu, Interaction laws of monads and comonads (joint work
+  with S. Katsumata, E. Rivas), talk at seminar of Chair of Geometric
+  Methods in Mathematics, TU Dresden, online, 12 June 2020
+
+<li>T. Uustalu, Interaction laws of monads and comonads (joint work
+  with S. Katsumata, E. Rivas), talk at CS Theory seminar, Tallinn
+  UT, online, 2 July 2020</li>
+
+<li>N. Veltri, Proof theory of partially normal skew monoidal
+  categories (joint work with T. Uustalu, N. Zeilberger), talk at ACT
+  2020, Cambridge, MA, online, 6-10 July 2020,
+  [<a href="https://www.youtube.com/watch?v=UdZleN5L0TA">video</a>]</li>
+
+<li>E. Rivas, Interaction laws of monads and comonads (joint work with
+  S. Katsumata, T. Uustalu), talk at LICS 2020, Saarbrücken, online,
+  8-11 July 2020
+  [<a href="https://www.youtube.com/watch?v=0CUcWJoPvwc">video</a>]</li>
+
+<li>T. Uustalu, Interaction laws of monads and comonads (joint work
+  with S. Katsumata, E. Rivas), talk at OWLS seminar, online, 29 July 2020
+  [<a href="https://www.youtube.com/watch?v=PXgxoPGljlI">video</a>]</li>
+
+<li>N. Voorneveld, Merging coeffect production into effect handling
+  (joint work with T. Uustalu), talk at HOPE 2020, Jersey City, NJ,
+  online, 23 Aug. 2020
+  [<a href="https://www.youtube.com/watch?v=GEDMSZVkv3M">video</a>]</li>
+
+<li>D. McDermott, Degrading lists (joint work with M. Piróg,
+  T. Uustalu), talk at PPDP 2020, Bologna, online, 8-10 Sept. 2020</li>
+
+<li>E. Rivas, Interaction laws of monads and comonads (joint work with
+  S. Katsumata, T. Uustalu), talk at LoVE seminar, LIPN, online, 15
+  Oct. 2020</li>
+
+<li>T. Uustalu, Monad-comonad interaction laws, monad algebras,
+  comonad coalgebras (joint work with S. Katsumata, E. Rivas,
+  N. Voorneveld), talk at MIT Categories Seminar, online, 22 Oct. 2020
+  [<a href="https://www.youtube.com/watch?v=LHIKGC_oxFA">video</a>]</li>
+
+<li>N. Voorneveld, Algebraic and coalgebraic perspectives on
+  interaction laws (joint work with T. Uustalu), talk at APLAS 2020,
+  Fukuoka, online, 30 Nov.-2 Dec. 2020
+  [<a href="https://cs.ioc.ee/~tarmo/qei/voorneveld-aplas20-video.mp4">video</a>]</li>
+
+<li>N. Zeilberger, Skew monoidal categories and the proof-theoretic
+  anatomy of associativity (joint work with T. Uustalu, N. Veltri),
+  talk at Mathematical Foundations Seminar, U. of Bath, online, 9
+  Feb. 2021</li>
+
+<li>T. Uustalu, Skew X categories and structural proof theory (joint
+  work with N. Veltri, N. Zeilberger), talk at CCS Colloquium,
+  Augusta U., online, 26 Feb. 2021
+  [<a href="https://www.youtube.com/watch?v=HAyDVjybAFw">video</a>]</li>
+
+<li>N. Veltri, Proof theory of skew monoidal categories (joint work
+  with T. Uustalu, N. Zeilberger), talk at seminar of Proofs and
+  Algorithms Pole, LIX, online, 15 March 2021
+  [<a href="https://webconf.math.cnrs.fr/playback/presentation/2.0/playback.html?meetingId=47f5054c030e86f9385037a729c8679b1573c4cd-1615812834878">video</a>]</li>
+
+<li>T. Uustalu, Polynomial comonads, talk at Wksh. on
+  Polynomial Functors, online, 15-19 March 2021
+  [<a href="https://www.youtube.com/watch?v=-klwGDWN54s">video</a>]</li>
+
+<li>T. Uustalu, Skew X categories and structural proof theory (joint
+  work with N. Veltri, N. Zeilberger), talk at seminar of Centro de
+  Matemática, U. do Minho, online, 25 March 2021</li>
+
+<li>T. Uustalu, Monads and interaction, course at MGS 2021, Sheffield,
+  online, 12-16 Apr. 2021
+  [<a href="https://cs.ioc.ee/~tarmo/mgs21/">course material</a>]</li>
+
+<li>N. Zeilberger, Skew monoidal categories and the proof-theoretic
+  anatomy of associativity (joint work with T. Uustalu, N. Veltri),
+  Mathematical Foundations Seminar, talk at CS Theory Seminar, Tallinn
+  UT, online, 13 May 2021</li>
+
+<li>N. Arkor, Higher-order algebraic theories and relative monads
+  (joint work with D. McDermott), talk at Masaryk U. Algebra Seminar,
+  Brno, online, 13 May 2021
+  [<a href="https://www.youtube.com/watch?v=oDjX5cMWaMA">video</a>]</li>
+
+<li>N. Arkor, Higher-order algebraic theories and relative monads
+  (joint work with D. McDermott), talk at Categories and Companions
+  Symp. 2021, online, 8-12 June 2021
+  [<a href="https://www.youtube.com/watch?v=Tl8RZBGKTjM">video</a>]</li>
+
+<li>N. Zeilberger, Skew monoidal categories and the proof-theoretic
+  anatomy of associativity (joint work with T. Uustalu, N. Veltri),
+  talk at Masaryk U. Algebra Seminar, online, 10 June 2021
+  [<a href="https://www.youtube.com/watch?v=PWowouGEnOQ">video</a>]</li>
+
+<li>T. Uustalu, Monad-comonad interaction laws (co)algebraically
+  (joint work with D. McDermott, S. Katsumata, E. Rivas,
+  N. Voorneveld), talk at BIRS Workshop "Tangent Categories and Their
+  Applications"/FMCS 2021, Banff, AB, online, 14-18 June 2021
+  [<a href="http://www.birs.ca/events/2021/5-day-workshops/21w5251/videos/watch/202106181030-Uustalu.html">video</a>]</li>
+
+<li>T. Uustalu, Monads and interaction, course at OPLSS 2021, Eugene,
+  OR, online, 14-26 June 2021</li>
+
+<li>N. Arkor, Abstract clones for abstract syntax (joint work with
+  D. McDermott), talk at FSCD 2021, Buenos Aires, online, 19-22 July
+  2021
+  [<a href="https://www.youtube.com/watch?v=Fp3iPyzShJM">video</a>]</li>
+
+<li>D. McDermott, E. Rivas, T. Uustalu, Interaction laws of monads and
+  comonads, tutorial at ICFP 2021, Daejon, online, 22-27 Aug. 2021
+  [<a href="https://cs.ioc.ee/~tarmo/icfp21-tutorial/">tutorial
+  material</a>]</li>
+
+<li>N. Veltri, Deductive systems for categories with skew structure
+  (joint work with T. Uustalu, N. Zeilberger),
+  talk at special session of MFPS XXXVII, Salzburg, online, 30 Aug.-2
+  Sept. 2021
+  [<a href="https://cs.ioc.ee/~tarmo/qei/veltri-mfps21-video.mp4">video</a>]</li>
+
+<li>N. Arkor, The formal theory of theories (first half joint work
+  with Dylan McDermott), talk at CT 20&rarr;21, Genoa, 30 Aug.-4
+  Sept. 2021
+  [<a href="https://www.youtube.com/watch?v=RguqGBhSEOc">video</a>]</li>
+
+<li>D. McDermott, List monads (joint work with M. Piróg, T. Uustalu),
+  talk at CS Theory Seminar, Tallinn UT, 3 Sept. 2021
+  <!--[<a href="mcdermott-tsem030921-video.mp4">video</a>]-->
+  [<a href="https://cs.ioc.ee/lsg/tsem/tsem21/mcdermott0309-video.mp4">video</a>]</li>
+
+<li>Y. Morita, A type system with subtyping for WebAssembly's stack
+  polymorphism (joint work with D. McDermott, T. Uustalu), talk at CS
+  Theory Seminar, Tallinn UT, 14 October 2021</li>
+
+<li>T. Uustalu, List monads (joint work with D. McDermott, M. Piróg),
+  talk at seminar of Proofs and Algorithms Pole, LIX, online, 18
+  Oct. 2021
+  [<a href="https://webconf.math.cnrs.fr/playback/presentation/2.0/playback.html?meetingId=47f5054c030e86f9385037a729c8679b1573c4cd-1634557932264">video</a>]</li>
+
+<li>T. Uustalu, List monads (joint work with D. McDermott, M. Piróg),
+  invited talk at Scottish Programming Languages Seminar (SPLS),
+  St. Andrews, online, 20 Oct. 2021
+  [<a href="https://www.youtube.com/watch?v=IseZqpKhSiw">video</a>]</li>
+
+<li>T. Uustalu, List monads (joint work with D. McDermott, M. Piróg),
+  talk at IFIP WG 2.1 short online meeting, 26 Oct. 2021</li>
+
+<li>Y. Morita, A type system with subtyping for WebAssembly's stack
+  polymorphism (joint work with D. McDermott, T. Uustalu), talk at
+  NWPT '21, Reykjavik, 4-6 Nov. 2021</li>
+
+<li>N. Arkor, The (relative) monad - theory correspondence (joint work
+  with D. McDermott), talk at CS Theory Seminar, Tallinn UT, online, 11
+  Nov. 2021</li>
+
+<li>D. McDermott, On the relation between call-by-value and
+  call-by-name (joint work with A. Mycroft), talk at SYCO-8, Tallinn,
+  13-14 Dec. 2021</li>
+
+<li>D. McDermott, Flexible presentations of graded monads (joint work
+  with S. Katsumata, T. Uustalu, N. Wu), talk at CS Theory Seminar,
+  Tallinn UT, 17 Dec. 2021
+  [<a href="https://cs.ioc.ee/lsg/tsem/tsem21/mcdermott1712-video.mp4">video</a>]</li>
+
+<li>C.-S. Wan, Proof theory of skew non-commutative MILL (joint work
+  with T. Uustalu, N. Veltri), talk at World Logic Day 2022 Logic in
+  Estonia Workshop, online, 14 Jan. 2022</li>
+
+<li>C.-S. Wan, Proof theory of skew non-commutative MILL (joint work
+  with T. Uustalu, N. Veltri), talk at NCL 2022, &#321;ód&#378;, 14-18
+  March 2022</li>
+
+<li>N. Arkor, The (relative) monad - theory correspondence
+  (joint work with D. McDermott), Masaryk U. Algebra Seminar, 17 March
+  2022 [<a href="https://www.youtube.com/watch?v=zPRJzNyC7TA">video</a>]</li>
+
+<li>D. McDermott, What makes a strong monad? (joint work with
+  T. Uustalu), talk at MSFP 2022, Munich, 2 Apr. 2022
+  [<a href="https://www.youtube.com/watch?v=M2KWbMLMHe0">video</a>]</li>
+
+<li>D. McDermott, Sweedler theory of monads (joint work with
+  E. Rivas, T. Uustalu), talk at FoSSaCS 2022, Munich, 4-7 Apr. 2022</li>
+
+<li>D. McDermott, Flexible presentations of graded monads (joint work
+  with S. Katsumata, T. Uustalu, N. Wu), talk at U. of Strathclyde MSP
+  101 seminar, online, 21 Apr. 2022
+  [<a href="https://www.youtube.com/watch?v=SzjG9OPUvnM">video</a>]</li>
+
+<li>T. Uustalu, Logics of skew categorical structures (joint work with
+  N. Veltri, C.-S. Wan), talk at Logic4Peace, online, 22-23
+  Apr. 2022</li>
+
+<li>T. Uustalu, What it takes (mathematically) to run effectful
+  computations? (based on joint work with D. McDermott, S. Katsumata,
+  E. Rivas, N. Voorneveld), talk at Copenhagen Programming Languages
+  Seminar (COPLAS), online, 26 Apr. 2022</li>
+
+<li>T. Uustalu, What makes a strong monad? (joint work with
+  D. McDermott), talk at IFIP WG 2.1 short online meeting, online, 27
+  Apr. 2022</li>
+
+<li>T. Uustalu, List monads (joint work with D. McDermott, M. Piróg),
+  talk at Estonian-Latvian Theory Days in Riga, 6-8 May 2022</li>
+
+<li>S. Capobianco, Additive cellular automata monadically (joint work
+  with T. Uustalu), talk at Estonian-Latvian Theory Days in Riga, 6-8
+  May 2022</li>
+
+<li>C.-S. Wan, Proof theory of skew non-commutative MILL (joint work
+  with T. Uustalu, N. Veltri), talk at Estonian-Latvian Theory Days in
+  Riga, 6-8 May 2022</li>
+
+<li>D. McDermott, Higher-order algebraic theories (joint work with
+  N. Arkor), talk at seminar of Proofs and Algorithms Pole, LIX,
+  online, 9 May 2022
+
+<li>D. McDermott, Flexible presentations of graded monads (joint work
+  with S. Katsumata, T. Uustalu, N. Wu), talk at PSSL-106, Brno, 14-15
+  May 2022</li>
+
+<li>Y. Morita, A type system with subtyping for WebAssembly's stack
+  polymorphism (joint work with D. McDermott, T. Uustalu), talk at PAW
+  2022, Berlin, 6 June 2022</li>
+
+<li>D. McDermott, Canonical gradings of monads (joint work with
+  F. Breuvart, T. Uustalu), talk at Meeting on Graded Types, U. of
+  Kent, Canterbury, 17 June 2022
+  [<a href="https://www.youtube.com/watch?v=UauRsFiX8k8&t=1987s">video</a>]</li>
+
+<li>D. McDermott, Flexible presentations of graded monads (joint work
+  with S. Katsumata, T. Uustalu, N. Wu), talk at TYPES 2022, Nantes,
+  20-23 June 2022
+  [<a href="https://www.youtube.com/watch?v=NVkbYSTzm-4">video</a>]</li>
+
+<li>T. Uustalu, Monad-comonad interaction laws (based on joint work
+  with S. Katsumata, D. McDermott, E. Rivas), invited talk at CLA
+  2022, Tallinn, 20-22 June 2022
+  [<a href="https://cs.ioc.ee/~tarmo/qei/uustalu-cla22-video.mp4">video</a>]</li>
+
+<li>T. Uustalu, Programming-language thinking, talk at a seminar at
+  Guardtime AS, Tallinn, 20 June 2022
+ [<a href="https://www.youtube.com/watch?v=bvVHF8IekWw">video</a>]</li>
+
+<li>C.-S. Wan, Proof theory of skew non-commutative MILL (joint work
+  with T. Uustalu, N. Veltri), talk at Logic Colloquium, Reykjavik, 27
+  June-1 July 2022</li>
+
+<li>D. McDermott, Canonical gradings of monads (joint work with
+  F. Breuvart, T. Uustalu), talk at ACT 2022, Glasgow, 18-22 July
+  2022
+  [<a href="https://www.youtube.com/watch?v=0bk3W4y70Fs&t=12793s">video</a>]</li>
+
+<li>D. McDermott, Galois connecting call-by-value and call-by-name
+  (joint work with A. Mycroft), talk at FSCD 2022, Haifa, 2-5
+  Aug. 2022</li>
+
+<li>D. McDermott, Flexibly graded monads and graded algebras (joint
+  work with T. Uustalu), talk at HOPE 2022, Ljubljana, 11
+  Sept. 2022
+  [<a href="https://www.youtube.com/watch?v=7eDe5ojFr2k">video</a>]</li>
+
+<li>D. McDermott, Flexible presentations of graded monads (joint work
+  with S. Katsumata, T. Uustalu, N. Wu), talk at ICFP 2022,
+  Ljubljana, 12-14 Sept. 2022
+  [<a href="https://www.youtube.com/watch?v=Cx8OdFw0dSc">video</a>]</li>
+
+<li>D. McDermott, Flexibly graded monads and graded algebras (joint
+work with T. Uustalu), talk at MPC 2022, Tbilisi, 26-28
+  Sept. 2022
+  [<a href="https://cs.ioc.ee/~tarmo/qei/mcdermott-mpc22-video.mp4">video</a>]</li>
+
+<li>Y. Morita, A type system with subtyping for WebAssembly's stack
+polymorphism (joint work with D. McDermott, T. Uustalu), talk at ICTAC
+  2022, Tbilisi, 27-30 Sept. 2022</li>
+
+</ul>
+
+
+<img src="irf.jpg">
+
+<hr />
+
+<address>
+<a href="https://cs.ioc.ee/~tarmo/">Tarmo Uustalu</a><br />
+Last update 4 August 2023
+</address>
+
+
+</body>
 
 </html>

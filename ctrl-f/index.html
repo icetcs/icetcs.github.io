@@ -1,12 +1,624 @@
 <html>
 
-  <head>
-    <meta http-equiv="refresh" content="2; url=https://cs.ioc.ee/~tarmo/ctrl-f/" />
-  </head>
+<head>
 
-  <body>
-    Redirecting
-    to <a href="https://cs.ioc.ee/~tarmo/">https://cs.ioc.ee/~tarmo/ctrl-f/</a>...
-  </body>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<title>Computational effects and high-level control (CTRL-F)</title>
+
+<link rel="icon" type="image/x-icon"
+      href="https://icetcs.github.io/ru-icon.png">
+
+<link rel="stylesheet" type="text/css"
+      href="https://icetcs.github.io/icetcs.css">
+
+</head>
+
+<body>
+
+<h1>Computational effects and high-level control (CTRL-F)</h1>
+    
+<p>This is a research project funded by
+the <a href="https://en.rannis.is/funding/research/icelandic-research-fund/">Icelandic Research Fund</a>, run at the Department of Computer Science of
+<a href="http://en.ru.is/">Reykjavik University</a> from 1 Jan. 2022
+to 31 Dec. 2024 (extended to 2025).</p>
+
+
+<h3>Research programme</h3>
+
+<p>We study the following topics:</p>  
+
+<ul>
+<li>computational effects and iteration (infinite computations),</li>
+<li>computational effects and concurrency,</li>  
+<li>computational effects and event-drivenness.</li>
+</ul>  
+
+<h3>People</h3>
+
+<h4>Participants</h4>
+
+<ul>
+  <li><a href="https://cs.ioc.ee/~tarmo/">Tarmo Uustalu</a>, PI</li>
+   <li><a href="https://sergey-goncharov.org/">Sergey Goncharov</a> (initially Friedrich-Alexander-U. Erlangen-Nürnberg, then U. of Birmingham), co-PI</li>
+  <li><a href="https://alfa.di.uminho.pt/~nevrenato/">Renato Neves</a> (U. do Minho), co-PI</li>
+  <li><a href="https://dcc.fceia.unr.edu.ar/~erivas/">Exequiel Rivas</a> (initially UN Rosario, then Tallinn UT), co-PI</li>
+
+  <br />
+  <li><a href="https://dylanm.org/">Dylan McDermott</a>, postdoc (moved on to U. of Oxford)</li>
+  <li>Yasuaki Morita, PhD student</li>
+  <li>Calvin Lee, MSc/PhD student</li>
+  <li>Basile Gros (ENSEEIHT), intern (guest MSc student)</li>
+</ul>  
+
+
+<h4>Collaborators</h4>
+
+<ul>
+  <li><a href="https://arkor.co/">Nathanael Arkor</a> (initially Masaryk U., Brno, then Tallinn UT)</li>
+  <li><a href="https://www.lipn.univ-paris13.fr/~breuvart/">Flavien Breuvart</a> (LIPN/U. Sorbonne Paris Nord)</li>
+  <li><a href="https://w3.math.uminho.pt/~jes/">José Espírito Santo</a> (U. do Minho, Braga)
+  <li><a href="https://group-mmm.org/~s-katsumata/index-e.html">Shin-ya Katsumata</a> (initially NII, Tokyo, then Kyoto Sangyo U.)</li>
+  <li><a href="https://w3.math.uminho.pt/~luis/">Luís Pinto</a> (U. do Minho, Braga)</li>
+  <li><a href="https://maciejpirog.github.io/">Maciej Piróg</a> (Standard Chartered)</li>
+  <li>Ülo Reimaa (U. of Tartu)</li>
+</ul>  
+
+
+<h3>Project activity</h3>
+
+<h4>Research and conference visits</h4>
+
+<ul>
+  <li>Yasuaki Morita, RU &rarr; Berlin (ECOOP '22), 5-10 June 2022</li>
+  <li>Dylan McDermott, RU &rarr; Canterbury (Mtg. on Graded Types) and Nantes (TYPES '22), 16-23 June 2022</li>
+  <li>Exequiel Rivas, Milan &rarr; Tallinn UT, 11-18 July 2022</li>
+  <li>Dylan McDermott, RU &rarr; Glasgow (ACT '22),
+  17-22<!--(24)--> July 2022</li>
+  <li>Dylan McDermott, RU &rarr; Haifa (FLoC '22), <!--(29 July)-->1-7 Aug 2022</li>
+  <li><span style="color:gray">José Espírito Santo and Luís Pinto, U. do Minho, Braga &rarr;
+    RU, 26 Aug.-4 Sept. 2022 <i>(funded by ICE-TCS)</i></span></li>
+  <li>Dylan McDermott, RU &rarr; Ljubljana (ICFP '22), <!--(8)-->9-15 Sept. 2022</li>
+  <li>Dylan McDermott, RU &rarr; Tbilisi (CLAS '22), 23-30 Sept. 2022</li>
+  <li>Yasuaki Morita, RU &rarr; Tbilisi (CLAS '22), 23-30 Sept. 2022</li>
+  <li><span style="color:gray">Tarmo Uustalu, RU &rarr; Tbilisi (CLAS '22), 23-30 Sept. 2022 <i>(funded by T.U.'s RU research grant)</i></span></li>
+  <li><span style="color:gray">Tarmo Uustalu, RU &rarr; U. of Nottingham (Altenkirch Symp.), 11-13 Oct. 2022 <i>(funded by T.U.'s RU research grant)</i></span></li>
+  <li><span style="color:gray">Nathanael Arkor, Masaryk U., Brno &rarr; RU, 4-25 Nov. 2022 <i>(funded by ICE-TCS)</i></span></li>
+  <li>Sergey Goncharov, FAU Erlangen-Nürnberg &rarr; RU, 8-15 Jan. 2023</li>
+  <li>Maciej Piróg, Standard Chartered &rarr; Palaiseau (CLA-16), 11-14 Jan. 2023</li>
+  <li><span style="color:gray">Denis Firsov, Guardtime &rarr; RU, 1-10 March 2023 <i>(funded by T.U.'s RU research grant)</i></span></li>
+  <li>Ülo Reimaa, U. of Tartu &rarr; RU, 15 March-2 Apr. 2023</li>
+  <li>Tarmo Uustalu, RU &rarr; FAU Erlangen-Nürnberg, 17-21 Apr. 2023</li>
+  <li><span style="color:gray">Patrik Eklund, U. of Ume&aring; &rarr; RU, 14-17 May 2023 <i>(paid by U. of Ume&aring;)</i></span></li> 
+  <li>Dylan McDermott, RU &rarr; U. of Tartu and Tallinn UT, 17-29 May 2023</li>
+  <li>Shin-ya Katsumata, NII, Tokyo &rarr; RU, 31 May-10 June 2023</li>
+  <li>Maciej Piróg, Standard Chartered &rarr; RU, 13-17 June 2023</li>
+  <li><span style="color:gray">Tarmo Uustalu, Tallinn UT &rarr; Kraków (CLoCk-68), 27-30 June 2023 <i>(paid by U. Jagiello&nacute;ski)</i></span></li>
+  <li>Yasuaki Morita, RU &rarr; Tallinn UT, 1-12 July 2023</li>
+  <li><span style="color:gray">Tarmo Uustalu, RU &rarr; Oxford (IFIP WG 2.1 #80), 16-21 July 2023 <i>(funded by T.U.'s RU research grant)</i></span></li>
+  <li>Flavien Breuvart, LIPN/U. Sorbonne Paris Nord &rarr; RU, <!--(9)-->23 Aug.-4 Oct. 2023</li>
+  <li><span style="color:gray">Peter Dybjer, Chalmers UT &rarr; RU, 27 Aug.-2<!--(7)--> Sept. 2023 <i>(funded by ICE-TCS)</i></span></li>
+  <li>Dylan McDermott, RU &rarr; Shonan Village (Shonan Mtg. on Effects) and NII, Tokyo, 22 Sept.-4 Oct. 2023</li>
+  <li><span style="color:gray">Tarmo Uustalu, Tallinn UT &rarr; Cascais (PPDP&nbsp;'23) and U. do Minho, Braga, 20-28 Oct. 2023 <i>(paid by Tallinn UT)</i></span></li>
+  <li>Dylan McDermott, RU &rarr; U. do Minho, Braga, <!--(19)-->23 Oct.-1 Nov. 2023 <i>(partially paid by U. do Minho)</i></li>
+  <li>Dylan McDermott, RU &rarr; Tallinn UT, 5-19 Nov. 2023</li>
+  <li><span style="color:gray">Yasuaki Morita, RU &rarr; Västerås (NWPT '23), 21-24<!--(25)--> Nov. 2023 <i>(funded by Y.M.'s RU RF PhD grant)</i></span></li>
+  <li><span style="color:gray">Tarmo Uustalu, RU &rarr; U. of Nottingham and U. of Cambridge (Mycroft Symp.), 28 Nov.-2 Dec. 2023  <i>(partially funded by T.U.'s RU research grant)</i></span></li>
+  <li>Dylan McDermott, RU &rarr; U. of Cambridge (Mycroft Symp.), 30 Nov.-2 Dec. 2023</li>
+  <li><span style="color:gray">Georg Struth, U. of Sheffield &rarr; RU, 17-24<!--(30)--> March 2024 <i>(funded by ICE-TCS)</i></span></li>
+  <li><span style="color:gray">Tarmo Uustalu, Tallinn UT &rarr; Neustadt (IFIP WG 2.1 #81) and Luxembourg (ETAPS '24), 31 March-7 Apr. 2024 <i>(paid by Tallinn UT)</i></span></li>
+  <li><span style="color:gray">Tarmo Uustalu, RU &rarr; Milano (PPDP '24), Genova (Rosolini
+  Fest), 8-14 Sept. 2024 <i>(funded by T.U.'s RU research grant)</i></span></li>
+  <li><span style="color:gray">Quan Long, Paris &rarr; RU, 7-13 Dec. 2024</span></li>
+  <li><span style="color:gray">Luís Pinto, U. of Minho &rarr; RU, 22 Apr.-1 May 2025 <i>(funded by IceProof)</i></span></li>
+  <li><span style="color:gray">Tarmo Uustalu, Tallinn UT &rarr; Macquarie U., 1-17 Nov. 2025 <i>(paid by Macquarie U. and Tallinn UT)</i></span></li>
+  <li><span style="color:gray">Exequiel Rivas, London &rarr; RU, 30 Nov.-7 Dec. 2025</span></li>
+
+</ul>  
+
+</ul>
+
+
+<h4>Project meetings</h4>
+
+<ul>
+<li>Project local meeting at Hveragerði, with Flavien Breuvart
+(LIPN/U. Sorbonne Paris Nord) and Peter Dybjer (Chalmers UT) as
+guests, 29-31 Aug. 2023</li>
+</ul>  
+
+
+<h4>Talks of visitors at RU</h4>
+
+<ul>
+<li>J. Espírito Santo, Russell-Prawitz translation and atomic
+polymorphism (joint work with G. Ferreira), talk at ICE-TCS seminar, 1
+Sept. 2022</li>
+
+<li>L. Pinto, Coinductive proof search for intuitionistic
+propositional logic (joint work with J. Espírito Santo, R. Matthes),
+talk at ICE-TCS seminar, 1 Sept. 2022</li>
+
+<li>N. Arkor, A 2-dimensional perspective on polymorphism, talk at
+  ICE-TCS seminar, 7 Nov. 2022</li>
+
+<li>S. Goncharov, Towards a higher-order mathematical operational
+semantics (joint work with S. Milius, L. Schröder, S. Tsampas,
+  H. Urbat), talk at ICE-TCS seminar, 12 Jan. 2023</li>
+
+<li>D. Firsov, EasyCrypt for working cryptographers, talk at ICE-TCS
+  seminar, 9 March 2023</li>
+
+<li>Ü. Reimaa, Introduction to cocategories, talk at ICE-TCS
+  seminar, 27 March 2023</li>
+
+<li>P. Eklund, AI with symbols and not just numbers, talk at ICE-TCS
+seminar, 15 May 2023</li>
+
+<li>S. Katsumata, Codensity games for bisimilarity (joint work with
+Y. Komorida, N. Hu, B. Klin, S. Humeau, C. Eberhart, I. Hasuo), talk at
+  ICE-TCS seminar, 6 June 2023</li>
+
+<li>M. Piróg, High-level effect handlers in C++ (joint work with
+D. Ghica, S. Lindley, M. Maroñas Bravo), talk at ICE-TCS seminar, 15
+  June 2023</li>
+
+<li>P. Dybjer, Dependent type theory and proof assistants: an
+  introduction, talk at ICE-TCS seminar, 1 Sept. 2023</li>
+
+<li>F. Breuvart, Is Curry-Howard a C-H-Lambek or C-H-Girard
+  correspondence?, talk at ICE-TCS seminar, 8 Sept. 2023</li>
+
+<li>G. Struth, Dedekind quantaloids and their intuitionistic modal
+algebras (joint work with P. Malbos, D. Pous), talk at ICE-TCS
+seminar, 21 March 2024</li>
+
+<li>Q. Long, Centre of strong graded monads (joint work with
+F. Breuvart, V. Zamdzhiev), talk at ICE-TCS seminar, 9 Dec. 2024</li> 
+
+<li>L. Pinto, Modal embeddings and calling paradigms (joint work with
+J. Espírito Santo, T. Uustalu), talk at ICE-TCS seminar, RU, 30 April
+2025</li>
+
+<li>E. Rivas, Formalizing a classification theorem for low-dimensional
+solvable Lie algebras in Lean (joint work with V. del Barco,
+G. Infanti, P. Schwahn), talk at ICE-TCS seminar, RU, 5 Dec. 2025</li>
+
+</ul>
+
+
+<h3>Results and dissemination</h3>
+
+<h4>Articles</h4>
+
+<ul>
+
+<!-- These papers appear reported also for predecessor project -->
+  
+<li><b>D. McDermott</b>, <b>T. Uustalu</b>. Flexibly graded monads and
+graded algebras.  In E. Komendantskaya, ed., <i>Proc. of 14th
+Int. Conf. on Mathematics of Program Construction, MPC 2022 (Tbilisi,
+Sept. 2022)</i>, v. 13544 of <i>Lect. Notes in Comput. Sci.</i>,
+pp. 102-128.  Springer,
+  2022. <a href="https://doi.org/10.1007/978-3-031-16912-0_4">doi:10.1007/978-3-031-16912-0_4</a>
+  [<a href="https://hdl.handle.net/20.500.11815/4016">postprint in Opin vísindi</a>]
+  <!--[<a href="https://cs.ioc.ee/~tarmo/qei/mcdermott-uustalu-mpc22.pdf">copy</a>]-->
+</li>
+
+<li>S. Katsumata, <b>D. McDermott</b>, <b>T. Uustalu</b>,
+N. Wu. Flexible presentations of graded monads. <i>Proc. of ACM on
+Program. Lang.</i>, v. 6, n. ICFP (Proc. of 27th ACM SIGPLAN
+Int. Conf. on Functional Programming, ICFP '22, Ljubljana,
+  Sept. 2022), art. 123, 29 pp., 2022.
+  <a href="https://doi.org/10.1145/3547654">doi:10.1145/3547654</a>
+</li>
+  
+<li>F. Breuvart, <b>D. McDermott</b>, <b>T. Uustalu</b>. Canonical
+gradings of monads.  In J. Master, M. Lewis, eds., <i>Proc. of 5th
+Int. Conf. on Applied Category Theory, ACT 2022 (Glasgow, July
+2022)</i>, v. 380 of <i>Electron. Proc. in Theor Comput. Sci.</i>,
+pp. 1-21.  Open Publishing Assoc.,
+2023. <a href="https://doi.org/10.4204/eptcs.380.1">doi:10.4204/eptcs.380.1</a></li>
+
+<!-- New papers -->
+
+<li><b>E. Rivas</b>. Procontainers for idioms, arrows and
+monads. <!--A proposal for procontainers from computational
+effects.--> In K.-B. Hou (Favonia), J. Gibbons, R. Atkey, M. Kerjean,
+eds., <i>Proc. of 10th and 11th Wkshs. on Mathematically Structured
+Functional Programming, MSFP 2024 and MSFP 2026 (Tallinn, July 2024
+and Lisbon, July 2026)</i>, <i>Electron Proc. in
+Theor. Comput. Sci.</i>, Open Publ. Assoc., to appear. <!-- Under
+review for MSFP 2024. Latest version, 15 pp., May 2022, 17 pp., May
+2024. --></li>
+
+<li>S. Capobianco, <b>T. Uustalu</b>. Additive cellular automata
+graded-monadically. In <i>Proc. of 25th Int. Symp. on Principles and
+Practice of Declarative Programming, PPDP '23 (Cascais,
+Oct. 2023)</i>, <i>ACM Int. Conf. Proc. Series</i>, art. 13, 9 pp. ACM
+Press,
+2023. <a href="https://doi.org/10.1145/3610612.3610625">doi:10.1145/3610612.3610625</a> <!--[<a 
+href="https://dl.acm.org/doi/10.1145/3610612.3610625?cid=81100651156">free
+copy via ACM Author-Izer</a>]-->
+[<a href="https://hdl.handle.net/20.500.11815/4744">postprint in Opin vísindi</a>]  
+<!--[<a href="https://cs.ioc.ee/~tarmo/ctrl-f/capobianco-uustalu-ppdp23.pdf">copy</a>]--></li>
+
+<li><b>D. McDermott</b>, A. Mycroft. Galois connecting call-by-value
+  and call-by-name. <i>Log. Methods Comput. Sci.</i>, v. 20, n. 1,
+  art. 13, 43 pp., 2024.
+  <a href="https://doi.org/10.46298/lmcs-20(1:13)2024">doi:10.46298/lmcs-20(1:13)2024</a>
+  <!--Latest
+preprint version
+Oct. 2023. <a href="https://arxiv.org/abs/2202.08246">arXiv 2202.08246
+[cs.PL]</a>-->
+</li>
+
+<li>N. Arkor, <b>D. McDermott</b>. The formal theory of relative
+monads. <i>J. Pure Appl. Algebra</i>, v. 228, n. 9, art. 107676, 107
+pp.,
+2024. <a href="https://doi.org/10.1016/j.jpaa.2024.107676">doi:10.1016/j.jpaa.2024.107676</a>
+  <!--Latest version, 85 pp., May
+2023. <a href="https://arxiv.org/abs/2302.14014">arXiv 2302.14014
+[math.CT]</a>-->
+
+<li>N. Arkor, <b>D. McDermott</b>. Relative
+monadicity. <i>J. Algebra</i>, v. 663, pp. 399-434,
+2025. <a href="https://doi.org/10.1016/j.jalgebra.2024.08.040">doi:10.1016/j.jalgebra.2024.08.040</a>
+<!---Latest version, 22 pp., May
+2023., 22 pp,
+Apr. 2024. <a href="https://arxiv.org/abs/2305.10405">arXiv 2305.10405
+[math.CT]</a>--></li>
+  
+<li><b>S. Goncharov</b>, <b>T. Uustalu</b>. A unifying categorical
+view of nondeterministic iteration and tests.  In R. Majumdar,
+A. Silva, eds., <i>Proc. of 35th Int. Conf. on Concurrency Theory,
+CONCUR 2024 (Calgary, Sept. 2024)</i>, v. 311 of <i>Leibniz
+Int. Proc. in Inform.</i>, art. 25, 22 pp. Dagstuhl Publishing,
+2024.  <a href="https://doi.org/10.4230/lipics.concur.2024.25">doi:10.4230/lipics.concur.2024.25</a>
+  <!--Under review for CONCUR 2024. Latest version, 34 pp.,
+Apr. 2024. --></li>
+
+<li><b>E. Rivas</b>, <b>T. Uustalu</b>. Concurrent monads for shared
+state. In <!--A. Bruni, A. Momigliano, eds.,--> <i>Proc. of 26th
+Int. Symp. on Principles and Practice of Declarative Programming,
+PPDP&nbsp;'24 (Milan, Sept. 2024)</i>, <i>ACM
+Int. Conf. Proc. Series</i>, art. 19, 13 pp. ACM Press,
+2024.  <a href="https://doi.org/10.1145/3678232.3678249">doi:10.1145/3678232.3678249</a>
+  <!--Under review for PPDP '24. Latest version, 12 pp., May
+2024.--></li>
+
+<li>N. Arkor, <b>D. McDermott</b>. The nerve theorem for relative
+monads. <i>Theor. Appl. Categ.</i>, v. 43, n. 13, pp. 403-454,
+  2025.
+<a href="https://doi.org/10.70930/tac/jjc9mnky">doi:10.70930/tac/jjc9mnky</a>
+  <!--<a href="http://www.tac.mta.ca/tac/volumes/43/13/43-13abs.html">article
+at publisher</a>--> <!-- Latest version, 32 pp.,
+Apr. 2024. <a href="https://arxiv.org/abs/2404.01281">arXiv:2404.01281 [math.CT]</a>--></li>
+
+<li>V. del Barco, G. Infanti, <b>E. Rivas</b>, P. Schwahn. Formalizing a
+classification theorem for low-dimensional solvable Lie algebras in
+Lean. In V. de Paiva, P. Koepke, eds., <i>Proc. of 18th Int. Conf. on
+Intelligent Computer Mathematics, CICM 2025 (Brasília, Oct. 2025)</i>,
+  v. 16136 of <i>Lect. Notes in Comput. Sci.</i>, pp. 317-330. Springer, 2025.
+  <a href="https://doi.org/10.1007/978-3-032-07021-0_18">doi:10.1007/978-3-032-07021-0_18</a></li>
+
+<li>M. Smykalla, <b>T. Uustalu</b>, N. Veltri, C.-S. Wan. Equality of
+proofs in substructural intuitionistic modal
+logics. <!-- under review for AiML 2026--> Latest version, 13 pp.,
+7 March 2026.</li>
+
+<li>N. Arkor, <b>D. McDermott</b>. Presheaves and cocompletions in
+formal category theory.  Latest version, 66 pp.,
+Apr. 2026. <a href="https://arxiv.org/abs/2604.22370">arXiv:2604.22370
+[math.CT]</a></li>
+
+</ul>
+
+
+<h4>Abstracts</h4>
+
+<ul>
+
+<li><b>D. McDermott</b>, M. Piróg, <b>T. Uustalu</b>. Counting monads
+  on lists. 5 pp., 2023. Distributed at 16th Wksh. on Computational
+  Logic and Applications, CLA-16 (Palaiseau,
+  Jan. 2023). <a href="http://cla.tcs.uj.edu.pl/history/2023/pdfs/McDermott-Pirog-Uustalu-Abstract.pdf">abstract
+  at workshop website</a></li>  
+
+<li>J. Espírito Santo, <b>D. McDermott</b>,
+  L. Pinto, <b>T. Uustalu</b>. Consequences of the modal unification
+  of the functional calling paradigms. In <i>Abstracts from 29th
+  Int. Conf. on Types for Proofs and Programs, TYPES '23 (València,
+  June 2023)</i>, pp. 33-35. U. Politècnica de València,
+  2023. <a href="https://types2023.webs.upv.es/TYPES2023.pdf">abstract
+  book</a></li>
+
+<li><b>D. McDermott</b>, <b>Y. Morita</b>, <b>T. Uustalu</b>. Bidirectional
+  data-flow analyses compared to relational through Galois
+  connections. In <i>Abstracts from 34th Nordic Wksh. on Programming
+  Theory, NWPT '23 (Västerås, Nov. 2023)</i>, pp. 1-4. Mälardalen U.,
+  2023. <a href="https://mdu.drive.sunet.se/index.php/s/dfCx3dmRDFGZBKW">abstract
+  book</a></li>
+
+<li><b>C. S. Lee</b>. Univalent multicategories. 4 pp.,
+  2026. Distributed at 11th Wksh. on Homotopy Type Theory/Univalent
+  Foundations, HoTT/UF 2026 (Aarhus, June
+  2026). <a href="https://hott-uf.github.io/2026/abstracts/HoTTUF_2026_paper_17.pdf">abstract
+  at workshop website</a></li>
+
+<li><b>B. Gunnarsson</b>, <b>E. Rivas</b>, <b>T. Uustalu</b>. Concurrent
+  monads as monads in a 2-category. 3 pp. Distributed at 11th Wksh. on
+  Mathematically Structured Functional Programming, MSFP 2026 (Lisbon,
+  July
+  2026). <a href="https://msfp-workshop.github.io/msfp2026/submissions/msfp-final15.pdf">abstract
+  at workshop website</a></li>
+
+<li>M. Smykalla, <b>T. Uustalu</b>, N. Veltri,
+  C.-S. Wan. Multicategories and representability for substructural
+  intuitionistic modal logics. 3 pp. Distributed at 10th Int. Wksh. on
+  Trends in Linear Logic and Its Applications, TLLA 2026 (Lisbon, July
+  2026). <a href="https://lipn.univ-paris13.fr/TLLA/2026/abstracts/tlla-paper17.pdf">abstract
+  at workshop website</a></li>
+
+</ul>  
+
+
+<h4>Theses</h4>
+
+<ul>
+
+<li><b>C. S. Lee</b>. Interactions of (co)monads in Agda, MSc thesis,
+  Reykjavik University, 2024.
+  <a href="https://hdl.handle.net/1946/48228">thesis in Skemman</a></li>
+
+<li><b>B. Gunnarsson</b>. Concurrent monads in 2-categories. MSc thesis,
+  University of Iceland, 2026.
+  <a href="https://hdl.handle.net/1946/52063">thesis in Skemman</a></li>
+
+</ul>  
+
+
+<h4>Talks</h4>
+
+<ul>
+
+<li>E. Rivas, Procontainers: a proposal from computational effects,
+  talk at 2nd Wksh. on Polynomial Functors, online, 14-18 March 2022
+  [<a href="https://www.youtube.com/watch?v=bzBbOV2pCGE&t=7164s">video</a>]</li>
+
+<!-- The talks below appear reported also for predecessor project -->
+  
+<li>Y. Morita, A type system with subtyping for WebAssembly's stack
+  polymorphism (joint work with D. McDermott, T. Uustalu), talk at PAW
+  2022, Berlin, 6 June 2022</li>  
+
+<li>D. McDermott, Canonical gradings of monads (joint work with
+  F. Breuvart, T. Uustalu), talk at Meeting on Graded Types, U. of
+  Kent, Canterbury, 17 June 2022
+  [<a href="https://www.youtube.com/watch?v=UauRsFiX8k8&t=1987s">video</a>]</li>
+
+<li>D. McDermott, Flexible presentations of graded monads (joint work
+  with S. Katsumata, T. Uustalu, N. Wu), talk at TYPES 2022, Nantes,
+  20-23 June 2022
+  [<a href="https://www.youtube.com/watch?v=NVkbYSTzm-4">video</a>]</li>
+
+<li>D. McDermott, Canonical gradings of monads (joint work with
+  F. Breuvart, T. Uustalu), talk at ACT 2022, Glasgow, 18-22 July
+  2022
+  [<a href="https://www.youtube.com/watch?v=0bk3W4y70Fs&t=12793s">video</a>]</li>
+
+<li>D. McDermott, Galois connecting call-by-value and call-by-name
+  (joint work with A. Mycroft), talk at FSCD 2022, Haifa, 2-5
+  Aug. 2022</li>
+
+<li>D. McDermott, Flexibly graded monads and graded algebras (joint
+  work with T. Uustalu), talk at HOPE 2022, Ljubljana, 11
+  Sept. 2022
+  [<a href="https://www.youtube.com/watch?v=7eDe5ojFr2k">video</a>]</li>
+
+<!--
+<li>T. Winterhalter, Verifying non-terminating programs with IO in
+F<sup>*</sup> (joint work with C.-C. Andrici, C. Hritcu, E. Rivas),
+  talk at HOPE 2022, Ljubljana, 11 Sept. 2022
+  [<a href="https://www.youtube.com/watch?v=i6gfZteKAAw">video</a>]</li>
+-->
+
+<li>D. McDermott, Flexible presentations of graded monads (joint work
+  with S. Katsumata, T. Uustalu, N. Wu), talk at ICFP 2022,
+  Ljubljana, 12-14 Sept. 2022
+  [<a href="https://www.youtube.com/watch?v=Cx8OdFw0dSc">video</a>]</li>
+
+<li>D. McDermott, Flexibly graded monads and graded algebras (joint
+work with T. Uustalu), talk at MPC 2022, Tbilisi, 26-28
+  Sept. 2022
+  [<a href="https://cs.ioc.ee/~tarmo/ctrl-f/mcdermott-mpc22-video.mp4">video</a>]</li>
+
+<li>Y. Morita, A type system with subtyping for WebAssembly's stack
+polymorphism (joint work with D. McDermott, T. Uustalu), talk at ICTAC
+  2022, Tbilisi, 27-30 Sept. 2022</li>
+
+<!-- New talks only reported in this project -->
+
+<li>T. Uustalu, Skewness everywhere, talk at Types, Thorsten and
+Theories: Thorsten Altenkirch's 60th birthday celebration,
+  Nottingham, 12 Oct. 2022
+  [<a href="https://cs.ioc.ee/~tarmo/uustalu-thorsten60-video.mp4">video</a>]</li>
+
+<li>T. Uustalu, Additive cellular automata graded-monadically (joint
+work with S. Capobianco), talk at IFIP WG 2.1 short online meeting, 24
+Oct. 2022</li>
+
+<li>N. Arkor, Relative monads and their many guises (joint work with
+D. McDermott), talk at Category Theory Octoberfest 2022, online, 29-30
+  Oct. 2022
+  [<a href="https://richardblute.files.wordpress.com/2022/10/arkor-ofest-1.mp4">video</a>]
+  <!--[<a href="https://cs.ioc.ee/~tarmo/arkor-octfest22-video.mp4">video</a>]--></li>
+
+<li>T. Uustalu, Additive cellular automata graded-monadically (joint
+work with S. Capobianco), talk at Comonad meetup, online, 16
+  Oct. 2022</li>
+
+<li>M. Piróg, Counting monads on lists (joint work with D. McDermott,
+  T. Uustalu), talk at 16th Wksh. on Computational Logic and
+  Applications, Palaiseau, 12-13 Jan. 2023
+  [<a href="https://www.youtube.com/watch?v=CVUkYWjNNAw">video</a>]</li>
+
+<li>E. Rivas, Procontainers and computational effects, talk at
+2<sup>o</sup> Encontro Brasileiro em Teoria das Categorias, São Paulo,
+  SP, 20-24 March 2023
+  [<a href="https://www.youtube.com/watch?v=-UHJn6wYcSo&t=6611s">video</a>]</li>
+
+<li>N. Arkor, The formal theory of relative monads (joint work with
+D. McDermott), talk at PSSL-107, Athens, 1-2 Apr. 2023</li>
+
+<li>T. Uustalu, Additive cellular automata graded-monadically (joint
+work with S. Capobianco), talk at Oberseminar Theoretische Informatik,
+  FAU Erlangen-Nürnberg, 18 April 2023</li>
+
+<li>N. Arkor, The theory of relative (co)monads (joint work with
+D. McDermott), talk at Comonad meetup, online, 14 June 2023</li>
+
+<li>J. Espírito Santo, Consequences of the modal unification of the
+functional calling paradigms (joint work with D. McDermott, L. Pinto,
+  T. Uustalu), talk at TYPES&nbsp;2023, València, 12-15 June 2023</li>
+
+<li>T. Uustalu, The proof theory of skew logics (based on joint work
+with N. Veltri, C.-S. Wan, N. Zeilberger), invited talk at CLoCk-68,
+Kraków, 28-30 June 2023</li>
+
+<li>N. Arkor, The formal theory of relative monads (joint work with
+  D. McDermott), talk at CT&nbsp;2023, Louvain-la-Neuve, 2-8 July
+  2023  [<a href="https://www.youtube.com/watch?v=79nFumdzxi8">video</a>]</li>
+
+<li>T. Uustalu, Sweedler theory of monads (joint work with
+  D. McDermott, E. Rivas), talk at IFIP WG 2.1 #80, Oxford, 17-21 July
+  2023</li>
+
+<li>N. Arkor, Relative monads and distributors (joint work with
+  D. McDermott), talk at LoVe seminar, LIPN/U. Sorbonne Paris Nord, 21
+  Sept. 2023</li>
+
+<li>T. Uustalu, Additive cellular automata graded-monadically (joint
+work with S. Capobianco), talk at PPDP 2023, Cascais, 22-23 Oct. 2023
+[<a href="https://www.youtube.com/watch?v=GkR06-VCrd">video</a>]</li>
+
+<li>D. McDermott, Flexible presentations of graded monads (joint work
+  with S. Katsumata, T. Uustalu, N. Wu), talk at Seminar of Algebra,
+  Logic and Computation Group, Centro de Matemática, U. do Minho,
+  Braga, 31 Oct. 2023</li>
+
+<li>Y. Morita, Bidirectional data-flow analyses compared to relational
+through Galois connections (joint work with D. McDermott, T. Uustalu),
+  talk at NWPT 2023, Västerås, 22-23 Nov. 2023</li>
+
+<li>T. Uustalu, Additive cellular automata graded-monadically (joint
+  work with S. Capobianco), talk at FP lab seminar, U. of Nottingham,
+  30 Nov. 2023</li>
+
+<li>T. Uustalu, Comonadic notions of computations revisited, talk at
+  symposium for Alan Mycroft, U. of Cambridge, 1 Dec. 2023</li>
+
+<li>D. McDermott, How to construct graded monads, talk at symposium
+  for Alan Mycroft, U. of Cambridge, 1 Dec. 2023</li>
+
+<!--
+<li>T. Uustalu, Skew categorical logic (based on joint work with
+  N. Veltri, C.-S. Wan, N. Zeilberger), talk at Math. Colloquium, 
+  U. of Iceland, 14 March 2024</li>
+-->
+
+<li>N. Arkor, The pullback theorem for relative monads (joint work
+  with D. McDermott), talk at CS Theory Seminar, Tallinn UT, 28 March
+  2024 [<a href="https://cs.ioc.ee/lsg/tsem/tsem23/arkor280324-video.mp4">video</a>]</li>
+
+<li>T. Uustalu, Concurrent monads for shared state (joint work with
+  E. Rivas), talk at IFIP WG 2.1 #81, Neustadt, 31 March-5 Apr.
+  2024</li>
+
+<li>N. Arkor,  The pullback  theorem for  relative monads  (joint work
+  with D.  McDermott), talk at  CT '24, Santiago de  Compostela, 23-29
+  June 2024</li>
+
+<li>T. Uustalu, Sweedler theory of monads (joint work with
+  D. McDermott, E. Rivas), invited talk at Structure Meets Power 2024,
+  Tallinn, 7 July 2024</li>
+
+<li>E. Rivas, Procontainers for idioms, arrows and monads, talk at
+  MSFP '24, Tallinn, 8 July 2024
+  [<a href="https://cs.ioc.ee/msfp24/videos/rivas-video.mp4">video</a>]</li>
+
+<li>T. Uustalu, Concurrent monads for shared state (joint work with
+  E. Rivas), talk at MSFP '24, Tallinn, 8 July 2024
+  [<a href="https://cs.ioc.ee/msfp24/videos/uustalu-video.mp4">video</a>]</li>
+
+<li>S. Goncharov, Pushing the limits of Kleene algebra (in part joint
+  work with T. Uustalu), invited talk at RAMICS-AIML 2024, Prague, 19-22
+  Aug. 2024</li>
+
+<li>T. Uustalu, Concurrent monads for shared state (joint work with
+  E. Rivas), talk at PPDP '24, Milan, 10-11 Sept. 2024</li>
+
+<li>S. Goncharov, A unifying categorical view of nondeterministic
+  iteration and tests (joint work with T. Uustalu), talk at CONCUR
+  '24, Calgary, AB, 10-13 Sept. 2024</li>
+
+<li>D. McDermott, The formal theories of presheaves and cocompletions
+  (joint work with N. Arkor), talk at 2nd Virtual Wksh. on Double Categories,
+  online, 21-30 Oct. 2024
+  [<a href="https://www.youtube.com/watch?v=iJPxrsKia48">video</a>]</li>
+
+<li>S. Goncharov, Kleene iteration: from Kleene algebra onwards (in
+  part joint work with T. Uustalu), MGS Christmas Seminar, U. of
+  Sheffield, 17 Dec. 2024</li>
+
+<li>N. Arkor, Relative monadicity (joint work with D. McDermott), talk
+  at PSSL-110, Tallinn, 4-5 May 2025</li>
+
+<li>D. McDermott, Notions of presentation for graded monads (joint
+  work with S. Katsumata, T. Uustalu, N. Wu), talk at U. of Birmingham
+  theoretical computer science seminar, 30 May 2025</li>
+
+<li>T. Uustalu, Sweedler theory of monads (joint work with
+D. McDermott, E. Rivas), talk at Australian Category Seminar,
+  Macquarie U., Sydney, 12 November 2025</li>
+
+<br />
+
+<li>T. Uustalu, Substructural intuitionistic modal logics (joint work
+with M. Smykalla, N. Veltri, C.-S. Wan), talk at IFIP WG 2.1 Meeting
+#84, Vihula, 27 April-1 May 2026</li>
+
+<li>C. S. Lee, Univalent multicategories, talk at HoTT/UF 2026, Aarhus,
+1-2 June 2026</li>
+
+<li>T. Uustalu, Effects in parallel with concurrent monads (based on
+joint work with B. Gunnarsson, E. Rivas), invited talk at ACT '26,
+  Tallinn, 6-10 July 2026</li>
+
+<li>T. Uustalu, Concurrent monads as monads in a 2-category (joint
+work with B. Gunnarssson, E. Rivas), talk at MSFP '26, Lisbon, 18 July
+2026</li>
+
+<li>T. Uustalu, Multicategories and representability for substructural
+intuitionistic modal logics (joint work with M. Smykalla, N. Veltri,
+C.-S. Wan), talk at TLLA '26, Lisbon, 18-19 July 2026</li>
+
+<li>T. Uustalu, Effects in parallel with concurrent monads, talk at
+Lambda World '26, Torremolinos, 29-30 October 2026 </li>
+
+</ul>
+
+
+<img src="irf.jpg">
+
+<hr />
+
+<address>
+<a href="https://cs.ioc.ee/~tarmo/">Tarmo Uustalu</a><br />
+Last update 20 July 2026
+</address>
+
+
+</body>
 
 </html>
